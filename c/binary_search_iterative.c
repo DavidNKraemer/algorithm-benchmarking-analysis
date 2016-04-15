@@ -30,7 +30,4 @@ int main() {
     printf("%d\n", binary_search(array, 5, 4.0, 1e-5));
 
     return 0;
-
-
-
 }
