@@ -31,3 +31,10 @@
 # Debug files
 *.dSYM/
 *.hidden
+
+# Python stuff
+__pycache__
+
+# Emacs cruft
+\#*\#
+*~
