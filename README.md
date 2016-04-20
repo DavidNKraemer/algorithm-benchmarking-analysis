@@ -22,8 +22,8 @@ contain scripts used for statistical analysis of the benchmarking data.
 
 | Algorithm | List size | Complexity | C | Python | Scheme |
 |:----------|:----------|:-----------|:--|:-------|:-------|
-| Binary search | n | O(log n) | IR | | |
-| Linear search | n | O(n) | IR | | |
+| Binary search | n | O(log n) | IR | IR | |
+| Linear search | n | O(n) | IR | IR | |
 | Merge sort | n | O(n log n) | | | |
 | Insertion sort | n | O(n^2) | IR | | |
 
