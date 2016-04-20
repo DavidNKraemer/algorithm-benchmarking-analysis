@@ -20,12 +20,12 @@ contain scripts used for statistical analysis of the benchmarking data.
 
 ## Theory
 
-| Algorithm | List size | Complexity |
-|:----------|:----------|:-----------|
-| Binary search | n | O(log n) |
-| Linear search | n | O(n) |
-| Merge sort | n | O(n log n) |
-| Insertion sort | n | O(n^2) |
+| Algorithm | List size | Complexity | C | Python | Scheme |
+|:----------|:----------|:-----------|:--|:-------|:-------|
+| Binary search | n | O(log n) | IR | | |
+| Linear search | n | O(n) | IR | | |
+| Merge sort | n | O(n log n) | | | |
+| Insertion sort | n | O(n^2) | IR | | |
 
 # Implementations
 
