@@ -3,7 +3,8 @@ This repository contains all of the implementations of a series of algorithms
 for solving a set of computer science-theoretical problems. It will also
 contain scripts used for statistical analysis of the benchmarking data.
 
-You don't have to worry about how it works.
+[Project site](http://kraemerd17.github.io/algorithm-benchmarking-analysis) (under construction)
+
 
 # Formal Problems
 
@@ -19,12 +20,12 @@ You don't have to worry about how it works.
 
 ## Theory
 
-| Algorithm | List size | Complexity |
-|:----------|:----------|:-----------|
-| Binary search | n | O(log n) |
-| Linear search | n | O(n) |
-| Merge sort | n | O(n log n) |
-| Insertion sort | n | O(n^2) |
+| Algorithm | List size | Complexity | C | Python | Scheme |
+|:----------|:----------|:-----------|:--|:-------|:-------|
+| Binary search | n | O(log n) | IR | IR | |
+| Linear search | n | O(n) | IR | IR | |
+| Merge sort | n | O(n log n) | | | |
+| Insertion sort | n | O(n^2) | IR | | |
 
 # Implementations
 
