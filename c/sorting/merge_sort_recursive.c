@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include <stdio.h>
 
 
@@ -26,8 +27,8 @@ void merge_sort(double * arr, int n) {
         return;
     int m = n / 2;
     merge_sort(arr, m);
-    merge_sort(a + m, n - m);
-    merge(a, n, m);
+    merge_sort(arr + m, n - m);
+    merge(arr, n, m);
 }
 
 void merge(double * arr, int n, int m) {
@@ -37,12 +38,12 @@ void merge(double * arr, int n, int m) {
         x[k] = j == n           ? arr[i++]
              : i == m           ? arr[j++]
              : arr[j] < arr[i]  ? arr[j++]
-             :                  ? arr[i++];
+             :                    arr[i++];
     }
     for (i = 0; i < n; i++) {
         arr[i] = x[i];
     }
-    free(x);
+    // free(x);
 
 
 }
