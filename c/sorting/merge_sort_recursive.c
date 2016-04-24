@@ -44,8 +44,6 @@ void merge(double * arr, int n, int m) {
         arr[i] = x[i];
     }
     // free(x);
-
-
 }
 
 
