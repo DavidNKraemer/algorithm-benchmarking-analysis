@@ -18,6 +18,7 @@ def binary_search(arr, x):
     return -1
 
 if __name__ == '__main__':
+    # brief testing 
     arr = list(range(100))
     for i in arr:
         assert(i == binary_search(arr, i))
@@ -25,3 +26,15 @@ if __name__ == '__main__':
     assert(-1 == binary_search(arr, 200))
     assert(-1 == binary_search(arr, -10))    
     print("Success!")
+
+    # Read in the arrays from stdin and output to stdout
+    for line in sys.stdin:
+        line_arr = line.split(',')
+        item = line_arr[0]
+        arr = line_arr[1:]
+        # start = time()
+        n = binary_search(arr, item)
+        # end = time()
+        print("%s,%d,%d" % (str(len(arr)),str(n),str(start-end)))
+        
+    
