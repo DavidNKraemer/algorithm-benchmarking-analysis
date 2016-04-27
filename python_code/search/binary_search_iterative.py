@@ -1,8 +1,14 @@
+"""
+Example use:
+cat search_data.csv | python3 binary_search_iterative.py > new_file.txt
+
+"""
 # add the grandparent directory to the path
 import sys
 sys.path.append('..')
 
 from util import isclose
+import time
 
 def binary_search(arr, x):
     lo = 0
@@ -30,11 +36,11 @@ if __name__ == '__main__':
     # Read in the arrays from stdin and output to stdout
     for line in sys.stdin:
         line_arr = line.split(',')
-        item = line_arr[0]
-        arr = line_arr[1:]
-        # start = time()
+        item = float(line_arr[0])
+        arr = [float(x) for x in line_arr[1:]]
+        start = time.clock()
         n = binary_search(arr, item)
-        # end = time()
-        print("%s,%d,%d" % (str(len(arr)),str(n),str(start-end)))
+        end = time.clock()
+        print("%d,%d,%f" % (len(arr),n,end-start))
         
     
