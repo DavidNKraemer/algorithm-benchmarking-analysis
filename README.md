@@ -24,7 +24,7 @@ contain scripts used for statistical analysis of the benchmarking data.
 |:----------|:----------|:-----------|:--|:-------|:-------|
 | Binary search | n | O(log n) | IR | IR | |
 | Linear search | n | O(n) | IR | IR | |
-| Merge sort | n | O(n log n) | | | |
+| Merge sort | n | O(n log n) | IR | | |
 | Insertion sort | n | O(n^2) | IR | | |
 
 # Implementations
