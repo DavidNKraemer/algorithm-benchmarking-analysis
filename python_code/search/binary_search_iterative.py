@@ -1,13 +1,10 @@
 """
 Example use:
-cat search_data.csv | python3 binary_search_iterative.py > new_file.txt
+cat bs_data.csv | python3 binary_search_iterative.py > bsi.csv
 
 """
-# add the grandparent directory to the path
-import sys
-sys.path.append('..')
 
-from util import isclose
+import sys 
 import time
 
 def binary_search(arr, x):
@@ -31,16 +28,16 @@ if __name__ == '__main__':
     
     assert(-1 == binary_search(arr, 200))
     assert(-1 == binary_search(arr, -10))    
-    print("Success!")
+    #print("Success!")
 
     # Read in the arrays from stdin and output to stdout
     for line in sys.stdin:
         line_arr = line.split(',')
         item = int(line_arr[0])
         arr = [int(x) for x in line_arr[1:]]
-        start = time.clock()
+        start = time.process_time()
         n = binary_search(arr, item)
-        end = time.clock()
+        end = time.process_time()
         print("%d,%d,%f" % (len(arr),n,end-start))
         
     

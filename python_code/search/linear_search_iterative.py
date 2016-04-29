@@ -1,8 +1,11 @@
-# add the parent directory to the path
-import sys
-sys.path.append('..')
+"""
+Example use:
+cat ls_data.csv | python3 linear_search_iterative.py > lsi.csv
 
-from util import isclose
+"""
+
+import sys
+import time
     
 def linear_search(arr, x):
     for i in range(len(arr)):
@@ -17,4 +20,14 @@ if __name__ == '__main__':
     
     assert(-1 == linear_search(arr, 200))
     assert(-1 == linear_search(arr, -10))    
-    print("Success!")
+    #print("Success!")
+
+    # Read in the arrays from stdin and output to stdout
+    for line in sys.stdin:
+        line_arr = line.split(',')
+        item = int(line_arr[0])
+        arr = [int(x) for x in line_arr[1:]]
+        start = time.process_time()
+        n = linear_search(arr, item)
+        end = time.process_time()
+        print("%d,%d,%f" % (len(arr),n,end-start))
