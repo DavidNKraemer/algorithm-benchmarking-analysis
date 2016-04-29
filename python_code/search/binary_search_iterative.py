@@ -15,7 +15,7 @@ def binary_search(arr, x):
     hi = len(arr)
     while(lo < hi):
         mid = (hi + lo) // 2
-        if (isclose(arr[mid], x)):
+        if (arr[mid] ==  x):
             return mid
         elif (arr[mid] > x): 
             hi = mid
@@ -36,8 +36,8 @@ if __name__ == '__main__':
     # Read in the arrays from stdin and output to stdout
     for line in sys.stdin:
         line_arr = line.split(',')
-        item = float(line_arr[0])
-        arr = [float(x) for x in line_arr[1:]]
+        item = int(line_arr[0])
+        arr = [int(x) for x in line_arr[1:]]
         start = time.clock()
         n = binary_search(arr, item)
         end = time.clock()

@@ -12,7 +12,7 @@ def binary_search_rec(arr, lo, hi, x):
         return -1
     else:
         mid = (hi + lo) // 2
-        if (isclose(arr[mid], x)):
+        if (arr[mid] == x):
             return mid
         elif (arr[mid] > x): 
             return binary_search_rec(arr, lo, mid, x)

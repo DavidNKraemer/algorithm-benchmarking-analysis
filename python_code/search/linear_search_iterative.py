@@ -6,7 +6,7 @@ from util import isclose
     
 def linear_search(arr, x):
     for i in range(len(arr)):
-        if isclose(arr[i], x):
+        if arr[i] == x:
             return i
     return -1
 

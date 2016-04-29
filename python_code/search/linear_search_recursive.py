@@ -11,7 +11,7 @@ def linear_search_rec(arr, cur, x):
     if cur == len(arr):
         return -1
     else:
-        if isclose(arr[cur], x):
+        if arr[cur] == x:
             return cur
         else:
             return linear_search_rec(arr, cur + 1, x)
