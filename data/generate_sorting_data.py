@@ -15,7 +15,7 @@ Generate an unsorted array of floats of specified size
 def generate_uniform_array(size):
     arr = []
     for i in range(size):
-        arr.append(random.uniform(0.0, 1000.0))
+        arr.append(random.randint(0, 1000))
     return arr
 
 """
