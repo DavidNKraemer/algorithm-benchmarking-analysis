@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <math.h>
 
-int linear_search(double * arr, int n, double value, double epsilon) {
+int linear_search(int * arr, int n, int value) {
     for(int i = 0; i < n; i++) {
-        if (fabs(arr[i] - value) < epsilon) {
+        if (arr[i] == value) {
             return i;
         }
     }
@@ -12,8 +12,8 @@ int linear_search(double * arr, int n, double value, double epsilon) {
 }
 
 int main() {
-    double array[5] = {1.0, 2.0, 3.0, 4.0, 5.0};
-    printf("%d\n", linear_search(array, 5, 4.0, 1e-5));
+    int array[5] = {1, 2, 3, 4, 5};
+    printf("%d\n", linear_search(array, 5, 4));
 
     return 0;
 }
