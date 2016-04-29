@@ -47,10 +47,8 @@ if __name__ == '__main__':
                 # pick an item to look for
                 if random.random() > .5:
                     look_for = 0 # not in arr
-                    print("Setting up for failure :(\n")
                 else:
                     look_for = arr[random.randint(0, len(arr) - 1)] # in arr
-                    print("Setting up for success :)\n")
                 # write the item and sorted array
                 fp.write(str(look_for) + ',' +
                          array_to_csv_string(arr)+'\n')
