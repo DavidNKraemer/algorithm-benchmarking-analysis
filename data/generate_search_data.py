@@ -14,10 +14,10 @@ Generate a sorted array of floats of specified size
 """
 def generate_array(size):
     arr = []
-    cur = 1.0
+    cur = random.randint(1, 10)
     for i in range(size):
         arr.append(cur)
-        cur += random.uniform(1.0, 5.0)
+        cur += random.randint(1, 5)
     return arr
 
 """
@@ -46,11 +46,13 @@ if __name__ == '__main__':
                 arr = generate_array(current_size)
                 # pick an item to look for
                 if random.random() > .5:
-                    look_for = random.uniform(-1.0,5000.0) # not in arr
+                    look_for = 0 # not in arr
+                    print("Setting up for failure :(\n")
                 else:
                     look_for = arr[random.randint(0, len(arr) - 1)] # in arr
+                    print("Setting up for success :)\n")
                 # write the item and sorted array
-                fp.write(str(random.uniform(-1.0,5000.0)) + ',' +
+                fp.write(str(look_for) + ',' +
                          array_to_csv_string(arr)+'\n')
             current_size += increments
             
