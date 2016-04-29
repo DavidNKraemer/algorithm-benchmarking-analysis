@@ -2,14 +2,14 @@
 #include <stdlib.h>
 #include <math.h>
 
-int binary_search(double * arr, int n, double value, double epsilon) {
+int binary_search(int * arr, int n, int value) {
     int low = 0;
     int high = n;
     int mid;
 
     while (low != high) {
         mid = (low + high) / 2;
-        if (fabs(value - arr[mid]) < epsilon) {
+        if (value == arr[mid]) {
             return mid;
         }
         else if (arr[mid] < value) {
@@ -26,8 +26,8 @@ int binary_search(double * arr, int n, double value, double epsilon) {
 
 
 int main() {
-    double array[5] = {1.0, 2.0, 3.0, 4.0, 5.0};
-    printf("%d\n", binary_search(array, 5, 4.0, 1e-5));
+    int array[5] = {1, 2, 3, 4, 5};
+    printf("%d\n", binary_search(array, 5, 4));
 
     return 0;
 }
