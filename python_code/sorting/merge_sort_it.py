@@ -3,18 +3,21 @@ sys.path.append('..')
 from util import shuffle
 
 import time
-import random
         
 def merge_sort(arr):
-    merge_sort_helper(arr, 0, len(arr))
-
-def merge_sort_helper(arr, lo, hi):
-    if (hi - lo > 1): # continue until array has size one
-        mid = (lo + hi) // 2
-        merge_sort_helper(arr, lo, mid)
-        merge_sort_helper(arr, mid, hi)
-        merge(arr, lo, mid, hi) 
-
+    l = len(arr)
+    # merge subarrays of sizes doubling from 1 to array length
+    cur_size = 1
+    while cur_size < l:
+        lo = 0
+        while lo < l - 1: # for every nonoverlapping window of current size
+            mid = lo + cur_size
+            hi = min(mid + cur_size, l) # not going out of bounds
+            merge(arr, lo, mid, hi)
+            lo += 2 * cur_size # advance by full size
+        cur_size *= 2 # double the current size
+    
+        
 def merge(arr, lo, mid, hi):
     l = hi - lo
     temp = [0] * l
@@ -33,8 +36,7 @@ def merge(arr, lo, mid, hi):
     # copy from temp into original array
     for i in range(l):
         arr[lo + i] = temp[i]
-    
-    
+        
                 
 if __name__ == '__main__':
     for i in range(100):
