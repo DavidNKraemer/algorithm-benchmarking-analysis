@@ -1,3 +1,9 @@
+"""
+Example use:
+cat sort_data.csv | python3 merge_sort_it.py > msi.csv
+
+"""
+
 import sys
 sys.path.append('..')
 from util import shuffle
@@ -39,9 +45,20 @@ def merge(arr, lo, mid, hi):
         
                 
 if __name__ == '__main__':
+    # brief testing 
     for i in range(100):
         ordered = list(range(i))
         shuffled = shuffle(ordered)
         merge_sort(shuffled)
         assert(ordered == shuffled)
-    print("Success!")
+    #print("Success!")
+
+    # Read in the arrays from stdin and output to stdout
+    for line in sys.stdin:
+        arr = [int(x) for x in line.split(',')]
+        start = time.process_time()
+        merge_sort(arr)
+        end = time.process_time()
+        # the first element is printed out so that sorting doesn't get
+        # optimized out
+        print("%d,%d,%f" % (len(arr), arr[0], end-start))
