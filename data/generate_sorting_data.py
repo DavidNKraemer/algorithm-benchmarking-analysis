@@ -7,16 +7,14 @@ Default values only generate 20 arrays.
 """
 from sys import argv
 import random
+from numpy.random import randint
 
 
 """
 Generate an unsorted array of floats of specified size
 """
 def generate_uniform_array(size):
-    arr = []
-    for i in range(size):
-        arr.append(random.randint(0, 1000))
-    return arr
+    return list(randint(0,1000,size))
 
 """
 Make a comma separated string from an array
