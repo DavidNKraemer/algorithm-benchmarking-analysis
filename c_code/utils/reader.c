@@ -2,14 +2,20 @@
 #include <stdio.h>
 #include <string.h>
 
-int read_in_data(const char * infile_name);
+typedef struct {
+    int entries;
+    int * entry_sizes;
+    int ** data;
+} csv_array;
+
+csv_array read_in_data(const char * infile_name);
 
 int main(void) {
     read_in_data("../../data/input_data/sorting_data.csv");
     return 0;
 }
 
-int read_in_data(const char * infile_name) {
+csv_array read_in_data(const char * infile_name, void(*sort_pointer)(double *, int)) {
     FILE *input_file;
     const char * delim = ",";
     input_file = fopen(infile_name, "r");
@@ -19,13 +25,31 @@ int read_in_data(const char * infile_name) {
         exit(1);
     }
 
-    char * buffer;
-    char * token;
+    char * buffer = NULL;
+    char * token = NULL;
+    char * token_end;
+    int inner_count;
+    int array_size = 0;
+    int * array;
     size_t buffer_size;
     while ( !(feof(input_file)) ) {
         getline(&buffer, &buffer_size, input_file);
-        while ( (token = strsep(&buffer, delim)) != NULL)
-            printf("%s\n", token);
+        inner_count = 0;
+        while ( (token = strsep(&buffer, delim)) != NULL) {
+            if (inner_count == 0) {
+                array_size = strtol(token, token_end, 10);
+                array = malloc(array_size * sizeof(int));
+            }
+            else {
+                array[inner_count - 1] = strtol(token, token_end, 10);
+            }
+            inner_count++;
+        }
+        // do analysis here
+        // time start
+        // sort_pointer(array, array_size);
+        // time end
+        // record
     }
 
     fclose(input_file);
