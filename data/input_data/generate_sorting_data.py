@@ -20,7 +20,7 @@ def generate_uniform_array(size):
 Make a comma separated string from an array
 """
 def array_to_csv_string(arr):
-    s = ''
+    s = '{},'.format(len(arr))
     for i in range(len(arr) - 1):
         s += str(arr[i]) + ','
     s += str(arr[len(arr) - 1])
