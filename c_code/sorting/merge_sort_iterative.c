@@ -1,29 +1,5 @@
-#include <stdlib.h>
-#include <stdio.h>
-#define MIN(x,y) x < y ? x : y
-
-
-void merge_sort(double * arr, int n) ;
-void merge(double * arr, int l, int m, int r);
-
-int main() {
-    double array[5] = {31.0, 12.0, 3.0, 14.0, 25.0};
-    printf("{");
-    for (int i = 0; i < 5; i++)
-        printf("%0.2lf,",array[i]);
-    printf("}\n");
-
-    merge_sort(array, 5);
-    printf("{");
-    for (int i = 0; i < 5; i++)
-        printf("%0.2lf,",array[i]);
-    printf("}\n");
-
-    return 0;
-
-}
-
-void merge_sort(double * arr, int n) {
+#define MIN(x,y) x <= y ? x : y
+void merge_sort_iter(int * arr, int n) {
     int curr_size, left_start;
 
     for (curr_size = 1; curr_size < n; curr_size = 2 * curr_size) {
@@ -31,12 +7,12 @@ void merge_sort(double * arr, int n) {
             int mid = left_start + curr_size - 1;
             int right_end = MIN(left_start + 2 * curr_size - 1, n - 1);
 
-            merge(arr, left_start, mid, right_end);
+            merge_iter(arr, left_start, mid, right_end);
         }
     }
 }
 
-void merge(double * arr, int l, int m, int r) {
+void merge_iter(int * arr, int l, int m, int r) {
     int i, j, k;
     int n1 = m - l + 1;
     int n2 =  r - m;

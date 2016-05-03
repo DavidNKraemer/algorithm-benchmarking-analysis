@@ -1,17 +1,14 @@
 CC=gcc -std=gnu99
 FLAGS= -Wall -Wextra
 L= -lm
+DEPENDENCIES= binary_search_recursive.c binary_search_iterative.c linear_search_recursive.c linear_search_iterative.c ../utils/reader.c
 
-binary_search_iterative: binary_search_iterative.c
-	$(CC) $(FLAGS) $(L) -o binary_search_iterative binary_search_iterative.c
+searchlib: searchlib.h binary_search_recursive.c binary_search_iterative.c linear_search_recursive.c linear_search_iterative.c
+	$(CC) $(FLAGS) $(L) -c binary_search_recursive.c && \
+	$(CC) $(FLAGS) $(L) -c binary_search_iterative.c && \
+	$(CC) $(FLAGS) $(L) -c linear_search_recursive.c && \
+	$(CC) $(FLAGS) $(L) -c linear_search_iterative.c
 
-binary_search_recursive: binary_search_recursive.c
-	$(CC) $(FLAGS) $(L) -o binary_search_recursive binary_search_recursive.c
-
-linear_search_iterative: linear_search_iterative.c
-	$(CC) $(FLAGS) $(L) -o linear_search_iterative linear_search_iterative.c
-
-linear_search_recursive: linear_search_recursive.c
-	$(CC) $(FLAGS) $(L) -o linear_search_recursive linear_search_recursive.c
-
+main: searchlib.h binary_search_recursive.c binary_search_iterative.c linear_search_recursive.c linear_search_iterative.c ../utils/reader.c
+	$(CC) $(FLAGS) $(L) -o main.o main.c $(DEPENDENCIES)
 

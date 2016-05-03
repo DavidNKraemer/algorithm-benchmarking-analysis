@@ -7,28 +7,21 @@ The first column is the item to look for. Default values only generate 20 arrays
 """
 from sys import argv
 import random
+from numpy import cumsum
+from numpy.random import randint
 
 
 """
 Generate a sorted array of floats of specified size
 """
 def generate_array(size):
-    arr = []
-    cur = random.randint(1, 10)
-    for i in range(size):
-        arr.append(cur)
-        cur += random.randint(1, 5)
-    return arr
+    return list(cumsum(randint(1,10,size)))
 
 """
 Make a comma separated string from an array
 """
 def array_to_csv_string(arr):
-    s = ''
-    for i in range(len(arr) - 1):
-        s += str(arr[i]) + ','
-    s += str(arr[len(arr) - 1])
-    return s
+    return '{},'.format(len(arr)) + ','.join(str(x) for x in arr)
 
 if __name__ == '__main__':
     min_length = int(argv[1]) if len(argv) > 1 else 10
