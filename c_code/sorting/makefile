@@ -1,5 +1,5 @@
 CC=gcc -std=gnu99
-FLAGS= -Wall -Wextra
+FLAGS= -Wall -Wextra -g
 L= -lm
 DEPENDENCIES= merge_sort_recursive.c merge_sort_iterative.c insertion_sort_recursive.c insertion_sort_iterative.c ../utils/reader.c
 
