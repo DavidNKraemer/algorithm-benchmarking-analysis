@@ -96,6 +96,7 @@ int analyze_search_data(const char * infile_name,
 
     if (output_file == NULL) {
         fprintf(stderr, "Can't open output file %s!\n", outfile_name);
+        exit(1);
     }
 
     // Strings that are allocated for reading in the CSV
