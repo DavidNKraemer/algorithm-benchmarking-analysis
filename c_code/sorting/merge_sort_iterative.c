@@ -1,62 +1,37 @@
+// Solution from http://stackoverflow.com/questions/1557894/non-recursive-merge-sort
 #include "sortlib.h"
 
 #define MIN(x,y) x <= y ? x : y
 void merge_sort_iter(int * arr, int n) {
-    int curr_size, left_start;
+    int rght, rend;
+    int i,j,m;
+    int * b = malloc(n * sizeof(int));
 
-    for (curr_size = 1; curr_size < n; curr_size = 2 * curr_size) {
-        for (left_start = 0; left_start < n - 1; left_start += 2 * curr_size) {
-            int mid = left_start + curr_size - 1;
-            int right_end = MIN(left_start + 2 * curr_size - 1, n - 1);
-
-            merge_iter(arr, left_start, mid, right_end);
+    for (int k = 1; k < n; k *= 2 ) {
+        for (int left = 0; left + k < n; left += k*2 ) {
+            rght = left + k;
+            rend = rght + k;
+            if (rend > n) rend = n;
+            m = left; i = left; j = rght;
+            while (i < rght && j < rend) {
+                if (arr[i] <= arr[j]) {
+                    b[m] = arr[i]; i++;
+                } else {
+                    b[m] = arr[j]; j++;
+                }
+                m++;
+            }
+            while (i < rght) {
+                b[m]=arr[i];
+                i++; m++;
+            }
+            while (j < rend) {
+                b[m]=arr[j];
+                j++; m++;
+            }
+            for (m=left; m < rend; m++) {
+                arr[m] = b[m];
+            }
         }
-    }
-}
-
-void merge_iter(int * arr, int l, int m, int r) {
-    int i, j, k;
-    int n1 = m - l + 1;
-    int n2 =  r - m;
-
-    /* create temp arrays */
-    int L[n1], R[n2];
-
-    /* Copy data to temp arrays L[] and R[] */
-    for (i = 0; i < n1; i++)
-        L[i] = arr[l + i];
-    for (j = 0; j < n2; j++)
-        R[j] = arr[m + 1+ j];
-
-    /* Merge the temp arrays back into arr[l..r]*/
-    i = 0;
-    j = 0;
-    k = l;
-    while (i < n1 && j < n2) {
-        if (L[i] <= R[j]) {
-            arr[k] = L[i];
-            i++;
-        }
-        else {
-            arr[k] = R[j];
-            j++;
-        }
-        k++;
-    }
-
-    /* Copy the remaining elements of
-     * L[], if there are any */
-    while (i < n1) {
-        arr[k] = L[i];
-        i++;
-        k++;
-    }
-
-    /* Copy the remaining elements
-     * of R[], if there are any */
-    while (j < n2) {
-        arr[k] = R[j];
-        j++;
-        k++;
     }
 }

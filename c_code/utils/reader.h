@@ -13,4 +13,6 @@ int analyze_sort_data(const char * infile_name,
 int analyze_search_data(const char * infile_name, 
                         const char * outfile_name,
                         int (*search_pointer)(int *, int, int));
+
+void print_array(int * array, int size);
 #endif
