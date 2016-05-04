@@ -62,7 +62,7 @@ int analyze_sort_data(const char * infile_name,
         // sorting time
         time(&start);
         sort_pointer(array, array_size);
-        end = time(&end);
+        time(&end);
         difference = difftime(end, start);
 
         // Record to the output file
@@ -135,7 +135,7 @@ int analyze_search_data(const char * infile_name,
             }
 
             else {
-                array[inner_count - 1] = strtol(token, &token_end, 10);
+                array[inner_count - 2] = strtol(token, &token_end, 10);
             }
 
             inner_count++;
@@ -145,7 +145,7 @@ int analyze_search_data(const char * infile_name,
         // sorting time
         time(&start);
         result = search_pointer(array, array_size, result);
-        end = time(&end);
+        time(&end);
         difference = difftime(end, start);
 
         // Record to the output file
