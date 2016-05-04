@@ -1,3 +1,5 @@
+#include "sortlib.h"
+
 #define MIN(x,y) x <= y ? x : y
 void merge_sort_iter(int * arr, int n) {
     int curr_size, left_start;

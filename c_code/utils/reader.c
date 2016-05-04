@@ -58,15 +58,20 @@ int analyze_sort_data(const char * infile_name,
             inner_count++;
         }
 
+       
         // After acquiring all of the data for a given array, measure the 
         // sorting time
-        time(&start);
+        start = time(NULL);
         sort_pointer(array, array_size);
-        time(&end);
+        end = time(NULL);
         difference = difftime(end, start);
 
+        printf("Array of size %d\n", array_size);
+        for (int i = 0; i < array_size; i++)
+          printf("%d ", array[i]);
+        printf("\n");
         // Record to the output file
-        fprintf(output_file, "%d, %lf\n", array_size, difference);
+        fprintf(output_file, "%d, %d\n", array_size, difference);
 
         // Free the array. Rinse and repeat.
         free(array);
@@ -142,6 +147,11 @@ int analyze_search_data(const char * infile_name,
             inner_count++;
         }
 
+        printf("Array of size %d\n", array_size);
+        for (int i = 0; i < array_size; i++)
+          printf("%d ", array[i]);
+        printf("\n");
+        
         // After acquiring all of the data for a given array, measure the 
         // sorting time
         time(&start);
