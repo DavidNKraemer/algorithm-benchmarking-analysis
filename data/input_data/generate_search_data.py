@@ -23,6 +23,9 @@ Make a comma separated string from an array
 def array_to_csv_string(arr):
     return '{},'.format(len(arr)) + ','.join(str(x) for x in arr)
 
+def array_to_scheme_list(arr, item):
+    return str(item) + '\n(' + ' '.join([str(x) for x in arr]) + ')'
+
 if __name__ == '__main__':
     min_length = int(argv[1]) if len(argv) > 1 else 10
     max_length = int(argv[2]) if len(argv) > 2 else 1000
@@ -30,9 +33,10 @@ if __name__ == '__main__':
     repeats    = int(argv[4]) if len(argv) > 4 else 1
     
     fn = argv[5] if len(argv) > 5 else "search_data.csv"
-
+    s_fn = argv[6] if len(argv) > 6 else "search_data.scm"
+    
     current_size = min_length
-    with open(fn, 'w') as fp:
+    with open(fn, 'w') as fp, open(s_fn, 'w') as s_fp:
         while(current_size < max_length):
             for i in range(repeats):
                 # generate an array of current_size
@@ -45,5 +49,7 @@ if __name__ == '__main__':
                 # write the item and sorted array
                 fp.write(str(look_for) + ',' +
                          array_to_csv_string(arr)+'\n')
+                # write the scheme array
+                s_fp.write(array_to_scheme_list(arr, look_for)+'\n')
             current_size += increments
             

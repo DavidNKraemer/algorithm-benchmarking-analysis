@@ -47,7 +47,8 @@ def benchmark_search(alg_func,alg_name,alg_impl):
     for line in sys.stdin:
         line_arr = line.split(',')
         item = int(line_arr[0])
-        arr = [int(x) for x in line_arr[1:]]
+        # skip the second element--it is the length of the array
+        arr = [int(x) for x in line_arr[2:]]
         start = time.process_time()
         n = alg_func(arr, item)
         end = time.process_time()
@@ -64,7 +65,9 @@ Run and time a sort, read from stdin and write to stdout
 def benchmark_sort(alg_func,alg_name,alg_impl):
     print("time,input,algorithm,implementation,language,dummy")
     for line in sys.stdin:
-        arr = [int(x) for x in line.split(',')]
+        line_arr = line.split(',')
+        item = int(line_arr[0])
+        arr = [int(x) for x in line_arr[1:]]
         start = time.process_time()
         alg_func(arr)
         end = time.process_time()
