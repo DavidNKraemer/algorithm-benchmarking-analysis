@@ -60,7 +60,7 @@ int analyze_sort_data(const char * infile_name,
     // Time information
     size_t buffer_size;
     struct timeval start, end;
-    long int difference;
+    unsigned long int difference;
 
 
 
@@ -153,7 +153,7 @@ int analyze_search_data(const char * infile_name,
     // Time information
     size_t buffer_size;
     struct timeval start, end;
-    long int difference;
+    unsigned long int difference;
 
 
     printf("\t");
