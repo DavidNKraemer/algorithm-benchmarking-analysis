@@ -15,7 +15,7 @@
     (let ([before (current-inexact-milliseconds)])
       (insertionsort List)
       (let ([after (current-inexact-milliseconds)])
-        (- after before)))))
+        (* 1000 (- after before))))))
 
 (define insertionsort-time-file
   (lambda (input-file output-file)

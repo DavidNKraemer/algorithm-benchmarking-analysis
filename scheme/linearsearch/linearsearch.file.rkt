@@ -11,7 +11,7 @@
         ((equal? key (car lst)) #t)
         (else (linear-search (cdr lst) key)))
     (let ([after (current-inexact-milliseconds)])
-        (- after before))))
+        (* 1000 (- after before)))))
 
 (define linear-search-time-file
   (lambda (input-file output-file)

@@ -53,7 +53,7 @@
     (let ([before (current-inexact-milliseconds)])
       (merge-sort List)
       (let ([after (current-inexact-milliseconds)])
-        (- after before)))))
+        (* 1000 (- after before))))))
 
 (define mergesort-time-file
   (lambda (input-file output-file)

@@ -16,7 +16,7 @@
     (let ([before (current-inexact-milliseconds)])
       (binary-search-helper lst key 0 (length lst))
       (let ([after (current-inexact-milliseconds)])
-        (- after before)))))
+        (* 1000 (- after before))))))
 
 (define binary-search-time-file
   (lambda (input-file output-file)
