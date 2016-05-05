@@ -1,1088 +1,1965 @@
-10, 1, C, insertion_recursive
-60, 19, C, insertion_recursive
-110, 49, C, insertion_recursive
-160, 100, C, insertion_recursive
-210, 162, C, insertion_recursive
-260, 247, C, insertion_recursive
-310, 353, C, insertion_recursive
-360, 522, C, insertion_recursive
-410, 587, C, insertion_recursive
-460, 784, C, insertion_recursive
-510, 965, C, insertion_recursive
-560, 1116, C, insertion_recursive
-610, 1384, C, insertion_recursive
-660, 1603, C, insertion_recursive
-710, 1786, C, insertion_recursive
-760, 2070, C, insertion_recursive
-810, 2301, C, insertion_recursive
-860, 2589, C, insertion_recursive
-910, 2770, C, insertion_recursive
-960, 3048, C, insertion_recursive
-0, 0, C, insertion_recursive
-10, 1, C, insertion_iterative
-60, 8, C, insertion_iterative
-110, 21, C, insertion_iterative
-160, 51, C, insertion_iterative
-210, 70, C, insertion_iterative
-260, 108, C, insertion_iterative
-310, 173, C, insertion_iterative
-360, 239, C, insertion_iterative
-410, 275, C, insertion_iterative
-460, 396, C, insertion_iterative
-510, 456, C, insertion_iterative
-560, 545, C, insertion_iterative
-610, 667, C, insertion_iterative
-660, 762, C, insertion_iterative
-710, 825, C, insertion_iterative
-760, 943, C, insertion_iterative
-810, 1037, C, insertion_iterative
-860, 1185, C, insertion_iterative
-910, 1299, C, insertion_iterative
-960, 1457, C, insertion_iterative
-0, 0, C, insertion_iterative
-10, 2, C, merge_recursive
-60, 10, C, merge_recursive
-110, 21, C, merge_recursive
-160, 30, C, merge_recursive
-210, 42, C, merge_recursive
-260, 56, C, merge_recursive
-310, 64, C, merge_recursive
-360, 77, C, merge_recursive
-410, 92, C, merge_recursive
-460, 101, C, merge_recursive
-510, 116, C, merge_recursive
-560, 126, C, merge_recursive
-610, 140, C, merge_recursive
-660, 151, C, merge_recursive
-710, 162, C, merge_recursive
-760, 177, C, merge_recursive
-810, 193, C, merge_recursive
-860, 207, C, merge_recursive
-910, 220, C, merge_recursive
-960, 232, C, merge_recursive
-0, 0, C, merge_recursive
-10, 2, C, merge_iterative
-60, 9, C, merge_iterative
-110, 16, C, merge_iterative
-160, 25, C, merge_iterative
-210, 35, C, merge_iterative
-260, 44, C, merge_iterative
-310, 52, C, merge_iterative
-360, 62, C, merge_iterative
-410, 70, C, merge_iterative
-460, 84, C, merge_iterative
-510, 92, C, merge_iterative
-560, 106, C, merge_iterative
-610, 119, C, merge_iterative
-660, 127, C, merge_iterative
-710, 137, C, merge_iterative
-760, 146, C, merge_iterative
-810, 155, C, merge_iterative
-860, 168, C, merge_iterative
-910, 175, C, merge_iterative
-960, 188, C, merge_iterative
-0, 0, C, merge_iterative
-100, 41, C, merge_iterative
-100, 41, C, merge_iterative
-100, 48, C, merge_iterative
-100, 43, C, merge_iterative
-100, 41, C, merge_iterative
-300, 362, C, merge_iterative
-300, 327, C, merge_iterative
-300, 325, C, merge_iterative
-300, 321, C, merge_iterative
-300, 332, C, merge_iterative
-500, 945, C, merge_iterative
-500, 918, C, merge_iterative
-500, 864, C, merge_iterative
-500, 896, C, merge_iterative
-500, 879, C, merge_iterative
-700, 1763, C, merge_iterative
-700, 1733, C, merge_iterative
-700, 1639, C, merge_iterative
-700, 1673, C, merge_iterative
-700, 1659, C, merge_iterative
-900, 2626, C, merge_iterative
-900, 2651, C, merge_iterative
-900, 2568, C, merge_iterative
-900, 2530, C, merge_iterative
-900, 2603, C, merge_iterative
-1100, 4046, C, merge_iterative
-1100, 3681, C, merge_iterative
-1100, 3695, C, merge_iterative
-1100, 3625, C, merge_iterative
-1100, 3446, C, merge_iterative
-1300, 4828, C, merge_iterative
-1300, 4750, C, merge_iterative
-1300, 4583, C, merge_iterative
-1300, 4830, C, merge_iterative
-1300, 4433, C, merge_iterative
-1500, 5962, C, merge_iterative
-1500, 5872, C, merge_iterative
-1500, 5607, C, merge_iterative
-1500, 5447, C, merge_iterative
-1500, 5251, C, merge_iterative
-1700, 6857, C, merge_iterative
-1700, 6728, C, merge_iterative
-1700, 6653, C, merge_iterative
-1700, 6400, C, merge_iterative
-1700, 6130, C, merge_iterative
-1900, 7641, C, merge_iterative
-1900, 7059, C, merge_iterative
-1900, 7383, C, merge_iterative
-1900, 7250, C, merge_iterative
-1900, 6946, C, merge_iterative
-2100, 8345, C, merge_iterative
-2100, 8087, C, merge_iterative
-2100, 8305, C, merge_iterative
-2100, 8255, C, merge_iterative
-2100, 8179, C, merge_iterative
-2300, 9780, C, merge_iterative
-2300, 9671, C, merge_iterative
-2300, 9913, C, merge_iterative
-2300, 9657, C, merge_iterative
-2300, 10743, C, merge_iterative
-2500, 11790, C, merge_iterative
-2500, 11375, C, merge_iterative
-2500, 11730, C, merge_iterative
-2500, 11300, C, merge_iterative
-2500, 11709, C, merge_iterative
-2700, 14043, C, merge_iterative
-2700, 13771, C, merge_iterative
-2700, 13420, C, merge_iterative
-2700, 13626, C, merge_iterative
-2700, 13192, C, merge_iterative
-2900, 15967, C, merge_iterative
-2900, 15290, C, merge_iterative
-2900, 15769, C, merge_iterative
-2900, 15674, C, merge_iterative
-2900, 15606, C, merge_iterative
-3100, 18015, C, merge_iterative
-3100, 17671, C, merge_iterative
-3100, 17638, C, merge_iterative
-3100, 17860, C, merge_iterative
-3100, 17489, C, merge_iterative
-3300, 20087, C, merge_iterative
-3300, 20088, C, merge_iterative
-3300, 20033, C, merge_iterative
-3300, 19997, C, merge_iterative
-3300, 20040, C, merge_iterative
-3500, 22977, C, merge_iterative
-3500, 22841, C, merge_iterative
-3500, 22768, C, merge_iterative
-3500, 22514, C, merge_iterative
-3500, 22825, C, merge_iterative
-3700, 25635, C, merge_iterative
-3700, 26000, C, merge_iterative
-3700, 25542, C, merge_iterative
-3700, 25502, C, merge_iterative
-3700, 25545, C, merge_iterative
-3900, -971316, C, merge_iterative
-3900, 28464, C, merge_iterative
-3900, 28554, C, merge_iterative
-3900, 27946, C, merge_iterative
-3900, 28512, C, merge_iterative
-4100, 31358, C, merge_iterative
-4100, 31119, C, merge_iterative
-4100, 31340, C, merge_iterative
-4100, 31588, C, merge_iterative
-4100, 30438, C, merge_iterative
-4300, 34600, C, merge_iterative
-4300, 34040, C, merge_iterative
-4300, 33767, C, merge_iterative
-4300, 34419, C, merge_iterative
-4300, 34846, C, merge_iterative
-4500, 37829, C, merge_iterative
-4500, 37029, C, merge_iterative
-4500, 37386, C, merge_iterative
-4500, 38144, C, merge_iterative
-4500, 37967, C, merge_iterative
-4700, 41461, C, merge_iterative
-4700, 40676, C, merge_iterative
-4700, 41545, C, merge_iterative
-4700, 41212, C, merge_iterative
-4700, 41566, C, merge_iterative
-4900, 44995, C, merge_iterative
-4900, 45002, C, merge_iterative
-4900, 45806, C, merge_iterative
-4900, -954463, C, merge_iterative
-4900, 45063, C, merge_iterative
-5100, 49339, C, merge_iterative
-5100, 49447, C, merge_iterative
-5100, 48263, C, merge_iterative
-5100, 49372, C, merge_iterative
-5100, 48366, C, merge_iterative
-5300, 53454, C, merge_iterative
-5300, 52288, C, merge_iterative
-5300, 53262, C, merge_iterative
-5300, 53238, C, merge_iterative
-5300, 52989, C, merge_iterative
-5500, 56048, C, merge_iterative
-5500, 57698, C, merge_iterative
-5500, 56811, C, merge_iterative
-5500, 57034, C, merge_iterative
-5500, 56632, C, merge_iterative
-5700, 60825, C, merge_iterative
-5700, 61246, C, merge_iterative
-5700, 61332, C, merge_iterative
-5700, 60739, C, merge_iterative
-5700, 61047, C, merge_iterative
-5900, 65962, C, merge_iterative
-5900, 64688, C, merge_iterative
-5900, 65347, C, merge_iterative
-5900, 64982, C, merge_iterative
-5900, 66094, C, merge_iterative
-6100, 70046, C, merge_iterative
-6100, 70303, C, merge_iterative
-6100, 70079, C, merge_iterative
-6100, 68816, C, merge_iterative
-6100, 69550, C, merge_iterative
-6300, 75269, C, merge_iterative
-6300, -925790, C, merge_iterative
-6300, 74482, C, merge_iterative
-6300, 74702, C, merge_iterative
-6300, 75676, C, merge_iterative
-6500, 79393, C, merge_iterative
-6500, 80949, C, merge_iterative
-6500, 79931, C, merge_iterative
-6500, 79265, C, merge_iterative
-6500, 78767, C, merge_iterative
-6700, 84639, C, merge_iterative
-6700, 83942, C, merge_iterative
-6700, 85281, C, merge_iterative
-6700, 84589, C, merge_iterative
-6700, -915691, C, merge_iterative
-6900, 89550, C, merge_iterative
-6900, 91081, C, merge_iterative
-6900, 91754, C, merge_iterative
-6900, 89418, C, merge_iterative
-6900, 90179, C, merge_iterative
-7100, 94664, C, merge_iterative
-7100, 95899, C, merge_iterative
-7100, 95013, C, merge_iterative
-7100, 95254, C, merge_iterative
-7100, 95659, C, merge_iterative
-7300, -898679, C, merge_iterative
-7300, 99742, C, merge_iterative
-7300, 100743, C, merge_iterative
-7300, 101156, C, merge_iterative
-7300, 101080, C, merge_iterative
-7500, 107760, C, merge_iterative
-7500, 105515, C, merge_iterative
-7500, 105234, C, merge_iterative
-7500, 107064, C, merge_iterative
-7500, -892860, C, merge_iterative
-7700, 112823, C, merge_iterative
-7700, 113588, C, merge_iterative
-7700, 112867, C, merge_iterative
-7700, 113464, C, merge_iterative
-7700, 112513, C, merge_iterative
-7900, 119160, C, merge_iterative
-7900, 119717, C, merge_iterative
-7900, 120648, C, merge_iterative
-7900, -879122, C, merge_iterative
-7900, 118168, C, merge_iterative
-8100, 125655, C, merge_iterative
-8100, 125263, C, merge_iterative
-8100, 125665, C, merge_iterative
-8100, 124868, C, merge_iterative
-8100, 124634, C, merge_iterative
-8300, 130769, C, merge_iterative
-8300, -869779, C, merge_iterative
-8300, 131928, C, merge_iterative
-8300, 132473, C, merge_iterative
-8300, 132746, C, merge_iterative
-8500, 138073, C, merge_iterative
-8500, 137500, C, merge_iterative
-8500, 139310, C, merge_iterative
-8500, -864166, C, merge_iterative
-8500, 138976, C, merge_iterative
-8700, 142547, C, merge_iterative
-8700, 144713, C, merge_iterative
-8700, 146179, C, merge_iterative
-8700, 144179, C, merge_iterative
-8700, 147062, C, merge_iterative
-8900, -848787, C, merge_iterative
-8900, 150078, C, merge_iterative
-8900, 150701, C, merge_iterative
-8900, 154213, C, merge_iterative
-8900, 150151, C, merge_iterative
-9100, 156787, C, merge_iterative
-9100, 157870, C, merge_iterative
-9100, -842271, C, merge_iterative
-9100, 156829, C, merge_iterative
-9100, 158206, C, merge_iterative
-9300, 164789, C, merge_iterative
-9300, 165522, C, merge_iterative
-9300, 211441, C, merge_iterative
-9300, -833635, C, merge_iterative
-9300, 166286, C, merge_iterative
-9500, 174379, C, merge_iterative
-9500, 174038, C, merge_iterative
-9500, 171907, C, merge_iterative
-9500, -828949, C, merge_iterative
-9500, 173214, C, merge_iterative
-9700, 179419, C, merge_iterative
-9700, 181219, C, merge_iterative
-9700, 181355, C, merge_iterative
-9700, 181614, C, merge_iterative
-9700, -817931, C, merge_iterative
-9900, 186665, C, merge_iterative
-9900, 190442, C, merge_iterative
-9900, 188136, C, merge_iterative
-9900, 186208, C, merge_iterative
-9900, -813725, C, merge_iterative
-0, 0, C, merge_iterative
-100, 9, C, insertion_recursive
-100, 10, C, insertion_recursive
-100, 14, C, insertion_recursive
-100, 11, C, insertion_recursive
-100, 10, C, insertion_recursive
-300, 84, C, insertion_recursive
-300, 105, C, insertion_recursive
-300, 79, C, insertion_recursive
-300, 78, C, insertion_recursive
-300, 81, C, insertion_recursive
-500, 225, C, insertion_recursive
-500, 228, C, insertion_recursive
-500, 209, C, insertion_recursive
-500, 211, C, insertion_recursive
-500, 210, C, insertion_recursive
-700, 446, C, insertion_recursive
-700, 437, C, insertion_recursive
-700, 421, C, insertion_recursive
-700, 451, C, insertion_recursive
-700, 434, C, insertion_recursive
-900, 689, C, insertion_recursive
-900, 684, C, insertion_recursive
-900, 704, C, insertion_recursive
-900, 713, C, insertion_recursive
-900, 728, C, insertion_recursive
-1100, 1063, C, insertion_recursive
-1100, 1076, C, insertion_recursive
-1100, 1084, C, insertion_recursive
-1100, 1065, C, insertion_recursive
-1100, 1051, C, insertion_recursive
-1300, 1485, C, insertion_recursive
-1300, 1477, C, insertion_recursive
-1300, 1495, C, insertion_recursive
-1300, 1572, C, insertion_recursive
-1300, 1463, C, insertion_recursive
-1500, 2017, C, insertion_recursive
-1500, 2021, C, insertion_recursive
-1500, 1990, C, insertion_recursive
-1500, 1959, C, insertion_recursive
-1500, 1970, C, insertion_recursive
-1700, 2640, C, insertion_recursive
-1700, 2607, C, insertion_recursive
-1700, 2580, C, insertion_recursive
-1700, 2578, C, insertion_recursive
-1700, 2491, C, insertion_recursive
-1900, 3150, C, insertion_recursive
-1900, 3013, C, insertion_recursive
-1900, 3208, C, insertion_recursive
-1900, 3248, C, insertion_recursive
-1900, 3178, C, insertion_recursive
-2100, 3846, C, insertion_recursive
-2100, 3852, C, insertion_recursive
-2100, 3959, C, insertion_recursive
-2100, 3927, C, insertion_recursive
-2100, 3894, C, insertion_recursive
-2300, 4639, C, insertion_recursive
-2300, 4591, C, insertion_recursive
-2300, 4691, C, insertion_recursive
-2300, 4580, C, insertion_recursive
-2300, 4657, C, insertion_recursive
-2500, 5584, C, insertion_recursive
-2500, 5380, C, insertion_recursive
-2500, 5561, C, insertion_recursive
-2500, 5361, C, insertion_recursive
-2500, 5532, C, insertion_recursive
-2700, 6637, C, insertion_recursive
-2700, 6512, C, insertion_recursive
-2700, 6345, C, insertion_recursive
-2700, 6450, C, insertion_recursive
-2700, 6232, C, insertion_recursive
-2900, 7542, C, insertion_recursive
-2900, 7235, C, insertion_recursive
-2900, 7452, C, insertion_recursive
-2900, 7384, C, insertion_recursive
-2900, 7375, C, insertion_recursive
-3100, 8495, C, insertion_recursive
-3100, 8363, C, insertion_recursive
-3100, 8329, C, insertion_recursive
-3100, 8423, C, insertion_recursive
-3100, 8265, C, insertion_recursive
-3300, 9452, C, insertion_recursive
-3300, 9466, C, insertion_recursive
-3300, 9416, C, insertion_recursive
-3300, 9422, C, insertion_recursive
-3300, 9456, C, insertion_recursive
-3500, 10801, C, insertion_recursive
-3500, 11675, C, insertion_recursive
-3500, 10711, C, insertion_recursive
-3500, 10584, C, insertion_recursive
-3500, 10731, C, insertion_recursive
-3700, 12036, C, insertion_recursive
-3700, 12193, C, insertion_recursive
-3700, 12009, C, insertion_recursive
-3700, 11957, C, insertion_recursive
-3700, 12016, C, insertion_recursive
-3900, 13467, C, insertion_recursive
-3900, 13354, C, insertion_recursive
-3900, 13447, C, insertion_recursive
-3900, 13124, C, insertion_recursive
-3900, 13362, C, insertion_recursive
-4100, 14665, C, insertion_recursive
-4100, 14576, C, insertion_recursive
-4100, 14704, C, insertion_recursive
-4100, 14792, C, insertion_recursive
-4100, 14287, C, insertion_recursive
-4300, 16213, C, insertion_recursive
-4300, 15944, C, insertion_recursive
-4300, 15815, C, insertion_recursive
-4300, 16093, C, insertion_recursive
-4300, 16300, C, insertion_recursive
-4500, 17699, C, insertion_recursive
-4500, 17343, C, insertion_recursive
-4500, 17508, C, insertion_recursive
-4500, 17836, C, insertion_recursive
-4500, 17750, C, insertion_recursive
-4700, 19347, C, insertion_recursive
-4700, 18992, C, insertion_recursive
-4700, 19414, C, insertion_recursive
-4700, 19229, C, insertion_recursive
-4700, 19449, C, insertion_recursive
-4900, 21022, C, insertion_recursive
-4900, 20969, C, insertion_recursive
-4900, 21401, C, insertion_recursive
-4900, 21262, C, insertion_recursive
-4900, 21018, C, insertion_recursive
-5100, 22989, C, insertion_recursive
-5100, -976966, C, insertion_recursive
-5100, 22533, C, insertion_recursive
-5100, 23017, C, insertion_recursive
-5100, 22549, C, insertion_recursive
-5300, 24494, C, insertion_recursive
-5300, 24355, C, insertion_recursive
-5300, 24824, C, insertion_recursive
-5300, 24767, C, insertion_recursive
-5300, 24695, C, insertion_recursive
-5500, 26108, C, insertion_recursive
-5500, 26832, C, insertion_recursive
-5500, 26436, C, insertion_recursive
-5500, 26549, C, insertion_recursive
-5500, 26361, C, insertion_recursive
-5700, 28284, C, insertion_recursive
-5700, 28473, C, insertion_recursive
-5700, 28385, C, insertion_recursive
-5700, 28244, C, insertion_recursive
-5700, 28426, C, insertion_recursive
-5900, 30689, C, insertion_recursive
-5900, 30056, C, insertion_recursive
-5900, 30399, C, insertion_recursive
-5900, 30195, C, insertion_recursive
-5900, 30735, C, insertion_recursive
-6100, 32521, C, insertion_recursive
-6100, 32651, C, insertion_recursive
-6100, 32494, C, insertion_recursive
-6100, 31930, C, insertion_recursive
-6100, 32275, C, insertion_recursive
-6300, 34898, C, insertion_recursive
-6300, 34448, C, insertion_recursive
-6300, 34564, C, insertion_recursive
-6300, 34665, C, insertion_recursive
-6300, 35070, C, insertion_recursive
-6500, 36802, C, insertion_recursive
-6500, -962658, C, insertion_recursive
-6500, 37060, C, insertion_recursive
-6500, 36775, C, insertion_recursive
-6500, 36538, C, insertion_recursive
-6700, 39212, C, insertion_recursive
-6700, 38888, C, insertion_recursive
-6700, 39501, C, insertion_recursive
-6700, 39129, C, insertion_recursive
-6700, 40015, C, insertion_recursive
-6900, 41451, C, insertion_recursive
-6900, 42188, C, insertion_recursive
-6900, 42473, C, insertion_recursive
-6900, 41434, C, insertion_recursive
-6900, 41786, C, insertion_recursive
-7100, 43750, C, insertion_recursive
-7100, 44308, C, insertion_recursive
-7100, 43967, C, insertion_recursive
-7100, 44020, C, insertion_recursive
-7100, 44219, C, insertion_recursive
-7300, 46854, C, insertion_recursive
-7300, 46162, C, insertion_recursive
-7300, 46514, C, insertion_recursive
-7300, 46354, C, insertion_recursive
-7300, -953266, C, insertion_recursive
-7500, 49742, C, insertion_recursive
-7500, 48713, C, insertion_recursive
-7500, 48577, C, insertion_recursive
-7500, 49413, C, insertion_recursive
-7500, 49389, C, insertion_recursive
-7700, 52023, C, insertion_recursive
-7700, 52389, C, insertion_recursive
-7700, 52045, C, insertion_recursive
-7700, 52356, C, insertion_recursive
-7700, 51875, C, insertion_recursive
-7900, 54923, C, insertion_recursive
-7900, 55120, C, insertion_recursive
-7900, 55622, C, insertion_recursive
-7900, 55580, C, insertion_recursive
-7900, 54527, C, insertion_recursive
-8100, 57811, C, insertion_recursive
-8100, 57256, C, insertion_recursive
-8100, 57792, C, insertion_recursive
-8100, -942446, C, insertion_recursive
-8100, 57348, C, insertion_recursive
-8300, 60110, C, insertion_recursive
-8300, 59961, C, insertion_recursive
-8300, 60697, C, insertion_recursive
-8300, 60966, C, insertion_recursive
-8300, 61991, C, insertion_recursive
-8500, 63504, C, insertion_recursive
-8500, 63260, C, insertion_recursive
-8500, 64019, C, insertion_recursive
-8500, 62466, C, insertion_recursive
-8500, 63848, C, insertion_recursive
-8700, 65508, C, insertion_recursive
-8700, 66025, C, insertion_recursive
-8700, 67112, C, insertion_recursive
-8700, 66207, C, insertion_recursive
-8700, -932528, C, insertion_recursive
-8900, 69355, C, insertion_recursive
-8900, 68882, C, insertion_recursive
-8900, 69155, C, insertion_recursive
-8900, 70685, C, insertion_recursive
-8900, 68924, C, insertion_recursive
-9100, 71853, C, insertion_recursive
-9100, 72359, C, insertion_recursive
-9100, 72359, C, insertion_recursive
-9100, 71891, C, insertion_recursive
-9100, 72104, C, insertion_recursive
-9300, 75400, C, insertion_recursive
-9300, 75771, C, insertion_recursive
-9300, 75651, C, insertion_recursive
-9300, -923933, C, insertion_recursive
-9300, 76068, C, insertion_recursive
-9500, 79688, C, insertion_recursive
-9500, 79433, C, insertion_recursive
-9500, 79383, C, insertion_recursive
-9500, 78229, C, insertion_recursive
-9500, 79199, C, insertion_recursive
-9700, 81948, C, insertion_recursive
-9700, 82786, C, insertion_recursive
-9700, 82218, C, insertion_recursive
-9700, 82757, C, insertion_recursive
-9700, 83141, C, insertion_recursive
-9900, -914492, C, insertion_recursive
-9900, 86795, C, insertion_recursive
-9900, 85945, C, insertion_recursive
-9900, 85008, C, insertion_recursive
-9900, 84845, C, insertion_recursive
-0, 0, C, insertion_recursive
-100, 12, C, insertion_iterative
-100, 11, C, insertion_iterative
-100, 10, C, insertion_iterative
-100, 10, C, insertion_iterative
-100, 10, C, insertion_iterative
-300, 37, C, insertion_iterative
-300, 36, C, insertion_iterative
-300, 37, C, insertion_iterative
-300, 36, C, insertion_iterative
-300, 36, C, insertion_iterative
-500, 66, C, insertion_iterative
-500, 63, C, insertion_iterative
-500, 65, C, insertion_iterative
-500, 63, C, insertion_iterative
-500, 65, C, insertion_iterative
-700, 95, C, insertion_iterative
-700, 105, C, insertion_iterative
-700, 93, C, insertion_iterative
-700, 93, C, insertion_iterative
-700, 92, C, insertion_iterative
-900, 126, C, insertion_iterative
-900, 127, C, insertion_iterative
-900, 125, C, insertion_iterative
-900, 125, C, insertion_iterative
-900, 124, C, insertion_iterative
-1100, 157, C, insertion_iterative
-1100, 157, C, insertion_iterative
-1100, 156, C, insertion_iterative
-1100, 156, C, insertion_iterative
-1100, 157, C, insertion_iterative
-1300, 189, C, insertion_iterative
-1300, 186, C, insertion_iterative
-1300, 185, C, insertion_iterative
-1300, 185, C, insertion_iterative
-1300, 186, C, insertion_iterative
-1500, 219, C, insertion_iterative
-1500, 220, C, insertion_iterative
-1500, 223, C, insertion_iterative
-1500, 216, C, insertion_iterative
-1500, 220, C, insertion_iterative
-1700, 258, C, insertion_iterative
-1700, 253, C, insertion_iterative
-1700, 255, C, insertion_iterative
-1700, 255, C, insertion_iterative
-1700, 252, C, insertion_iterative
-1900, 289, C, insertion_iterative
-1900, 286, C, insertion_iterative
-1900, 285, C, insertion_iterative
-1900, 285, C, insertion_iterative
-1900, 283, C, insertion_iterative
-2100, 324, C, insertion_iterative
-2100, 320, C, insertion_iterative
-2100, 319, C, insertion_iterative
-2100, 322, C, insertion_iterative
-2100, 320, C, insertion_iterative
-2300, 354, C, insertion_iterative
-2300, 354, C, insertion_iterative
-2300, 351, C, insertion_iterative
-2300, 352, C, insertion_iterative
-2300, 350, C, insertion_iterative
-2500, 394, C, insertion_iterative
-2500, 385, C, insertion_iterative
-2500, 383, C, insertion_iterative
-2500, 384, C, insertion_iterative
-2500, 386, C, insertion_iterative
-2700, 423, C, insertion_iterative
-2700, 418, C, insertion_iterative
-2700, 421, C, insertion_iterative
-2700, 423, C, insertion_iterative
-2700, 422, C, insertion_iterative
-2900, 455, C, insertion_iterative
-2900, 454, C, insertion_iterative
-2900, 453, C, insertion_iterative
-2900, 456, C, insertion_iterative
-2900, 455, C, insertion_iterative
-3100, 488, C, insertion_iterative
-3100, 488, C, insertion_iterative
-3100, 488, C, insertion_iterative
-3100, 485, C, insertion_iterative
-3100, 489, C, insertion_iterative
-3300, 528, C, insertion_iterative
-3300, 527, C, insertion_iterative
-3300, 526, C, insertion_iterative
-3300, 530, C, insertion_iterative
-3300, 531, C, insertion_iterative
-3500, 563, C, insertion_iterative
-3500, 560, C, insertion_iterative
-3500, 562, C, insertion_iterative
-3500, 560, C, insertion_iterative
-3500, 564, C, insertion_iterative
-3700, 611, C, insertion_iterative
-3700, 614, C, insertion_iterative
-3700, 607, C, insertion_iterative
-3700, 620, C, insertion_iterative
-3700, 620, C, insertion_iterative
-3900, 634, C, insertion_iterative
-3900, 640, C, insertion_iterative
-3900, 630, C, insertion_iterative
-3900, 626, C, insertion_iterative
-3900, 632, C, insertion_iterative
-4100, 664, C, insertion_iterative
-4100, 660, C, insertion_iterative
-4100, 661, C, insertion_iterative
-4100, 661, C, insertion_iterative
-4100, 660, C, insertion_iterative
-4300, 703, C, insertion_iterative
-4300, 700, C, insertion_iterative
-4300, 701, C, insertion_iterative
-4300, 699, C, insertion_iterative
-4300, 704, C, insertion_iterative
-4500, 739, C, insertion_iterative
-4500, 735, C, insertion_iterative
-4500, 736, C, insertion_iterative
-4500, 737, C, insertion_iterative
-4500, 735, C, insertion_iterative
-4700, 774, C, insertion_iterative
-4700, 770, C, insertion_iterative
-4700, 774, C, insertion_iterative
-4700, 780, C, insertion_iterative
-4700, 771, C, insertion_iterative
-4900, 802, C, insertion_iterative
-4900, 805, C, insertion_iterative
-4900, 807, C, insertion_iterative
-4900, 804, C, insertion_iterative
-4900, 806, C, insertion_iterative
-5100, 838, C, insertion_iterative
-5100, 835, C, insertion_iterative
-5100, 834, C, insertion_iterative
-5100, 835, C, insertion_iterative
-5100, 834, C, insertion_iterative
-5300, 876, C, insertion_iterative
-5300, 880, C, insertion_iterative
-5300, 876, C, insertion_iterative
-5300, 876, C, insertion_iterative
-5300, 876, C, insertion_iterative
-5500, 916, C, insertion_iterative
-5500, 915, C, insertion_iterative
-5500, 915, C, insertion_iterative
-5500, 912, C, insertion_iterative
-5500, 911, C, insertion_iterative
-5700, 951, C, insertion_iterative
-5700, 955, C, insertion_iterative
-5700, 950, C, insertion_iterative
-5700, 950, C, insertion_iterative
-5700, 950, C, insertion_iterative
-5900, 980, C, insertion_iterative
-5900, 987, C, insertion_iterative
-5900, 984, C, insertion_iterative
-5900, 983, C, insertion_iterative
-5900, 981, C, insertion_iterative
-6100, 1016, C, insertion_iterative
-6100, 1015, C, insertion_iterative
-6100, 1013, C, insertion_iterative
-6100, 1014, C, insertion_iterative
-6100, 1013, C, insertion_iterative
-6300, 1065, C, insertion_iterative
-6300, 1064, C, insertion_iterative
-6300, 1057, C, insertion_iterative
-6300, 1057, C, insertion_iterative
-6300, 1059, C, insertion_iterative
-6500, 1099, C, insertion_iterative
-6500, 1101, C, insertion_iterative
-6500, 1104, C, insertion_iterative
-6500, 1097, C, insertion_iterative
-6500, 1100, C, insertion_iterative
-6700, 1142, C, insertion_iterative
-6700, 1135, C, insertion_iterative
-6700, 1136, C, insertion_iterative
-6700, 1139, C, insertion_iterative
-6700, 1134, C, insertion_iterative
-6900, 1171, C, insertion_iterative
-6900, 1173, C, insertion_iterative
-6900, 1169, C, insertion_iterative
-6900, 1170, C, insertion_iterative
-6900, 1175, C, insertion_iterative
-7100, 1201, C, insertion_iterative
-7100, 1200, C, insertion_iterative
-7100, 1203, C, insertion_iterative
-7100, 1201, C, insertion_iterative
-7100, 1199, C, insertion_iterative
-7300, 1247, C, insertion_iterative
-7300, 1244, C, insertion_iterative
-7300, 1243, C, insertion_iterative
-7300, 1242, C, insertion_iterative
-7300, 1241, C, insertion_iterative
-7500, 1281, C, insertion_iterative
-7500, 1279, C, insertion_iterative
-7500, 1283, C, insertion_iterative
-7500, 1285, C, insertion_iterative
-7500, 1281, C, insertion_iterative
-7700, 1315, C, insertion_iterative
-7700, 1318, C, insertion_iterative
-7700, 1314, C, insertion_iterative
-7700, 1314, C, insertion_iterative
-7700, 1313, C, insertion_iterative
-7900, 1346, C, insertion_iterative
-7900, 1352, C, insertion_iterative
-7900, 1347, C, insertion_iterative
-7900, 1352, C, insertion_iterative
-7900, 1349, C, insertion_iterative
-8100, 1380, C, insertion_iterative
-8100, 1387, C, insertion_iterative
-8100, 1375, C, insertion_iterative
-8100, 1382, C, insertion_iterative
-8100, 1379, C, insertion_iterative
-8300, 1418, C, insertion_iterative
-8300, 1418, C, insertion_iterative
-8300, 1420, C, insertion_iterative
-8300, 1417, C, insertion_iterative
-8300, 1420, C, insertion_iterative
-8500, 1461, C, insertion_iterative
-8500, 1467, C, insertion_iterative
-8500, 1459, C, insertion_iterative
-8500, 1463, C, insertion_iterative
-8500, 1462, C, insertion_iterative
-8700, 1503, C, insertion_iterative
-8700, 1500, C, insertion_iterative
-8700, 1500, C, insertion_iterative
-8700, 1504, C, insertion_iterative
-8700, 1500, C, insertion_iterative
-8900, 1539, C, insertion_iterative
-8900, 1536, C, insertion_iterative
-8900, 1536, C, insertion_iterative
-8900, 1537, C, insertion_iterative
-8900, 1537, C, insertion_iterative
-9100, 1571, C, insertion_iterative
-9100, 1572, C, insertion_iterative
-9100, 1568, C, insertion_iterative
-9100, 1569, C, insertion_iterative
-9100, 1572, C, insertion_iterative
-9300, 1608, C, insertion_iterative
-9300, 1609, C, insertion_iterative
-9300, 1613, C, insertion_iterative
-9300, 1612, C, insertion_iterative
-9300, 1610, C, insertion_iterative
-9500, 1652, C, insertion_iterative
-9500, 1649, C, insertion_iterative
-9500, 1657, C, insertion_iterative
-9500, 1652, C, insertion_iterative
-9500, 1654, C, insertion_iterative
-9700, 1685, C, insertion_iterative
-9700, 1681, C, insertion_iterative
-9700, 1678, C, insertion_iterative
-9700, 1690, C, insertion_iterative
-9700, 1686, C, insertion_iterative
-9900, 1717, C, insertion_iterative
-9900, 1711, C, insertion_iterative
-9900, 1716, C, insertion_iterative
-9900, 1717, C, insertion_iterative
-9900, 1722, C, insertion_iterative
-0, 0, C, insertion_iterative
-100, 10, C, merge_recursive
-100, 8, C, merge_recursive
-100, 9, C, merge_recursive
-100, 8, C, merge_recursive
-100, 8, C, merge_recursive
-300, 30, C, merge_recursive
-300, 31, C, merge_recursive
-300, 31, C, merge_recursive
-300, 29, C, merge_recursive
-300, 30, C, merge_recursive
-500, 53, C, merge_recursive
-500, 52, C, merge_recursive
-500, 53, C, merge_recursive
-500, 52, C, merge_recursive
-500, 53, C, merge_recursive
-700, 76, C, merge_recursive
-700, 78, C, merge_recursive
-700, 77, C, merge_recursive
-700, 76, C, merge_recursive
-700, 78, C, merge_recursive
-900, 100, C, merge_recursive
-900, 103, C, merge_recursive
-900, 105, C, merge_recursive
-900, 104, C, merge_recursive
-900, 101, C, merge_recursive
-1100, 134, C, merge_recursive
-1100, 144, C, merge_recursive
-1100, 131, C, merge_recursive
-1100, 132, C, merge_recursive
-1100, 131, C, merge_recursive
-1300, 159, C, merge_recursive
-1300, 157, C, merge_recursive
-1300, 155, C, merge_recursive
-1300, 159, C, merge_recursive
-1300, 155, C, merge_recursive
-1500, 182, C, merge_recursive
-1500, 182, C, merge_recursive
-1500, 181, C, merge_recursive
-1500, 181, C, merge_recursive
-1500, 181, C, merge_recursive
-1700, 209, C, merge_recursive
-1700, 210, C, merge_recursive
-1700, 209, C, merge_recursive
-1700, 209, C, merge_recursive
-1700, 211, C, merge_recursive
-1900, 240, C, merge_recursive
-1900, 238, C, merge_recursive
-1900, 235, C, merge_recursive
-1900, 237, C, merge_recursive
-1900, 236, C, merge_recursive
-2100, 275, C, merge_recursive
-2100, 276, C, merge_recursive
-2100, 277, C, merge_recursive
-2100, 274, C, merge_recursive
-2100, 275, C, merge_recursive
-2300, 305, C, merge_recursive
-2300, 302, C, merge_recursive
-2300, 309, C, merge_recursive
-2300, 299, C, merge_recursive
-2300, 297, C, merge_recursive
-2500, 324, C, merge_recursive
-2500, 325, C, merge_recursive
-2500, 326, C, merge_recursive
-2500, 325, C, merge_recursive
-2500, 324, C, merge_recursive
-2700, 352, C, merge_recursive
-2700, 353, C, merge_recursive
-2700, 355, C, merge_recursive
-2700, 354, C, merge_recursive
-2700, 353, C, merge_recursive
-2900, 379, C, merge_recursive
-2900, 380, C, merge_recursive
-2900, 385, C, merge_recursive
-2900, 379, C, merge_recursive
-2900, 380, C, merge_recursive
-3100, 415, C, merge_recursive
-3100, 417, C, merge_recursive
-3100, 414, C, merge_recursive
-3100, 413, C, merge_recursive
-3100, 414, C, merge_recursive
-3300, 440, C, merge_recursive
-3300, 439, C, merge_recursive
-3300, 438, C, merge_recursive
-3300, 437, C, merge_recursive
-3300, 438, C, merge_recursive
-3500, 465, C, merge_recursive
-3500, 468, C, merge_recursive
-3500, 469, C, merge_recursive
-3500, 467, C, merge_recursive
-3500, 467, C, merge_recursive
-3700, 504, C, merge_recursive
-3700, 514, C, merge_recursive
-3700, 523, C, merge_recursive
-3700, 526, C, merge_recursive
-3700, 518, C, merge_recursive
-3900, 551, C, merge_recursive
-3900, 529, C, merge_recursive
-3900, 536, C, merge_recursive
-3900, 525, C, merge_recursive
-3900, 525, C, merge_recursive
-4100, 582, C, merge_recursive
-4100, 583, C, merge_recursive
-4100, 591, C, merge_recursive
-4100, 581, C, merge_recursive
-4100, 582, C, merge_recursive
-4300, 602, C, merge_recursive
-4300, 603, C, merge_recursive
-4300, 602, C, merge_recursive
-4300, 609, C, merge_recursive
-4300, 605, C, merge_recursive
-4500, 629, C, merge_recursive
-4500, 633, C, merge_recursive
-4500, 628, C, merge_recursive
-4500, 631, C, merge_recursive
-4500, 627, C, merge_recursive
-4700, 657, C, merge_recursive
-4700, 654, C, merge_recursive
-4700, 660, C, merge_recursive
-4700, 666, C, merge_recursive
-4700, 658, C, merge_recursive
-4900, 687, C, merge_recursive
-4900, 685, C, merge_recursive
-4900, 686, C, merge_recursive
-4900, 687, C, merge_recursive
-4900, 680, C, merge_recursive
-5100, 712, C, merge_recursive
-5100, 716, C, merge_recursive
-5100, 714, C, merge_recursive
-5100, 716, C, merge_recursive
-5100, 713, C, merge_recursive
-5300, 743, C, merge_recursive
-5300, 747, C, merge_recursive
-5300, 748, C, merge_recursive
-5300, 743, C, merge_recursive
-5300, 745, C, merge_recursive
-5500, 772, C, merge_recursive
-5500, 772, C, merge_recursive
-5500, 775, C, merge_recursive
-5500, 771, C, merge_recursive
-5500, 771, C, merge_recursive
-5700, 799, C, merge_recursive
-5700, 803, C, merge_recursive
-5700, 804, C, merge_recursive
-5700, 805, C, merge_recursive
-5700, 802, C, merge_recursive
-5900, 836, C, merge_recursive
-5900, 832, C, merge_recursive
-5900, 834, C, merge_recursive
-5900, 832, C, merge_recursive
-5900, 836, C, merge_recursive
-6100, 862, C, merge_recursive
-6100, 863, C, merge_recursive
-6100, 864, C, merge_recursive
-6100, 863, C, merge_recursive
-6100, 860, C, merge_recursive
-6300, 898, C, merge_recursive
-6300, 900, C, merge_recursive
-6300, 902, C, merge_recursive
-6300, 898, C, merge_recursive
-6300, 899, C, merge_recursive
-6500, 927, C, merge_recursive
-6500, 930, C, merge_recursive
-6500, 921, C, merge_recursive
-6500, 925, C, merge_recursive
-6500, 936, C, merge_recursive
-6700, 954, C, merge_recursive
-6700, 954, C, merge_recursive
-6700, 957, C, merge_recursive
-6700, 958, C, merge_recursive
-6700, 957, C, merge_recursive
-6900, 984, C, merge_recursive
-6900, 985, C, merge_recursive
-6900, 987, C, merge_recursive
-6900, 981, C, merge_recursive
-6900, 984, C, merge_recursive
-7100, 1012, C, merge_recursive
-7100, 1012, C, merge_recursive
-7100, 1011, C, merge_recursive
-7100, 1015, C, merge_recursive
-7100, 1013, C, merge_recursive
-7300, 1043, C, merge_recursive
-7300, 1052, C, merge_recursive
-7300, 1049, C, merge_recursive
-7300, 1046, C, merge_recursive
-7300, 1047, C, merge_recursive
-7500, 1074, C, merge_recursive
-7500, 1073, C, merge_recursive
-7500, 1076, C, merge_recursive
-7500, 1074, C, merge_recursive
-7500, 1071, C, merge_recursive
-7700, 1110, C, merge_recursive
-7700, 1106, C, merge_recursive
-7700, 1110, C, merge_recursive
-7700, 1106, C, merge_recursive
-7700, 1103, C, merge_recursive
-7900, 1132, C, merge_recursive
-7900, 1148, C, merge_recursive
-7900, 1136, C, merge_recursive
-7900, 1131, C, merge_recursive
-7900, 1137, C, merge_recursive
-8100, 1163, C, merge_recursive
-8100, 1169, C, merge_recursive
-8100, 1169, C, merge_recursive
-8100, 1168, C, merge_recursive
-8100, 1162, C, merge_recursive
-8300, 1248, C, merge_recursive
-8300, 1243, C, merge_recursive
-8300, 1242, C, merge_recursive
-8300, 1244, C, merge_recursive
-8300, 1241, C, merge_recursive
-8500, 1274, C, merge_recursive
-8500, 1268, C, merge_recursive
-8500, 1267, C, merge_recursive
-8500, 1272, C, merge_recursive
-8500, 1270, C, merge_recursive
-8700, 1293, C, merge_recursive
-8700, 1290, C, merge_recursive
-8700, 1295, C, merge_recursive
-8700, 1292, C, merge_recursive
-8700, 1289, C, merge_recursive
-8900, 1327, C, merge_recursive
-8900, 1320, C, merge_recursive
-8900, 1321, C, merge_recursive
-8900, 1324, C, merge_recursive
-8900, 1321, C, merge_recursive
-9100, 1348, C, merge_recursive
-9100, 1352, C, merge_recursive
-9100, 1345, C, merge_recursive
-9100, 1351, C, merge_recursive
-9100, 1346, C, merge_recursive
-9300, 1387, C, merge_recursive
-9300, 1382, C, merge_recursive
-9300, 1384, C, merge_recursive
-9300, 1384, C, merge_recursive
-9300, 1382, C, merge_recursive
-9500, 1413, C, merge_recursive
-9500, 1409, C, merge_recursive
-9500, 1409, C, merge_recursive
-9500, 1412, C, merge_recursive
-9500, 1412, C, merge_recursive
-9700, 1440, C, merge_recursive
-9700, 1441, C, merge_recursive
-9700, 1439, C, merge_recursive
-9700, 1440, C, merge_recursive
-9700, 1436, C, merge_recursive
-9900, 1467, C, merge_recursive
-9900, 1466, C, merge_recursive
-9900, 1465, C, merge_recursive
-9900, 1468, C, merge_recursive
-9900, 1468, C, merge_recursive
-0, 0, C, merge_recursive
+input,time,language,algorithm
+1000,3610,C,insertion_recursive
+1000,3241,C,insertion_recursive
+1000,3575,C,insertion_recursive
+1000,3488,C,insertion_recursive
+1000,3066,C,insertion_recursive
+1000,3038,C,insertion_recursive
+1000,3054,C,insertion_recursive
+1000,3161,C,insertion_recursive
+1000,3053,C,insertion_recursive
+1000,2969,C,insertion_recursive
+2000,11538,C,insertion_recursive
+2000,11125,C,insertion_recursive
+2000,10681,C,insertion_recursive
+2000,10447,C,insertion_recursive
+2000,-990141,C,insertion_recursive
+2000,9589,C,insertion_recursive
+2000,9145,C,insertion_recursive
+2000,8914,C,insertion_recursive
+2000,8907,C,insertion_recursive
+2000,8570,C,insertion_recursive
+3000,18330,C,insertion_recursive
+3000,17825,C,insertion_recursive
+3000,16367,C,insertion_recursive
+3000,16650,C,insertion_recursive
+3000,16678,C,insertion_recursive
+3000,16974,C,insertion_recursive
+3000,16716,C,insertion_recursive
+3000,16534,C,insertion_recursive
+3000,16800,C,insertion_recursive
+3000,16818,C,insertion_recursive
+4000,29803,C,insertion_recursive
+4000,29419,C,insertion_recursive
+4000,30695,C,insertion_recursive
+4000,31334,C,insertion_recursive
+4000,29815,C,insertion_recursive
+4000,30575,C,insertion_recursive
+4000,30249,C,insertion_recursive
+4000,29666,C,insertion_recursive
+4000,29511,C,insertion_recursive
+4000,30027,C,insertion_recursive
+5000,47098,C,insertion_recursive
+5000,47725,C,insertion_recursive
+5000,47665,C,insertion_recursive
+5000,47242,C,insertion_recursive
+5000,46763,C,insertion_recursive
+5000,48033,C,insertion_recursive
+5000,47628,C,insertion_recursive
+5000,45986,C,insertion_recursive
+5000,46673,C,insertion_recursive
+5000,-952092,C,insertion_recursive
+6000,67766,C,insertion_recursive
+6000,68669,C,insertion_recursive
+6000,67719,C,insertion_recursive
+6000,67624,C,insertion_recursive
+6000,68461,C,insertion_recursive
+6000,67726,C,insertion_recursive
+6000,69482,C,insertion_recursive
+6000,69680,C,insertion_recursive
+6000,69089,C,insertion_recursive
+6000,68227,C,insertion_recursive
+7000,93211,C,insertion_recursive
+7000,92503,C,insertion_recursive
+7000,93777,C,insertion_recursive
+7000,-907283,C,insertion_recursive
+7000,93193,C,insertion_recursive
+7000,94244,C,insertion_recursive
+7000,94354,C,insertion_recursive
+7000,92693,C,insertion_recursive
+7000,94214,C,insertion_recursive
+7000,94277,C,insertion_recursive
+8000,122699,C,insertion_recursive
+8000,122586,C,insertion_recursive
+8000,124114,C,insertion_recursive
+8000,-876378,C,insertion_recursive
+8000,123310,C,insertion_recursive
+8000,122525,C,insertion_recursive
+8000,123130,C,insertion_recursive
+8000,123124,C,insertion_recursive
+8000,121454,C,insertion_recursive
+8000,120731,C,insertion_recursive
+9000,-844601,C,insertion_recursive
+9000,155424,C,insertion_recursive
+9000,156587,C,insertion_recursive
+9000,157206,C,insertion_recursive
+9000,154268,C,insertion_recursive
+9000,154850,C,insertion_recursive
+9000,156574,C,insertion_recursive
+9000,-843652,C,insertion_recursive
+9000,155954,C,insertion_recursive
+9000,154207,C,insertion_recursive
+10000,193355,C,insertion_recursive
+10000,191074,C,insertion_recursive
+10000,193086,C,insertion_recursive
+10000,-802373,C,insertion_recursive
+10000,198920,C,insertion_recursive
+10000,194554,C,insertion_recursive
+10000,194841,C,insertion_recursive
+10000,195428,C,insertion_recursive
+10000,-803469,C,insertion_recursive
+10000,193482,C,insertion_recursive
+11000,244170,C,insertion_recursive
+11000,236992,C,insertion_recursive
+11000,-766988,C,insertion_recursive
+11000,234892,C,insertion_recursive
+11000,239187,C,insertion_recursive
+11000,235929,C,insertion_recursive
+11000,-766284,C,insertion_recursive
+11000,235094,C,insertion_recursive
+11000,236614,C,insertion_recursive
+11000,234510,C,insertion_recursive
+12000,-721192,C,insertion_recursive
+12000,280912,C,insertion_recursive
+12000,286203,C,insertion_recursive
+12000,280523,C,insertion_recursive
+12000,-718551,C,insertion_recursive
+12000,279686,C,insertion_recursive
+12000,285524,C,insertion_recursive
+12000,279225,C,insertion_recursive
+12000,-718889,C,insertion_recursive
+12000,279463,C,insertion_recursive
+13000,328749,C,insertion_recursive
+13000,-672141,C,insertion_recursive
+13000,332296,C,insertion_recursive
+13000,331935,C,insertion_recursive
+13000,-673129,C,insertion_recursive
+13000,329201,C,insertion_recursive
+13000,329634,C,insertion_recursive
+13000,-667392,C,insertion_recursive
+13000,332561,C,insertion_recursive
+13000,331199,C,insertion_recursive
+14000,-613868,C,insertion_recursive
+14000,388761,C,insertion_recursive
+14000,-614244,C,insertion_recursive
+14000,388259,C,insertion_recursive
+14000,384503,C,insertion_recursive
+14000,-617705,C,insertion_recursive
+14000,383395,C,insertion_recursive
+14000,385666,C,insertion_recursive
+14000,-619680,C,insertion_recursive
+14000,385185,C,insertion_recursive
+15000,-552097,C,insertion_recursive
+15000,445037,C,insertion_recursive
+15000,-561265,C,insertion_recursive
+15000,442490,C,insertion_recursive
+15000,443931,C,insertion_recursive
+15000,-562894,C,insertion_recursive
+15000,445312,C,insertion_recursive
+15000,-560064,C,insertion_recursive
+15000,444315,C,insertion_recursive
+15000,-559147,C,insertion_recursive
+16000,506162,C,insertion_recursive
+16000,-493246,C,insertion_recursive
+16000,501915,C,insertion_recursive
+16000,-493164,C,insertion_recursive
+16000,503160,C,insertion_recursive
+16000,-493445,C,insertion_recursive
+16000,505326,C,insertion_recursive
+16000,-498655,C,insertion_recursive
+16000,506030,C,insertion_recursive
+16000,-494522,C,insertion_recursive
+17000,567179,C,insertion_recursive
+17000,-435739,C,insertion_recursive
+17000,572313,C,insertion_recursive
+17000,-432229,C,insertion_recursive
+17000,-433586,C,insertion_recursive
+17000,574281,C,insertion_recursive
+17000,-427999,C,insertion_recursive
+17000,573241,C,insertion_recursive
+17000,-429615,C,insertion_recursive
+17000,569643,C,insertion_recursive
+18000,-354657,C,insertion_recursive
+18000,-358830,C,insertion_recursive
+18000,645473,C,insertion_recursive
+18000,-360143,C,insertion_recursive
+18000,-359332,C,insertion_recursive
+18000,641355,C,insertion_recursive
+18000,-349935,C,insertion_recursive
+18000,-365975,C,insertion_recursive
+18000,642902,C,insertion_recursive
+18000,-362371,C,insertion_recursive
+19000,-284744,C,insertion_recursive
+19000,720906,C,insertion_recursive
+19000,-283820,C,insertion_recursive
+19000,-280403,C,insertion_recursive
+19000,714612,C,insertion_recursive
+19000,-287935,C,insertion_recursive
+19000,-282753,C,insertion_recursive
+19000,-288000,C,insertion_recursive
+19000,713736,C,insertion_recursive
+19000,-278053,C,insertion_recursive
+20000,-207076,C,insertion_recursive
+20000,-200152,C,insertion_recursive
+20000,797280,C,insertion_recursive
+20000,-201923,C,insertion_recursive
+20000,-205610,C,insertion_recursive
+20000,-209360,C,insertion_recursive
+20000,-198772,C,insertion_recursive
+20000,802847,C,insertion_recursive
+20000,-198694,C,insertion_recursive
+20000,-206423,C,insertion_recursive
+21000,-123043,C,insertion_recursive
+21000,-122722,C,insertion_recursive
+21000,-124462,C,insertion_recursive
+21000,877532,C,insertion_recursive
+21000,-118925,C,insertion_recursive
+21000,-118399,C,insertion_recursive
+21000,-117678,C,insertion_recursive
+21000,-119965,C,insertion_recursive
+21000,-121720,C,insertion_recursive
+21000,-128154,C,insertion_recursive
+22000,-37342,C,insertion_recursive
+22000,-37441,C,insertion_recursive
+22000,-42844,C,insertion_recursive
+22000,-38902,C,insertion_recursive
+22000,-39555,C,insertion_recursive
+22000,-38806,C,insertion_recursive
+22000,961174,C,insertion_recursive
+22000,-37958,C,insertion_recursive
+22000,-38905,C,insertion_recursive
+22000,-38023,C,insertion_recursive
+23000,56782,C,insertion_recursive
+23000,59762,C,insertion_recursive
+23000,-940739,C,insertion_recursive
+23000,52849,C,insertion_recursive
+23000,47419,C,insertion_recursive
+23000,50457,C,insertion_recursive
+23000,50366,C,insertion_recursive
+23000,58945,C,insertion_recursive
+23000,49193,C,insertion_recursive
+23000,56858,C,insertion_recursive
+24000,142448,C,insertion_recursive
+24000,149006,C,insertion_recursive
+24000,143099,C,insertion_recursive
+24000,-853644,C,insertion_recursive
+24000,154561,C,insertion_recursive
+24000,146219,C,insertion_recursive
+24000,149034,C,insertion_recursive
+24000,142989,C,insertion_recursive
+24000,149558,C,insertion_recursive
+24000,153879,C,insertion_recursive
+25000,-753528,C,insertion_recursive
+25000,236331,C,insertion_recursive
+25000,252190,C,insertion_recursive
+25000,247814,C,insertion_recursive
+25000,-758020,C,insertion_recursive
+25000,245800,C,insertion_recursive
+25000,253569,C,insertion_recursive
+25000,251439,C,insertion_recursive
+25000,-749531,C,insertion_recursive
+25000,247738,C,insertion_recursive
+26000,352655,C,insertion_recursive
+26000,-642295,C,insertion_recursive
+26000,344714,C,insertion_recursive
+26000,349689,C,insertion_recursive
+26000,-646079,C,insertion_recursive
+26000,357083,C,insertion_recursive
+26000,344397,C,insertion_recursive
+26000,-649569,C,insertion_recursive
+26000,349596,C,insertion_recursive
+26000,349680,C,insertion_recursive
+27000,-543814,C,insertion_recursive
+27000,458877,C,insertion_recursive
+27000,-551078,C,insertion_recursive
+27000,462630,C,insertion_recursive
+27000,-542187,C,insertion_recursive
+27000,458023,C,insertion_recursive
+27000,-546531,C,insertion_recursive
+27000,450200,C,insertion_recursive
+27000,-546649,C,insertion_recursive
+27000,454710,C,insertion_recursive
+28000,-436892,C,insertion_recursive
+28000,566184,C,insertion_recursive
+28000,-425563,C,insertion_recursive
+28000,578776,C,insertion_recursive
+28000,-431973,C,insertion_recursive
+28000,582609,C,insertion_recursive
+28000,-421346,C,insertion_recursive
+28000,-432109,C,insertion_recursive
+28000,573928,C,insertion_recursive
+28000,-419040,C,insertion_recursive
+29000,689613,C,insertion_recursive
+29000,-314547,C,insertion_recursive
+29000,-311468,C,insertion_recursive
+29000,677643,C,insertion_recursive
+29000,-309535,C,insertion_recursive
+29000,-311599,C,insertion_recursive
+29000,-324185,C,insertion_recursive
+29000,681426,C,insertion_recursive
+29000,-318890,C,insertion_recursive
+29000,-320340,C,insertion_recursive
+30000,792624,C,insertion_recursive
+30000,-194666,C,insertion_recursive
+30000,-192076,C,insertion_recursive
+30000,-196989,C,insertion_recursive
+30000,-192760,C,insertion_recursive
+30000,803443,C,insertion_recursive
+30000,-200647,C,insertion_recursive
+30000,-200568,C,insertion_recursive
+30000,-196382,C,insertion_recursive
+30000,-200442,C,insertion_recursive
+31000,904909,C,insertion_recursive
+31000,-54732,C,insertion_recursive
+31000,-70455,C,insertion_recursive
+31000,-66974,C,insertion_recursive
+31000,-79164,C,insertion_recursive
+31000,-60503,C,insertion_recursive
+31000,-64741,C,insertion_recursive
+31000,-67971,C,insertion_recursive
+31000,-74183,C,insertion_recursive
+31000,-76494,C,insertion_recursive
+32000,52202,C,insertion_recursive
+32000,66684,C,insertion_recursive
+32000,61750,C,insertion_recursive
+32000,62221,C,insertion_recursive
+32000,66770,C,insertion_recursive
+32000,53004,C,insertion_recursive
+32000,48711,C,insertion_recursive
+32000,68641,C,insertion_recursive
+32000,44521,C,insertion_recursive
+32000,59830,C,insertion_recursive
+33000,-802103,C,insertion_recursive
+33000,186227,C,insertion_recursive
+33000,196689,C,insertion_recursive
+33000,185441,C,insertion_recursive
+33000,191094,C,insertion_recursive
+33000,-817226,C,insertion_recursive
+33000,192025,C,insertion_recursive
+33000,191341,C,insertion_recursive
+33000,185334,C,insertion_recursive
+33000,185354,C,insertion_recursive
+34000,-680298,C,insertion_recursive
+34000,317535,C,insertion_recursive
+34000,331699,C,insertion_recursive
+34000,-671642,C,insertion_recursive
+34000,327217,C,insertion_recursive
+34000,325562,C,insertion_recursive
+34000,-666689,C,insertion_recursive
+34000,329400,C,insertion_recursive
+34000,326981,C,insertion_recursive
+34000,-677326,C,insertion_recursive
+35000,469991,C,insertion_recursive
+35000,-536214,C,insertion_recursive
+35000,481797,C,insertion_recursive
+35000,-535980,C,insertion_recursive
+35000,451488,C,insertion_recursive
+35000,464044,C,insertion_recursive
+35000,-531842,C,insertion_recursive
+35000,461101,C,insertion_recursive
+35000,-524334,C,insertion_recursive
+35000,471258,C,insertion_recursive
+36000,-403748,C,insertion_recursive
+36000,-400969,C,insertion_recursive
+36000,600971,C,insertion_recursive
+36000,-401947,C,insertion_recursive
+36000,603619,C,insertion_recursive
+36000,-395410,C,insertion_recursive
+36000,-384587,C,insertion_recursive
+36000,609740,C,insertion_recursive
+36000,-384765,C,insertion_recursive
+36000,600405,C,insertion_recursive
+37000,-252863,C,insertion_recursive
+37000,-249303,C,insertion_recursive
+37000,-253620,C,insertion_recursive
+37000,759876,C,insertion_recursive
+37000,-248404,C,insertion_recursive
+37000,-229297,C,insertion_recursive
+37000,-228061,C,insertion_recursive
+37000,756823,C,insertion_recursive
+37000,-240787,C,insertion_recursive
+37000,-267586,C,insertion_recursive
+38000,-102829,C,insertion_recursive
+38000,-96948,C,insertion_recursive
+38000,-100281,C,insertion_recursive
+38000,-87728,C,insertion_recursive
+38000,913049,C,insertion_recursive
+38000,-80199,C,insertion_recursive
+38000,-76197,C,insertion_recursive
+38000,-79799,C,insertion_recursive
+38000,-86354,C,insertion_recursive
+38000,-97472,C,insertion_recursive
+39000,64969,C,insertion_recursive
+39000,60888,C,insertion_recursive
+39000,51609,C,insertion_recursive
+39000,66760,C,insertion_recursive
+39000,70393,C,insertion_recursive
+39000,76699,C,insertion_recursive
+39000,-947576,C,insertion_recursive
+39000,61279,C,insertion_recursive
+39000,68171,C,insertion_recursive
+39000,55096,C,insertion_recursive
+40000,216875,C,insertion_recursive
+40000,226078,C,insertion_recursive
+40000,209624,C,insertion_recursive
+40000,-774989,C,insertion_recursive
+40000,228131,C,insertion_recursive
+40000,228576,C,insertion_recursive
+40000,226382,C,insertion_recursive
+40000,218189,C,insertion_recursive
+40000,-772966,C,insertion_recursive
+40000,235659,C,insertion_recursive
+41000,388434,C,insertion_recursive
+41000,-593474,C,insertion_recursive
+41000,388620,C,insertion_recursive
+41000,-619208,C,insertion_recursive
+41000,374061,C,insertion_recursive
+41000,372595,C,insertion_recursive
+41000,-588956,C,insertion_recursive
+41000,388975,C,insertion_recursive
+41000,398081,C,insertion_recursive
+41000,-626173,C,insertion_recursive
+42000,547858,C,insertion_recursive
+42000,-447487,C,insertion_recursive
+42000,-457133,C,insertion_recursive
+42000,559148,C,insertion_recursive
+42000,-445399,C,insertion_recursive
+42000,563020,C,insertion_recursive
+42000,-431135,C,insertion_recursive
+42000,546954,C,insertion_recursive
+42000,-435855,C,insertion_recursive
+42000,541252,C,insertion_recursive
+43000,-264445,C,insertion_recursive
+43000,-240784,C,insertion_recursive
+43000,-281346,C,insertion_recursive
+43000,711430,C,insertion_recursive
+43000,-266681,C,insertion_recursive
+43000,-265703,C,insertion_recursive
+43000,-264462,C,insertion_recursive
+43000,755325,C,insertion_recursive
+43000,-249066,C,insertion_recursive
+43000,-281675,C,insertion_recursive
+44000,-85127,C,insertion_recursive
+44000,-84842,C,insertion_recursive
+44000,-105993,C,insertion_recursive
+44000,915108,C,insertion_recursive
+44000,-106851,C,insertion_recursive
+44000,-97079,C,insertion_recursive
+44000,-87665,C,insertion_recursive
+44000,-101652,C,insertion_recursive
+44000,-92581,C,insertion_recursive
+44000,-73448,C,insertion_recursive
+45000,100950,C,insertion_recursive
+45000,101421,C,insertion_recursive
+45000,74011,C,insertion_recursive
+45000,101937,C,insertion_recursive
+45000,109471,C,insertion_recursive
+45000,63381,C,insertion_recursive
+45000,-910284,C,insertion_recursive
+45000,83689,C,insertion_recursive
+45000,77028,C,insertion_recursive
+45000,86690,C,insertion_recursive
+46000,275888,C,insertion_recursive
+46000,277091,C,insertion_recursive
+46000,-723558,C,insertion_recursive
+46000,275097,C,insertion_recursive
+46000,275698,C,insertion_recursive
+46000,289384,C,insertion_recursive
+46000,-717848,C,insertion_recursive
+46000,283115,C,insertion_recursive
+46000,251091,C,insertion_recursive
+46000,-745522,C,insertion_recursive
+47000,474654,C,insertion_recursive
+47000,445820,C,insertion_recursive
+47000,-544862,C,insertion_recursive
+47000,432868,C,insertion_recursive
+47000,-561815,C,insertion_recursive
+47000,464306,C,insertion_recursive
+47000,-533588,C,insertion_recursive
+47000,468628,C,insertion_recursive
+47000,-535737,C,insertion_recursive
+47000,443379,C,insertion_recursive
+48000,-355225,C,insertion_recursive
+48000,679322,C,insertion_recursive
+48000,-305742,C,insertion_recursive
+48000,-329511,C,insertion_recursive
+48000,635279,C,insertion_recursive
+48000,-346546,C,insertion_recursive
+48000,-336044,C,insertion_recursive
+48000,669967,C,insertion_recursive
+48000,-325316,C,insertion_recursive
+48000,-324385,C,insertion_recursive
+49000,-120385,C,insertion_recursive
+49000,-148076,C,insertion_recursive
+49000,841666,C,insertion_recursive
+49000,-130817,C,insertion_recursive
+49000,-157976,C,insertion_recursive
+49000,-132961,C,insertion_recursive
+49000,-157986,C,insertion_recursive
+49000,-146948,C,insertion_recursive
+49000,863150,C,insertion_recursive
+49000,-146649,C,insertion_recursive
+0,0,C,insertion_recursive
+1000,1722,C,insertion_iterative
+1000,1707,C,insertion_iterative
+1000,1734,C,insertion_iterative
+1000,1740,C,insertion_iterative
+1000,1691,C,insertion_iterative
+1000,1685,C,insertion_iterative
+1000,1672,C,insertion_iterative
+1000,1740,C,insertion_iterative
+1000,1666,C,insertion_iterative
+1000,1628,C,insertion_iterative
+2000,6322,C,insertion_iterative
+2000,6153,C,insertion_iterative
+2000,6042,C,insertion_iterative
+2000,5890,C,insertion_iterative
+2000,5654,C,insertion_iterative
+2000,5565,C,insertion_iterative
+2000,5434,C,insertion_iterative
+2000,5315,C,insertion_iterative
+2000,5335,C,insertion_iterative
+2000,5212,C,insertion_iterative
+3000,11089,C,insertion_iterative
+3000,10854,C,insertion_iterative
+3000,9954,C,insertion_iterative
+3000,9836,C,insertion_iterative
+3000,9589,C,insertion_iterative
+3000,9472,C,insertion_iterative
+3000,9100,C,insertion_iterative
+3000,-991324,C,insertion_iterative
+3000,8592,C,insertion_iterative
+3000,8398,C,insertion_iterative
+4000,14318,C,insertion_iterative
+4000,13861,C,insertion_iterative
+4000,14469,C,insertion_iterative
+4000,14277,C,insertion_iterative
+4000,14005,C,insertion_iterative
+4000,14395,C,insertion_iterative
+4000,14255,C,insertion_iterative
+4000,13984,C,insertion_iterative
+4000,13899,C,insertion_iterative
+4000,14103,C,insertion_iterative
+5000,21996,C,insertion_iterative
+5000,22329,C,insertion_iterative
+5000,22262,C,insertion_iterative
+5000,22061,C,insertion_iterative
+5000,21879,C,insertion_iterative
+5000,22209,C,insertion_iterative
+5000,22254,C,insertion_iterative
+5000,21496,C,insertion_iterative
+5000,21812,C,insertion_iterative
+5000,22387,C,insertion_iterative
+6000,31415,C,insertion_iterative
+6000,31798,C,insertion_iterative
+6000,31348,C,insertion_iterative
+6000,31389,C,insertion_iterative
+6000,32240,C,insertion_iterative
+6000,31387,C,insertion_iterative
+6000,32267,C,insertion_iterative
+6000,31754,C,insertion_iterative
+6000,31983,C,insertion_iterative
+6000,31668,C,insertion_iterative
+7000,43016,C,insertion_iterative
+7000,42646,C,insertion_iterative
+7000,43321,C,insertion_iterative
+7000,42742,C,insertion_iterative
+7000,42986,C,insertion_iterative
+7000,43537,C,insertion_iterative
+7000,-956953,C,insertion_iterative
+7000,42776,C,insertion_iterative
+7000,43474,C,insertion_iterative
+7000,43408,C,insertion_iterative
+8000,56353,C,insertion_iterative
+8000,56398,C,insertion_iterative
+8000,56927,C,insertion_iterative
+8000,57545,C,insertion_iterative
+8000,56706,C,insertion_iterative
+8000,56336,C,insertion_iterative
+8000,56672,C,insertion_iterative
+8000,56692,C,insertion_iterative
+8000,55936,C,insertion_iterative
+8000,55525,C,insertion_iterative
+9000,71117,C,insertion_iterative
+9000,71133,C,insertion_iterative
+9000,71698,C,insertion_iterative
+9000,71586,C,insertion_iterative
+9000,-929578,C,insertion_iterative
+9000,70929,C,insertion_iterative
+9000,71686,C,insertion_iterative
+9000,71589,C,insertion_iterative
+9000,71327,C,insertion_iterative
+9000,70304,C,insertion_iterative
+10000,88092,C,insertion_iterative
+10000,87765,C,insertion_iterative
+10000,87922,C,insertion_iterative
+10000,88838,C,insertion_iterative
+10000,89357,C,insertion_iterative
+10000,87724,C,insertion_iterative
+10000,-912012,C,insertion_iterative
+10000,87413,C,insertion_iterative
+10000,88788,C,insertion_iterative
+10000,87000,C,insertion_iterative
+11000,108050,C,insertion_iterative
+11000,107481,C,insertion_iterative
+11000,106355,C,insertion_iterative
+11000,106275,C,insertion_iterative
+11000,107580,C,insertion_iterative
+11000,107088,C,insertion_iterative
+11000,-893881,C,insertion_iterative
+11000,106191,C,insertion_iterative
+11000,106886,C,insertion_iterative
+11000,106356,C,insertion_iterative
+12000,125874,C,insertion_iterative
+12000,127504,C,insertion_iterative
+12000,128159,C,insertion_iterative
+12000,126728,C,insertion_iterative
+12000,-873083,C,insertion_iterative
+12000,125985,C,insertion_iterative
+12000,128889,C,insertion_iterative
+12000,127027,C,insertion_iterative
+12000,126807,C,insertion_iterative
+12000,126041,C,insertion_iterative
+13000,147933,C,insertion_iterative
+13000,147536,C,insertion_iterative
+13000,-851130,C,insertion_iterative
+13000,149315,C,insertion_iterative
+13000,146892,C,insertion_iterative
+13000,147411,C,insertion_iterative
+13000,148292,C,insertion_iterative
+13000,149659,C,insertion_iterative
+13000,149008,C,insertion_iterative
+13000,-851158,C,insertion_iterative
+14000,173012,C,insertion_iterative
+14000,173986,C,insertion_iterative
+14000,173294,C,insertion_iterative
+14000,173416,C,insertion_iterative
+14000,-827873,C,insertion_iterative
+14000,171122,C,insertion_iterative
+14000,171028,C,insertion_iterative
+14000,172756,C,insertion_iterative
+14000,170820,C,insertion_iterative
+14000,172437,C,insertion_iterative
+15000,-800100,C,insertion_iterative
+15000,197936,C,insertion_iterative
+15000,196822,C,insertion_iterative
+15000,197520,C,insertion_iterative
+15000,198289,C,insertion_iterative
+15000,-805751,C,insertion_iterative
+15000,198836,C,insertion_iterative
+15000,196492,C,insertion_iterative
+15000,198207,C,insertion_iterative
+15000,196943,C,insertion_iterative
+16000,-775555,C,insertion_iterative
+16000,225490,C,insertion_iterative
+16000,224096,C,insertion_iterative
+16000,226089,C,insertion_iterative
+16000,223325,C,insertion_iterative
+16000,-774538,C,insertion_iterative
+16000,224643,C,insertion_iterative
+16000,223485,C,insertion_iterative
+16000,224427,C,insertion_iterative
+16000,-775025,C,insertion_iterative
+17000,252504,C,insertion_iterative
+17000,250977,C,insertion_iterative
+17000,253471,C,insertion_iterative
+17000,-748510,C,insertion_iterative
+17000,251690,C,insertion_iterative
+17000,254443,C,insertion_iterative
+17000,254161,C,insertion_iterative
+17000,-745714,C,insertion_iterative
+17000,254325,C,insertion_iterative
+17000,252568,C,insertion_iterative
+18000,285017,C,insertion_iterative
+18000,-716003,C,insertion_iterative
+18000,284954,C,insertion_iterative
+18000,283298,C,insertion_iterative
+18000,-716171,C,insertion_iterative
+18000,283260,C,insertion_iterative
+18000,288101,C,insertion_iterative
+18000,281073,C,insertion_iterative
+18000,-716060,C,insertion_iterative
+18000,282584,C,insertion_iterative
+19000,316332,C,insertion_iterative
+19000,-682187,C,insertion_iterative
+19000,316982,C,insertion_iterative
+19000,318324,C,insertion_iterative
+19000,-684843,C,insertion_iterative
+19000,314374,C,insertion_iterative
+19000,316643,C,insertion_iterative
+19000,-685260,C,insertion_iterative
+19000,314953,C,insertion_iterative
+19000,318979,C,insertion_iterative
+20000,350005,C,insertion_iterative
+20000,-647597,C,insertion_iterative
+20000,351317,C,insertion_iterative
+20000,-648511,C,insertion_iterative
+20000,350339,C,insertion_iterative
+20000,349110,C,insertion_iterative
+20000,-646827,C,insertion_iterative
+20000,353232,C,insertion_iterative
+20000,353027,C,insertion_iterative
+20000,-651109,C,insertion_iterative
+21000,387203,C,insertion_iterative
+21000,386431,C,insertion_iterative
+21000,-615083,C,insertion_iterative
+21000,386242,C,insertion_iterative
+21000,-612855,C,insertion_iterative
+21000,388819,C,insertion_iterative
+21000,387718,C,insertion_iterative
+21000,-613034,C,insertion_iterative
+21000,386655,C,insertion_iterative
+21000,-616208,C,insertion_iterative
+22000,423737,C,insertion_iterative
+22000,422909,C,insertion_iterative
+22000,-579400,C,insertion_iterative
+22000,422053,C,insertion_iterative
+22000,-578021,C,insertion_iterative
+22000,422956,C,insertion_iterative
+22000,422672,C,insertion_iterative
+22000,-577614,C,insertion_iterative
+22000,422441,C,insertion_iterative
+22000,-578032,C,insertion_iterative
+23000,464978,C,insertion_iterative
+23000,-535804,C,insertion_iterative
+23000,464989,C,insertion_iterative
+23000,-538284,C,insertion_iterative
+23000,460726,C,insertion_iterative
+23000,-539230,C,insertion_iterative
+23000,460974,C,insertion_iterative
+23000,464832,C,insertion_iterative
+23000,-538694,C,insertion_iterative
+23000,464175,C,insertion_iterative
+24000,-499966,C,insertion_iterative
+24000,503384,C,insertion_iterative
+24000,-498826,C,insertion_iterative
+24000,502482,C,insertion_iterative
+24000,-494513,C,insertion_iterative
+24000,502529,C,insertion_iterative
+24000,-496789,C,insertion_iterative
+24000,500404,C,insertion_iterative
+24000,-496725,C,insertion_iterative
+24000,504969,C,insertion_iterative
+25000,-453573,C,insertion_iterative
+25000,-458699,C,insertion_iterative
+25000,546736,C,insertion_iterative
+25000,-453417,C,insertion_iterative
+25000,544442,C,insertion_iterative
+25000,-454803,C,insertion_iterative
+25000,548191,C,insertion_iterative
+25000,-452602,C,insertion_iterative
+25000,548618,C,insertion_iterative
+25000,-453969,C,insertion_iterative
+26000,590700,C,insertion_iterative
+26000,-405519,C,insertion_iterative
+26000,-411582,C,insertion_iterative
+26000,589523,C,insertion_iterative
+26000,-407252,C,insertion_iterative
+26000,592006,C,insertion_iterative
+26000,-412769,C,insertion_iterative
+26000,-408939,C,insertion_iterative
+26000,589913,C,insertion_iterative
+26000,-410365,C,insertion_iterative
+27000,635585,C,insertion_iterative
+27000,-362476,C,insertion_iterative
+27000,-366822,C,insertion_iterative
+27000,638037,C,insertion_iterative
+27000,-362506,C,insertion_iterative
+27000,-364166,C,insertion_iterative
+27000,634488,C,insertion_iterative
+27000,-367199,C,insertion_iterative
+27000,-365306,C,insertion_iterative
+27000,635429,C,insertion_iterative
+28000,-317421,C,insertion_iterative
+28000,-317378,C,insertion_iterative
+28000,687359,C,insertion_iterative
+28000,-311403,C,insertion_iterative
+28000,-315428,C,insertion_iterative
+28000,689994,C,insertion_iterative
+28000,-310412,C,insertion_iterative
+28000,-316481,C,insertion_iterative
+28000,685280,C,insertion_iterative
+28000,-309775,C,insertion_iterative
+29000,-264002,C,insertion_iterative
+29000,-266440,C,insertion_iterative
+29000,737607,C,insertion_iterative
+29000,-268960,C,insertion_iterative
+29000,-264372,C,insertion_iterative
+29000,737227,C,insertion_iterative
+29000,-269892,C,insertion_iterative
+29000,-267383,C,insertion_iterative
+29000,-266978,C,insertion_iterative
+29000,731726,C,insertion_iterative
+30000,-218622,C,insertion_iterative
+30000,-214947,C,insertion_iterative
+30000,-212037,C,insertion_iterative
+30000,-214059,C,insertion_iterative
+30000,786909,C,insertion_iterative
+30000,-214748,C,insertion_iterative
+30000,-216853,C,insertion_iterative
+30000,-216105,C,insertion_iterative
+30000,786796,C,insertion_iterative
+30000,-216784,C,insertion_iterative
+31000,-170711,C,insertion_iterative
+31000,-153439,C,insertion_iterative
+31000,-160845,C,insertion_iterative
+31000,-158610,C,insertion_iterative
+31000,835306,C,insertion_iterative
+31000,-155517,C,insertion_iterative
+31000,-157653,C,insertion_iterative
+31000,-157588,C,insertion_iterative
+31000,-161770,C,insertion_iterative
+31000,-162517,C,insertion_iterative
+32000,-106400,C,insertion_iterative
+32000,898892,C,insertion_iterative
+32000,-102589,C,insertion_iterative
+32000,-103210,C,insertion_iterative
+32000,-101194,C,insertion_iterative
+32000,-107830,C,insertion_iterative
+32000,-108308,C,insertion_iterative
+32000,-101190,C,insertion_iterative
+32000,-111345,C,insertion_iterative
+32000,-103487,C,insertion_iterative
+33000,-45102,C,insertion_iterative
+33000,-49356,C,insertion_iterative
+33000,955009,C,insertion_iterative
+33000,-50193,C,insertion_iterative
+33000,-48199,C,insertion_iterative
+33000,-50906,C,insertion_iterative
+33000,-47339,C,insertion_iterative
+33000,-46447,C,insertion_iterative
+33000,-51670,C,insertion_iterative
+33000,-50477,C,insertion_iterative
+34000,7467,C,insertion_iterative
+34000,7742,C,insertion_iterative
+34000,11941,C,insertion_iterative
+34000,11960,C,insertion_iterative
+34000,11096,C,insertion_iterative
+34000,9545,C,insertion_iterative
+34000,12804,C,insertion_iterative
+34000,12068,C,insertion_iterative
+34000,10255,C,insertion_iterative
+34000,9377,C,insertion_iterative
+35000,72417,C,insertion_iterative
+35000,70216,C,insertion_iterative
+35000,76886,C,insertion_iterative
+35000,-930270,C,insertion_iterative
+35000,64172,C,insertion_iterative
+35000,69057,C,insertion_iterative
+35000,71240,C,insertion_iterative
+35000,67652,C,insertion_iterative
+35000,75551,C,insertion_iterative
+35000,71297,C,insertion_iterative
+36000,127428,C,insertion_iterative
+36000,127055,C,insertion_iterative
+36000,129646,C,insertion_iterative
+36000,127182,C,insertion_iterative
+36000,-871417,C,insertion_iterative
+36000,129672,C,insertion_iterative
+36000,134815,C,insertion_iterative
+36000,132802,C,insertion_iterative
+36000,133922,C,insertion_iterative
+36000,128479,C,insertion_iterative
+37000,191091,C,insertion_iterative
+37000,-807189,C,insertion_iterative
+37000,191126,C,insertion_iterative
+37000,195094,C,insertion_iterative
+37000,194571,C,insertion_iterative
+37000,200502,C,insertion_iterative
+37000,-798932,C,insertion_iterative
+37000,194853,C,insertion_iterative
+37000,196384,C,insertion_iterative
+37000,185763,C,insertion_iterative
+38000,-744922,C,insertion_iterative
+38000,258468,C,insertion_iterative
+38000,256806,C,insertion_iterative
+38000,261244,C,insertion_iterative
+38000,-737093,C,insertion_iterative
+38000,263482,C,insertion_iterative
+38000,269027,C,insertion_iterative
+38000,265833,C,insertion_iterative
+38000,-737166,C,insertion_iterative
+38000,258731,C,insertion_iterative
+39000,328159,C,insertion_iterative
+39000,-673945,C,insertion_iterative
+39000,322973,C,insertion_iterative
+39000,328656,C,insertion_iterative
+39000,-669608,C,insertion_iterative
+39000,331441,C,insertion_iterative
+39000,321831,C,insertion_iterative
+39000,325359,C,insertion_iterative
+39000,-670858,C,insertion_iterative
+39000,322589,C,insertion_iterative
+40000,-607883,C,insertion_iterative
+40000,397769,C,insertion_iterative
+40000,391425,C,insertion_iterative
+40000,-605706,C,insertion_iterative
+40000,396353,C,insertion_iterative
+40000,-602226,C,insertion_iterative
+40000,397216,C,insertion_iterative
+40000,391280,C,insertion_iterative
+40000,-602792,C,insertion_iterative
+40000,401350,C,insertion_iterative
+41000,-533908,C,insertion_iterative
+41000,472087,C,insertion_iterative
+41000,-532747,C,insertion_iterative
+41000,462081,C,insertion_iterative
+41000,458921,C,insertion_iterative
+41000,-539086,C,insertion_iterative
+41000,475758,C,insertion_iterative
+41000,-534107,C,insertion_iterative
+41000,470859,C,insertion_iterative
+41000,-539926,C,insertion_iterative
+42000,535506,C,insertion_iterative
+42000,-462704,C,insertion_iterative
+42000,532587,C,insertion_iterative
+42000,-460670,C,insertion_iterative
+42000,537351,C,insertion_iterative
+42000,-458418,C,insertion_iterative
+42000,-456403,C,insertion_iterative
+42000,535130,C,insertion_iterative
+42000,-458714,C,insertion_iterative
+42000,532886,C,insertion_iterative
+43000,-388297,C,insertion_iterative
+43000,624417,C,insertion_iterative
+43000,-393183,C,insertion_iterative
+43000,-394081,C,insertion_iterative
+43000,613557,C,insertion_iterative
+43000,-386503,C,insertion_iterative
+43000,615100,C,insertion_iterative
+43000,-376516,C,insertion_iterative
+43000,-378559,C,insertion_iterative
+43000,606481,C,insertion_iterative
+44000,-310077,C,insertion_iterative
+44000,-307866,C,insertion_iterative
+44000,683655,C,insertion_iterative
+44000,-309196,C,insertion_iterative
+44000,-317066,C,insertion_iterative
+44000,687249,C,insertion_iterative
+44000,-310059,C,insertion_iterative
+44000,-315914,C,insertion_iterative
+44000,-314805,C,insertion_iterative
+44000,695341,C,insertion_iterative
+45000,-229974,C,insertion_iterative
+45000,-229351,C,insertion_iterative
+45000,-240754,C,insertion_iterative
+45000,771385,C,insertion_iterative
+45000,-241193,C,insertion_iterative
+45000,-245265,C,insertion_iterative
+45000,-232242,C,insertion_iterative
+45000,764665,C,insertion_iterative
+45000,-237126,C,insertion_iterative
+45000,-235206,C,insertion_iterative
+46000,-156331,C,insertion_iterative
+46000,-154076,C,insertion_iterative
+46000,846678,C,insertion_iterative
+46000,-154507,C,insertion_iterative
+46000,-153999,C,insertion_iterative
+46000,-147880,C,insertion_iterative
+46000,-150786,C,insertion_iterative
+46000,-153119,C,insertion_iterative
+46000,-162980,C,insertion_iterative
+46000,837536,C,insertion_iterative
+47000,-71889,C,insertion_iterative
+47000,-81662,C,insertion_iterative
+47000,-79081,C,insertion_iterative
+47000,-86832,C,insertion_iterative
+47000,-84558,C,insertion_iterative
+47000,-74133,C,insertion_iterative
+47000,-72054,C,insertion_iterative
+47000,-73060,C,insertion_iterative
+47000,-73354,C,insertion_iterative
+47000,-84591,C,insertion_iterative
+48000,3787,C,insertion_iterative
+48000,15580,C,insertion_iterative
+48000,23142,C,insertion_iterative
+48000,13511,C,insertion_iterative
+48000,-888,C,insertion_iterative
+48000,5898,C,insertion_iterative
+48000,10728,C,insertion_iterative
+48000,12779,C,insertion_iterative
+48000,12983,C,insertion_iterative
+48000,15141,C,insertion_iterative
+49000,101823,C,insertion_iterative
+49000,88559,C,insertion_iterative
+49000,85379,C,insertion_iterative
+49000,95860,C,insertion_iterative
+49000,85293,C,insertion_iterative
+49000,96511,C,insertion_iterative
+49000,86010,C,insertion_iterative
+49000,91138,C,insertion_iterative
+49000,-905227,C,insertion_iterative
+49000,89196,C,insertion_iterative
+0,0,C,insertion_iterative
+1000,141,C,merge_recursive
+1000,139,C,merge_recursive
+1000,138,C,merge_recursive
+1000,138,C,merge_recursive
+1000,137,C,merge_recursive
+1000,137,C,merge_recursive
+1000,138,C,merge_recursive
+1000,138,C,merge_recursive
+1000,137,C,merge_recursive
+1000,137,C,merge_recursive
+2000,298,C,merge_recursive
+2000,297,C,merge_recursive
+2000,296,C,merge_recursive
+2000,298,C,merge_recursive
+2000,299,C,merge_recursive
+2000,299,C,merge_recursive
+2000,299,C,merge_recursive
+2000,299,C,merge_recursive
+2000,299,C,merge_recursive
+2000,298,C,merge_recursive
+3000,476,C,merge_recursive
+3000,467,C,merge_recursive
+3000,468,C,merge_recursive
+3000,466,C,merge_recursive
+3000,468,C,merge_recursive
+3000,466,C,merge_recursive
+3000,465,C,merge_recursive
+3000,465,C,merge_recursive
+3000,463,C,merge_recursive
+3000,464,C,merge_recursive
+4000,647,C,merge_recursive
+4000,642,C,merge_recursive
+4000,641,C,merge_recursive
+4000,635,C,merge_recursive
+4000,636,C,merge_recursive
+4000,637,C,merge_recursive
+4000,641,C,merge_recursive
+4000,640,C,merge_recursive
+4000,636,C,merge_recursive
+4000,639,C,merge_recursive
+5000,824,C,merge_recursive
+5000,818,C,merge_recursive
+5000,816,C,merge_recursive
+5000,811,C,merge_recursive
+5000,812,C,merge_recursive
+5000,816,C,merge_recursive
+5000,813,C,merge_recursive
+5000,813,C,merge_recursive
+5000,813,C,merge_recursive
+5000,815,C,merge_recursive
+6000,998,C,merge_recursive
+6000,989,C,merge_recursive
+6000,991,C,merge_recursive
+6000,993,C,merge_recursive
+6000,990,C,merge_recursive
+6000,998,C,merge_recursive
+6000,998,C,merge_recursive
+6000,993,C,merge_recursive
+6000,993,C,merge_recursive
+6000,994,C,merge_recursive
+7000,1184,C,merge_recursive
+7000,1181,C,merge_recursive
+7000,1180,C,merge_recursive
+7000,1172,C,merge_recursive
+7000,1180,C,merge_recursive
+7000,1181,C,merge_recursive
+7000,1177,C,merge_recursive
+7000,1177,C,merge_recursive
+7000,1189,C,merge_recursive
+7000,1176,C,merge_recursive
+8000,1355,C,merge_recursive
+8000,1361,C,merge_recursive
+8000,1358,C,merge_recursive
+8000,1357,C,merge_recursive
+8000,1352,C,merge_recursive
+8000,1353,C,merge_recursive
+8000,1350,C,merge_recursive
+8000,1356,C,merge_recursive
+8000,1348,C,merge_recursive
+8000,1346,C,merge_recursive
+9000,1551,C,merge_recursive
+9000,1547,C,merge_recursive
+9000,1543,C,merge_recursive
+9000,1545,C,merge_recursive
+9000,1537,C,merge_recursive
+9000,1543,C,merge_recursive
+9000,1548,C,merge_recursive
+9000,1546,C,merge_recursive
+9000,1550,C,merge_recursive
+9000,1546,C,merge_recursive
+10000,1719,C,merge_recursive
+10000,1723,C,merge_recursive
+10000,1718,C,merge_recursive
+10000,1723,C,merge_recursive
+10000,1716,C,merge_recursive
+10000,1720,C,merge_recursive
+10000,1713,C,merge_recursive
+10000,1720,C,merge_recursive
+10000,1725,C,merge_recursive
+10000,1718,C,merge_recursive
+11000,1914,C,merge_recursive
+11000,1909,C,merge_recursive
+11000,1913,C,merge_recursive
+11000,1911,C,merge_recursive
+11000,1918,C,merge_recursive
+11000,1912,C,merge_recursive
+11000,1913,C,merge_recursive
+11000,1912,C,merge_recursive
+11000,1914,C,merge_recursive
+11000,1909,C,merge_recursive
+12000,2087,C,merge_recursive
+12000,2094,C,merge_recursive
+12000,2088,C,merge_recursive
+12000,2089,C,merge_recursive
+12000,2093,C,merge_recursive
+12000,2089,C,merge_recursive
+12000,2088,C,merge_recursive
+12000,2092,C,merge_recursive
+12000,2096,C,merge_recursive
+12000,2089,C,merge_recursive
+13000,2296,C,merge_recursive
+13000,2300,C,merge_recursive
+13000,2305,C,merge_recursive
+13000,2293,C,merge_recursive
+13000,2295,C,merge_recursive
+13000,2299,C,merge_recursive
+13000,2292,C,merge_recursive
+13000,2283,C,merge_recursive
+13000,2298,C,merge_recursive
+13000,2297,C,merge_recursive
+14000,2477,C,merge_recursive
+14000,2477,C,merge_recursive
+14000,2473,C,merge_recursive
+14000,2473,C,merge_recursive
+14000,2465,C,merge_recursive
+14000,2483,C,merge_recursive
+14000,3416,C,merge_recursive
+14000,2468,C,merge_recursive
+14000,2475,C,merge_recursive
+14000,2460,C,merge_recursive
+15000,2674,C,merge_recursive
+15000,2667,C,merge_recursive
+15000,2666,C,merge_recursive
+15000,2672,C,merge_recursive
+15000,2662,C,merge_recursive
+15000,2662,C,merge_recursive
+15000,2666,C,merge_recursive
+15000,2668,C,merge_recursive
+15000,2662,C,merge_recursive
+15000,2666,C,merge_recursive
+16000,2839,C,merge_recursive
+16000,2841,C,merge_recursive
+16000,2846,C,merge_recursive
+16000,2836,C,merge_recursive
+16000,2832,C,merge_recursive
+16000,2836,C,merge_recursive
+16000,2826,C,merge_recursive
+16000,2828,C,merge_recursive
+16000,2837,C,merge_recursive
+16000,2832,C,merge_recursive
+17000,3038,C,merge_recursive
+17000,3042,C,merge_recursive
+17000,3037,C,merge_recursive
+17000,3035,C,merge_recursive
+17000,3035,C,merge_recursive
+17000,3039,C,merge_recursive
+17000,3029,C,merge_recursive
+17000,3035,C,merge_recursive
+17000,3040,C,merge_recursive
+17000,3034,C,merge_recursive
+18000,3238,C,merge_recursive
+18000,3236,C,merge_recursive
+18000,3242,C,merge_recursive
+18000,3233,C,merge_recursive
+18000,3233,C,merge_recursive
+18000,3220,C,merge_recursive
+18000,3233,C,merge_recursive
+18000,3234,C,merge_recursive
+18000,3229,C,merge_recursive
+18000,3228,C,merge_recursive
+19000,3429,C,merge_recursive
+19000,3423,C,merge_recursive
+19000,3425,C,merge_recursive
+19000,3433,C,merge_recursive
+19000,3429,C,merge_recursive
+19000,3421,C,merge_recursive
+19000,3432,C,merge_recursive
+19000,3424,C,merge_recursive
+19000,3431,C,merge_recursive
+19000,3437,C,merge_recursive
+20000,3593,C,merge_recursive
+20000,3599,C,merge_recursive
+20000,3594,C,merge_recursive
+20000,3597,C,merge_recursive
+20000,3583,C,merge_recursive
+20000,3603,C,merge_recursive
+20000,3600,C,merge_recursive
+20000,3594,C,merge_recursive
+20000,3596,C,merge_recursive
+20000,3582,C,merge_recursive
+21000,3794,C,merge_recursive
+21000,3788,C,merge_recursive
+21000,3796,C,merge_recursive
+21000,3786,C,merge_recursive
+21000,3792,C,merge_recursive
+21000,3791,C,merge_recursive
+21000,3789,C,merge_recursive
+21000,3792,C,merge_recursive
+21000,3790,C,merge_recursive
+21000,3804,C,merge_recursive
+22000,3996,C,merge_recursive
+22000,4006,C,merge_recursive
+22000,4000,C,merge_recursive
+22000,3990,C,merge_recursive
+22000,3997,C,merge_recursive
+22000,4003,C,merge_recursive
+22000,3999,C,merge_recursive
+22000,4000,C,merge_recursive
+22000,3996,C,merge_recursive
+22000,3996,C,merge_recursive
+23000,4203,C,merge_recursive
+23000,4179,C,merge_recursive
+23000,4194,C,merge_recursive
+23000,4187,C,merge_recursive
+23000,4193,C,merge_recursive
+23000,4198,C,merge_recursive
+23000,4193,C,merge_recursive
+23000,4189,C,merge_recursive
+23000,4191,C,merge_recursive
+23000,4198,C,merge_recursive
+24000,4356,C,merge_recursive
+24000,4371,C,merge_recursive
+24000,4365,C,merge_recursive
+24000,4378,C,merge_recursive
+24000,4371,C,merge_recursive
+24000,4353,C,merge_recursive
+24000,4371,C,merge_recursive
+24000,4370,C,merge_recursive
+24000,4377,C,merge_recursive
+24000,4370,C,merge_recursive
+25000,4566,C,merge_recursive
+25000,4558,C,merge_recursive
+25000,4566,C,merge_recursive
+25000,4553,C,merge_recursive
+25000,4566,C,merge_recursive
+25000,4554,C,merge_recursive
+25000,4551,C,merge_recursive
+25000,4572,C,merge_recursive
+25000,4562,C,merge_recursive
+25000,4570,C,merge_recursive
+26000,4794,C,merge_recursive
+26000,4781,C,merge_recursive
+26000,4789,C,merge_recursive
+26000,4797,C,merge_recursive
+26000,4778,C,merge_recursive
+26000,4787,C,merge_recursive
+26000,4790,C,merge_recursive
+26000,4795,C,merge_recursive
+26000,4789,C,merge_recursive
+26000,4777,C,merge_recursive
+27000,4996,C,merge_recursive
+27000,4996,C,merge_recursive
+27000,4991,C,merge_recursive
+27000,4989,C,merge_recursive
+27000,4995,C,merge_recursive
+27000,4995,C,merge_recursive
+27000,4996,C,merge_recursive
+27000,4989,C,merge_recursive
+27000,4997,C,merge_recursive
+27000,4996,C,merge_recursive
+28000,5164,C,merge_recursive
+28000,5161,C,merge_recursive
+28000,5159,C,merge_recursive
+28000,5160,C,merge_recursive
+28000,5158,C,merge_recursive
+28000,5159,C,merge_recursive
+28000,5151,C,merge_recursive
+28000,5158,C,merge_recursive
+28000,5160,C,merge_recursive
+28000,5156,C,merge_recursive
+29000,5365,C,merge_recursive
+29000,5338,C,merge_recursive
+29000,-994643,C,merge_recursive
+29000,5363,C,merge_recursive
+29000,5365,C,merge_recursive
+29000,5364,C,merge_recursive
+29000,5360,C,merge_recursive
+29000,5358,C,merge_recursive
+29000,5360,C,merge_recursive
+29000,5367,C,merge_recursive
+30000,5620,C,merge_recursive
+30000,5628,C,merge_recursive
+30000,5624,C,merge_recursive
+30000,5560,C,merge_recursive
+30000,5554,C,merge_recursive
+30000,5554,C,merge_recursive
+30000,5555,C,merge_recursive
+30000,5561,C,merge_recursive
+30000,5561,C,merge_recursive
+30000,5552,C,merge_recursive
+31000,5734,C,merge_recursive
+31000,5738,C,merge_recursive
+31000,5740,C,merge_recursive
+31000,5733,C,merge_recursive
+31000,5735,C,merge_recursive
+31000,5742,C,merge_recursive
+31000,5742,C,merge_recursive
+31000,5728,C,merge_recursive
+31000,5736,C,merge_recursive
+31000,5740,C,merge_recursive
+32000,5915,C,merge_recursive
+32000,5910,C,merge_recursive
+32000,5909,C,merge_recursive
+32000,5909,C,merge_recursive
+32000,5904,C,merge_recursive
+32000,5912,C,merge_recursive
+32000,5908,C,merge_recursive
+32000,5906,C,merge_recursive
+32000,5908,C,merge_recursive
+32000,5921,C,merge_recursive
+33000,6096,C,merge_recursive
+33000,6096,C,merge_recursive
+33000,6098,C,merge_recursive
+33000,6105,C,merge_recursive
+33000,6089,C,merge_recursive
+33000,6094,C,merge_recursive
+33000,6086,C,merge_recursive
+33000,6091,C,merge_recursive
+33000,6095,C,merge_recursive
+33000,6105,C,merge_recursive
+34000,6338,C,merge_recursive
+34000,6334,C,merge_recursive
+34000,6336,C,merge_recursive
+34000,6354,C,merge_recursive
+34000,6334,C,merge_recursive
+34000,6322,C,merge_recursive
+34000,6318,C,merge_recursive
+34000,6324,C,merge_recursive
+34000,6317,C,merge_recursive
+34000,6311,C,merge_recursive
+35000,6552,C,merge_recursive
+35000,6554,C,merge_recursive
+35000,6561,C,merge_recursive
+35000,6559,C,merge_recursive
+35000,6569,C,merge_recursive
+35000,6547,C,merge_recursive
+35000,6535,C,merge_recursive
+35000,6552,C,merge_recursive
+35000,6529,C,merge_recursive
+35000,6547,C,merge_recursive
+36000,6728,C,merge_recursive
+36000,6728,C,merge_recursive
+36000,6731,C,merge_recursive
+36000,6708,C,merge_recursive
+36000,6755,C,merge_recursive
+36000,6742,C,merge_recursive
+36000,6736,C,merge_recursive
+36000,6735,C,merge_recursive
+36000,6734,C,merge_recursive
+36000,6733,C,merge_recursive
+37000,6916,C,merge_recursive
+37000,6923,C,merge_recursive
+37000,6901,C,merge_recursive
+37000,6928,C,merge_recursive
+37000,6917,C,merge_recursive
+37000,6916,C,merge_recursive
+37000,6935,C,merge_recursive
+37000,6910,C,merge_recursive
+37000,6932,C,merge_recursive
+37000,6927,C,merge_recursive
+38000,7111,C,merge_recursive
+38000,7118,C,merge_recursive
+38000,7137,C,merge_recursive
+38000,7131,C,merge_recursive
+38000,7138,C,merge_recursive
+38000,7146,C,merge_recursive
+38000,7124,C,merge_recursive
+38000,7139,C,merge_recursive
+38000,7137,C,merge_recursive
+38000,7141,C,merge_recursive
+39000,7313,C,merge_recursive
+39000,7314,C,merge_recursive
+39000,7310,C,merge_recursive
+39000,7323,C,merge_recursive
+39000,7299,C,merge_recursive
+39000,7309,C,merge_recursive
+39000,7303,C,merge_recursive
+39000,7321,C,merge_recursive
+39000,7320,C,merge_recursive
+39000,7331,C,merge_recursive
+40000,7502,C,merge_recursive
+40000,7493,C,merge_recursive
+40000,7473,C,merge_recursive
+40000,7498,C,merge_recursive
+40000,7492,C,merge_recursive
+40000,7498,C,merge_recursive
+40000,7485,C,merge_recursive
+40000,7476,C,merge_recursive
+40000,7489,C,merge_recursive
+40000,7484,C,merge_recursive
+41000,7648,C,merge_recursive
+41000,7652,C,merge_recursive
+41000,7656,C,merge_recursive
+41000,7629,C,merge_recursive
+41000,7640,C,merge_recursive
+41000,7634,C,merge_recursive
+41000,7673,C,merge_recursive
+41000,7643,C,merge_recursive
+41000,7646,C,merge_recursive
+41000,7661,C,merge_recursive
+42000,7874,C,merge_recursive
+42000,7890,C,merge_recursive
+42000,7903,C,merge_recursive
+42000,7882,C,merge_recursive
+42000,-992093,C,merge_recursive
+42000,7886,C,merge_recursive
+42000,7888,C,merge_recursive
+42000,7871,C,merge_recursive
+42000,7889,C,merge_recursive
+42000,7939,C,merge_recursive
+43000,8183,C,merge_recursive
+43000,8141,C,merge_recursive
+43000,8103,C,merge_recursive
+43000,8110,C,merge_recursive
+43000,8098,C,merge_recursive
+43000,8089,C,merge_recursive
+43000,8080,C,merge_recursive
+43000,8077,C,merge_recursive
+43000,8104,C,merge_recursive
+43000,8116,C,merge_recursive
+44000,8318,C,merge_recursive
+44000,8285,C,merge_recursive
+44000,8316,C,merge_recursive
+44000,8299,C,merge_recursive
+44000,8314,C,merge_recursive
+44000,8307,C,merge_recursive
+44000,8298,C,merge_recursive
+44000,8305,C,merge_recursive
+44000,8328,C,merge_recursive
+44000,8296,C,merge_recursive
+45000,8482,C,merge_recursive
+45000,8491,C,merge_recursive
+45000,8484,C,merge_recursive
+45000,8489,C,merge_recursive
+45000,8487,C,merge_recursive
+45000,8471,C,merge_recursive
+45000,8498,C,merge_recursive
+45000,8486,C,merge_recursive
+45000,8519,C,merge_recursive
+45000,8505,C,merge_recursive
+46000,9655,C,merge_recursive
+46000,8697,C,merge_recursive
+46000,8709,C,merge_recursive
+46000,8723,C,merge_recursive
+46000,8719,C,merge_recursive
+46000,8698,C,merge_recursive
+46000,8717,C,merge_recursive
+46000,8713,C,merge_recursive
+46000,8698,C,merge_recursive
+46000,8707,C,merge_recursive
+47000,8874,C,merge_recursive
+47000,8880,C,merge_recursive
+47000,8882,C,merge_recursive
+47000,8857,C,merge_recursive
+47000,8884,C,merge_recursive
+47000,8872,C,merge_recursive
+47000,8860,C,merge_recursive
+47000,8884,C,merge_recursive
+47000,8871,C,merge_recursive
+47000,8875,C,merge_recursive
+48000,9067,C,merge_recursive
+48000,9068,C,merge_recursive
+48000,9071,C,merge_recursive
+48000,9083,C,merge_recursive
+48000,9047,C,merge_recursive
+48000,9066,C,merge_recursive
+48000,9090,C,merge_recursive
+48000,9072,C,merge_recursive
+48000,9075,C,merge_recursive
+48000,9067,C,merge_recursive
+49000,9219,C,merge_recursive
+49000,9248,C,merge_recursive
+49000,9258,C,merge_recursive
+49000,9245,C,merge_recursive
+49000,9240,C,merge_recursive
+49000,9225,C,merge_recursive
+49000,9206,C,merge_recursive
+49000,9247,C,merge_recursive
+49000,9250,C,merge_recursive
+49000,9239,C,merge_recursive
+0,0,C,merge_recursive
+1000,117,C,merge_iterative
+1000,117,C,merge_iterative
+1000,117,C,merge_iterative
+1000,117,C,merge_iterative
+1000,115,C,merge_iterative
+1000,115,C,merge_iterative
+1000,117,C,merge_iterative
+1000,117,C,merge_iterative
+1000,115,C,merge_iterative
+1000,114,C,merge_iterative
+2000,252,C,merge_iterative
+2000,252,C,merge_iterative
+2000,251,C,merge_iterative
+2000,254,C,merge_iterative
+2000,254,C,merge_iterative
+2000,253,C,merge_iterative
+2000,254,C,merge_iterative
+2000,254,C,merge_iterative
+2000,259,C,merge_iterative
+2000,254,C,merge_iterative
+3000,400,C,merge_iterative
+3000,397,C,merge_iterative
+3000,403,C,merge_iterative
+3000,400,C,merge_iterative
+3000,399,C,merge_iterative
+3000,398,C,merge_iterative
+3000,396,C,merge_iterative
+3000,404,C,merge_iterative
+3000,399,C,merge_iterative
+3000,400,C,merge_iterative
+4000,547,C,merge_iterative
+4000,543,C,merge_iterative
+4000,546,C,merge_iterative
+4000,547,C,merge_iterative
+4000,545,C,merge_iterative
+4000,547,C,merge_iterative
+4000,547,C,merge_iterative
+4000,547,C,merge_iterative
+4000,548,C,merge_iterative
+4000,548,C,merge_iterative
+5000,708,C,merge_iterative
+5000,704,C,merge_iterative
+5000,706,C,merge_iterative
+5000,702,C,merge_iterative
+5000,709,C,merge_iterative
+5000,704,C,merge_iterative
+5000,706,C,merge_iterative
+5000,706,C,merge_iterative
+5000,707,C,merge_iterative
+5000,707,C,merge_iterative
+6000,856,C,merge_iterative
+6000,856,C,merge_iterative
+6000,851,C,merge_iterative
+6000,857,C,merge_iterative
+6000,855,C,merge_iterative
+6000,857,C,merge_iterative
+6000,854,C,merge_iterative
+6000,857,C,merge_iterative
+6000,855,C,merge_iterative
+6000,852,C,merge_iterative
+7000,1007,C,merge_iterative
+7000,1009,C,merge_iterative
+7000,1004,C,merge_iterative
+7000,1009,C,merge_iterative
+7000,1008,C,merge_iterative
+7000,1007,C,merge_iterative
+7000,1007,C,merge_iterative
+7000,1011,C,merge_iterative
+7000,1007,C,merge_iterative
+7000,1010,C,merge_iterative
+8000,1158,C,merge_iterative
+8000,1162,C,merge_iterative
+8000,1158,C,merge_iterative
+8000,1165,C,merge_iterative
+8000,1159,C,merge_iterative
+8000,1161,C,merge_iterative
+8000,1168,C,merge_iterative
+8000,1158,C,merge_iterative
+8000,1158,C,merge_iterative
+8000,1164,C,merge_iterative
+9000,1348,C,merge_iterative
+9000,1351,C,merge_iterative
+9000,1351,C,merge_iterative
+9000,1350,C,merge_iterative
+9000,1357,C,merge_iterative
+9000,1351,C,merge_iterative
+9000,1351,C,merge_iterative
+9000,1348,C,merge_iterative
+9000,1348,C,merge_iterative
+9000,1349,C,merge_iterative
+10000,1495,C,merge_iterative
+10000,1504,C,merge_iterative
+10000,1497,C,merge_iterative
+10000,1500,C,merge_iterative
+10000,1496,C,merge_iterative
+10000,1498,C,merge_iterative
+10000,1502,C,merge_iterative
+10000,1498,C,merge_iterative
+10000,1503,C,merge_iterative
+10000,1496,C,merge_iterative
+11000,1647,C,merge_iterative
+11000,1650,C,merge_iterative
+11000,1654,C,merge_iterative
+11000,1647,C,merge_iterative
+11000,1652,C,merge_iterative
+11000,1648,C,merge_iterative
+11000,1653,C,merge_iterative
+11000,1654,C,merge_iterative
+11000,1651,C,merge_iterative
+11000,1647,C,merge_iterative
+12000,1808,C,merge_iterative
+12000,1804,C,merge_iterative
+12000,1808,C,merge_iterative
+12000,1803,C,merge_iterative
+12000,1803,C,merge_iterative
+12000,1805,C,merge_iterative
+12000,1803,C,merge_iterative
+12000,1809,C,merge_iterative
+12000,1801,C,merge_iterative
+12000,1805,C,merge_iterative
+13000,1971,C,merge_iterative
+13000,1978,C,merge_iterative
+13000,1972,C,merge_iterative
+13000,1981,C,merge_iterative
+13000,1966,C,merge_iterative
+13000,1970,C,merge_iterative
+13000,1974,C,merge_iterative
+13000,1974,C,merge_iterative
+13000,1972,C,merge_iterative
+13000,1971,C,merge_iterative
+14000,2128,C,merge_iterative
+14000,2130,C,merge_iterative
+14000,2129,C,merge_iterative
+14000,2132,C,merge_iterative
+14000,2123,C,merge_iterative
+14000,2121,C,merge_iterative
+14000,2135,C,merge_iterative
+14000,2120,C,merge_iterative
+14000,2127,C,merge_iterative
+14000,2124,C,merge_iterative
+15000,2282,C,merge_iterative
+15000,2299,C,merge_iterative
+15000,2284,C,merge_iterative
+15000,2283,C,merge_iterative
+15000,2287,C,merge_iterative
+15000,2286,C,merge_iterative
+15000,2288,C,merge_iterative
+15000,2283,C,merge_iterative
+15000,2280,C,merge_iterative
+15000,2279,C,merge_iterative
+16000,2445,C,merge_iterative
+16000,2443,C,merge_iterative
+16000,2449,C,merge_iterative
+16000,2444,C,merge_iterative
+16000,2447,C,merge_iterative
+16000,2436,C,merge_iterative
+16000,2443,C,merge_iterative
+16000,2445,C,merge_iterative
+16000,2447,C,merge_iterative
+16000,2448,C,merge_iterative
+17000,2691,C,merge_iterative
+17000,2688,C,merge_iterative
+17000,-997313,C,merge_iterative
+17000,2696,C,merge_iterative
+17000,2689,C,merge_iterative
+17000,2697,C,merge_iterative
+17000,2692,C,merge_iterative
+17000,2690,C,merge_iterative
+17000,2684,C,merge_iterative
+17000,2692,C,merge_iterative
+18000,2835,C,merge_iterative
+18000,2836,C,merge_iterative
+18000,2840,C,merge_iterative
+18000,2838,C,merge_iterative
+18000,2836,C,merge_iterative
+18000,2836,C,merge_iterative
+18000,2849,C,merge_iterative
+18000,2899,C,merge_iterative
+18000,2859,C,merge_iterative
+18000,2880,C,merge_iterative
+19000,3083,C,merge_iterative
+19000,3008,C,merge_iterative
+19000,2997,C,merge_iterative
+19000,2989,C,merge_iterative
+19000,2990,C,merge_iterative
+19000,2989,C,merge_iterative
+19000,2981,C,merge_iterative
+19000,2989,C,merge_iterative
+19000,2993,C,merge_iterative
+19000,2990,C,merge_iterative
+20000,3148,C,merge_iterative
+20000,3147,C,merge_iterative
+20000,3147,C,merge_iterative
+20000,3140,C,merge_iterative
+20000,3148,C,merge_iterative
+20000,3147,C,merge_iterative
+20000,3144,C,merge_iterative
+20000,3136,C,merge_iterative
+20000,3136,C,merge_iterative
+20000,3140,C,merge_iterative
+21000,3310,C,merge_iterative
+21000,3315,C,merge_iterative
+21000,3318,C,merge_iterative
+21000,3313,C,merge_iterative
+21000,3308,C,merge_iterative
+21000,3312,C,merge_iterative
+21000,3316,C,merge_iterative
+21000,3316,C,merge_iterative
+21000,3318,C,merge_iterative
+21000,3311,C,merge_iterative
+22000,3461,C,merge_iterative
+22000,3458,C,merge_iterative
+22000,3464,C,merge_iterative
+22000,3461,C,merge_iterative
+22000,3466,C,merge_iterative
+22000,3463,C,merge_iterative
+22000,3466,C,merge_iterative
+22000,3462,C,merge_iterative
+22000,3456,C,merge_iterative
+22000,3461,C,merge_iterative
+23000,3624,C,merge_iterative
+23000,3616,C,merge_iterative
+23000,3624,C,merge_iterative
+23000,3618,C,merge_iterative
+23000,3625,C,merge_iterative
+23000,3612,C,merge_iterative
+23000,3627,C,merge_iterative
+23000,3617,C,merge_iterative
+23000,3629,C,merge_iterative
+23000,3630,C,merge_iterative
+24000,3778,C,merge_iterative
+24000,3772,C,merge_iterative
+24000,3779,C,merge_iterative
+24000,3781,C,merge_iterative
+24000,3774,C,merge_iterative
+24000,3780,C,merge_iterative
+24000,3775,C,merge_iterative
+24000,3782,C,merge_iterative
+24000,3787,C,merge_iterative
+24000,3785,C,merge_iterative
+25000,3988,C,merge_iterative
+25000,3984,C,merge_iterative
+25000,3979,C,merge_iterative
+25000,3984,C,merge_iterative
+25000,3977,C,merge_iterative
+25000,3988,C,merge_iterative
+25000,3980,C,merge_iterative
+25000,3992,C,merge_iterative
+25000,3988,C,merge_iterative
+25000,3984,C,merge_iterative
+26000,4140,C,merge_iterative
+26000,4133,C,merge_iterative
+26000,4130,C,merge_iterative
+26000,4120,C,merge_iterative
+26000,4137,C,merge_iterative
+26000,4126,C,merge_iterative
+26000,4133,C,merge_iterative
+26000,4136,C,merge_iterative
+26000,4135,C,merge_iterative
+26000,4139,C,merge_iterative
+27000,4297,C,merge_iterative
+27000,4286,C,merge_iterative
+27000,4290,C,merge_iterative
+27000,4283,C,merge_iterative
+27000,4290,C,merge_iterative
+27000,4285,C,merge_iterative
+27000,4287,C,merge_iterative
+27000,4282,C,merge_iterative
+27000,4296,C,merge_iterative
+27000,4303,C,merge_iterative
+28000,4445,C,merge_iterative
+28000,4437,C,merge_iterative
+28000,4452,C,merge_iterative
+28000,4458,C,merge_iterative
+28000,4439,C,merge_iterative
+28000,4445,C,merge_iterative
+28000,4446,C,merge_iterative
+28000,4449,C,merge_iterative
+28000,4449,C,merge_iterative
+28000,4449,C,merge_iterative
+29000,4618,C,merge_iterative
+29000,4625,C,merge_iterative
+29000,4620,C,merge_iterative
+29000,4620,C,merge_iterative
+29000,4614,C,merge_iterative
+29000,4616,C,merge_iterative
+29000,4628,C,merge_iterative
+29000,4628,C,merge_iterative
+29000,4634,C,merge_iterative
+29000,4619,C,merge_iterative
+30000,4771,C,merge_iterative
+30000,4786,C,merge_iterative
+30000,4787,C,merge_iterative
+30000,4778,C,merge_iterative
+30000,4780,C,merge_iterative
+30000,4777,C,merge_iterative
+30000,4788,C,merge_iterative
+30000,4790,C,merge_iterative
+30000,4775,C,merge_iterative
+30000,4784,C,merge_iterative
+31000,4951,C,merge_iterative
+31000,4953,C,merge_iterative
+31000,4936,C,merge_iterative
+31000,4955,C,merge_iterative
+31000,4935,C,merge_iterative
+31000,4954,C,merge_iterative
+31000,4943,C,merge_iterative
+31000,4950,C,merge_iterative
+31000,4951,C,merge_iterative
+31000,4953,C,merge_iterative
+32000,5113,C,merge_iterative
+32000,5114,C,merge_iterative
+32000,5118,C,merge_iterative
+32000,5112,C,merge_iterative
+32000,5107,C,merge_iterative
+32000,5120,C,merge_iterative
+32000,5112,C,merge_iterative
+32000,5100,C,merge_iterative
+32000,5099,C,merge_iterative
+32000,5111,C,merge_iterative
+33000,5473,C,merge_iterative
+33000,5476,C,merge_iterative
+33000,5468,C,merge_iterative
+33000,5480,C,merge_iterative
+33000,5474,C,merge_iterative
+33000,5473,C,merge_iterative
+33000,5474,C,merge_iterative
+33000,5472,C,merge_iterative
+33000,5482,C,merge_iterative
+33000,5473,C,merge_iterative
+34000,5616,C,merge_iterative
+34000,5613,C,merge_iterative
+34000,5621,C,merge_iterative
+34000,5617,C,merge_iterative
+34000,5623,C,merge_iterative
+34000,5617,C,merge_iterative
+34000,5624,C,merge_iterative
+34000,5616,C,merge_iterative
+34000,5613,C,merge_iterative
+34000,5618,C,merge_iterative
+35000,5775,C,merge_iterative
+35000,5807,C,merge_iterative
+35000,5767,C,merge_iterative
+35000,5773,C,merge_iterative
+35000,5774,C,merge_iterative
+35000,5775,C,merge_iterative
+35000,5778,C,merge_iterative
+35000,5779,C,merge_iterative
+35000,5764,C,merge_iterative
+35000,5768,C,merge_iterative
+36000,5933,C,merge_iterative
+36000,5922,C,merge_iterative
+36000,5928,C,merge_iterative
+36000,5933,C,merge_iterative
+36000,5925,C,merge_iterative
+36000,5920,C,merge_iterative
+36000,5931,C,merge_iterative
+36000,5930,C,merge_iterative
+36000,5925,C,merge_iterative
+36000,5919,C,merge_iterative
+37000,-993899,C,merge_iterative
+37000,6092,C,merge_iterative
+37000,6103,C,merge_iterative
+37000,6093,C,merge_iterative
+37000,6087,C,merge_iterative
+37000,6090,C,merge_iterative
+37000,6095,C,merge_iterative
+37000,6176,C,merge_iterative
+37000,6152,C,merge_iterative
+37000,6201,C,merge_iterative
+38000,6237,C,merge_iterative
+38000,6252,C,merge_iterative
+38000,6239,C,merge_iterative
+38000,6245,C,merge_iterative
+38000,6264,C,merge_iterative
+38000,6240,C,merge_iterative
+38000,6245,C,merge_iterative
+38000,6235,C,merge_iterative
+38000,6244,C,merge_iterative
+38000,6245,C,merge_iterative
+39000,6405,C,merge_iterative
+39000,6402,C,merge_iterative
+39000,6404,C,merge_iterative
+39000,6397,C,merge_iterative
+39000,6410,C,merge_iterative
+39000,6411,C,merge_iterative
+39000,6409,C,merge_iterative
+39000,6403,C,merge_iterative
+39000,6405,C,merge_iterative
+39000,6410,C,merge_iterative
+40000,6564,C,merge_iterative
+40000,6567,C,merge_iterative
+40000,6564,C,merge_iterative
+40000,6554,C,merge_iterative
+40000,6562,C,merge_iterative
+40000,6563,C,merge_iterative
+40000,6570,C,merge_iterative
+40000,6562,C,merge_iterative
+40000,6558,C,merge_iterative
+40000,6565,C,merge_iterative
+41000,6771,C,merge_iterative
+41000,6774,C,merge_iterative
+41000,6778,C,merge_iterative
+41000,6773,C,merge_iterative
+41000,6771,C,merge_iterative
+41000,7712,C,merge_iterative
+41000,6768,C,merge_iterative
+41000,6767,C,merge_iterative
+41000,6776,C,merge_iterative
+41000,6774,C,merge_iterative
+42000,6940,C,merge_iterative
+42000,6936,C,merge_iterative
+42000,6932,C,merge_iterative
+42000,6927,C,merge_iterative
+42000,6930,C,merge_iterative
+42000,6937,C,merge_iterative
+42000,6931,C,merge_iterative
+42000,6933,C,merge_iterative
+42000,6930,C,merge_iterative
+42000,6945,C,merge_iterative
+43000,7078,C,merge_iterative
+43000,7085,C,merge_iterative
+43000,7066,C,merge_iterative
+43000,7084,C,merge_iterative
+43000,7070,C,merge_iterative
+43000,7086,C,merge_iterative
+43000,7082,C,merge_iterative
+43000,7075,C,merge_iterative
+43000,7080,C,merge_iterative
+43000,7083,C,merge_iterative
+44000,7243,C,merge_iterative
+44000,7207,C,merge_iterative
+44000,7238,C,merge_iterative
+44000,7233,C,merge_iterative
+44000,7231,C,merge_iterative
+44000,7231,C,merge_iterative
+44000,7231,C,merge_iterative
+44000,7237,C,merge_iterative
+44000,7234,C,merge_iterative
+44000,7232,C,merge_iterative
+45000,7401,C,merge_iterative
+45000,7381,C,merge_iterative
+45000,7384,C,merge_iterative
+45000,7385,C,merge_iterative
+45000,7381,C,merge_iterative
+45000,7395,C,merge_iterative
+45000,7387,C,merge_iterative
+45000,7394,C,merge_iterative
+45000,7384,C,merge_iterative
+45000,7388,C,merge_iterative
+46000,7569,C,merge_iterative
+46000,7545,C,merge_iterative
+46000,7554,C,merge_iterative
+46000,7584,C,merge_iterative
+46000,7554,C,merge_iterative
+46000,7563,C,merge_iterative
+46000,7555,C,merge_iterative
+46000,7567,C,merge_iterative
+46000,7566,C,merge_iterative
+46000,7575,C,merge_iterative
+47000,7719,C,merge_iterative
+47000,7716,C,merge_iterative
+47000,7724,C,merge_iterative
+47000,7711,C,merge_iterative
+47000,7705,C,merge_iterative
+47000,7714,C,merge_iterative
+47000,7719,C,merge_iterative
+47000,7729,C,merge_iterative
+47000,7711,C,merge_iterative
+47000,7709,C,merge_iterative
+48000,7896,C,merge_iterative
+48000,7873,C,merge_iterative
+48000,7879,C,merge_iterative
+48000,7886,C,merge_iterative
+48000,7882,C,merge_iterative
+48000,7877,C,merge_iterative
+48000,7884,C,merge_iterative
+48000,7866,C,merge_iterative
+48000,7875,C,merge_iterative
+48000,7880,C,merge_iterative
+49000,8042,C,merge_iterative
+49000,-991942,C,merge_iterative
+49000,8053,C,merge_iterative
+49000,8058,C,merge_iterative
+49000,8036,C,merge_iterative
+49000,8054,C,merge_iterative
+49000,8042,C,merge_iterative
+49000,8177,C,merge_iterative
+49000,8218,C,merge_iterative
+49000,8062,C,merge_iterative
+0,0,C,merge_iterative
