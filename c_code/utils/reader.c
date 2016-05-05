@@ -86,7 +86,8 @@ int analyze_sort_data(const char * infile_name,
 
         //print_array(array, array_size);
         // Record to the output file
-        fprintf(output_file, "%d, %ld\n", array_size, difference);
+        fprintf(output_file, "%d, %ld, C, %s\n", array_size, difference, 
+                sort_name);
 
         // Free the array. Rinse and repeat.
         free(array);
@@ -180,7 +181,8 @@ int analyze_search_data(const char * infile_name,
         difference = end.tv_usec - start.tv_usec;
 
         // Record to the output file
-        fprintf(output_file, "%d, %d, %ld\n", array_size, result, difference);
+        fprintf(output_file, "%d, %d, %ld, C, %s\n", array_size, result, 
+                difference, search_name);
 
         // Free the array. Rinse and repeat.
         free(array);
