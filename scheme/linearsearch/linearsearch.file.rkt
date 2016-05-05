@@ -20,15 +20,17 @@
     ;because of configuration
     (let kernel ([source (open-input-file input-file)]
                  [target (open-output-file output-file)])
-      (let ([nextval (read source)])
+      (let ([key (read source)]
+            [nextval (read source)])
         (cond 
           [(eof-object? nextval) 
            (close-input-port source)
            (close-output-port target)]
           [else 
-           (write (linear-search-time (cdr nextval) (car nextval)) target)
+           (write (linear-search-time nextval key) target)
            (display "," target)
            (write (length nextval) target)
+           (display "," target)
            (display "linear-search" target)
            (display "," target)
            (display "R" target)
