@@ -10,7 +10,8 @@ void print_array(int * array, int size) {
 
 int analyze_sort_data(const char * infile_name, 
         const char * outfile_name,
-        void (*sort_pointer)(int *, int)) {
+        void (*sort_pointer)(int *, int),
+        const char * sort_name) {
 
     // Open file ports
     FILE *input_file, *output_file;
@@ -26,7 +27,7 @@ int analyze_sort_data(const char * infile_name,
     printf(" done.\n");
 
     printf("Writing to \"%s\"...\n", outfile_name);
-    output_file = fopen(outfile_name, "w+");
+    output_file = fopen(outfile_name, "a");
 
     if (output_file == NULL) {
         fprintf(stderr, "\nCan't open output file %s!\n", outfile_name);
@@ -101,7 +102,8 @@ int analyze_sort_data(const char * infile_name,
 
 int analyze_search_data(const char * infile_name, 
         const char * outfile_name,
-        int (*search_pointer)(int *, int, int)) {
+        int (*search_pointer)(int *, int, int),
+        const char * search_name);
 
     // Open file ports
     FILE *input_file, *output_file;
@@ -117,7 +119,7 @@ int analyze_search_data(const char * infile_name,
     printf(" done.\n");
 
     printf("Writing to \"%s\"...\n", outfile_name);
-    output_file = fopen(outfile_name, "w+");
+    output_file = fopen(outfile_name, "a");
     if (output_file == NULL) {
         fprintf(stderr, "Can't open output file %s!\n", outfile_name);
         exit(1);
