@@ -40,9 +40,5 @@ __pycache__
 \#*\#
 *~
 
-# Data
-*.csv
-*.txt
-
 # Vim cruft
 *.swp
