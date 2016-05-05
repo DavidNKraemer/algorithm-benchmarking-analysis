@@ -46,8 +46,9 @@ int analyze_sort_data(const char * infile_name,
 
     // Time information
     size_t buffer_size;
-    time_t start, end;
-    double difference;
+    struct timeval start, end;
+    long int difference;
+
 
 
     // Loop through the lines of the input file
@@ -77,14 +78,14 @@ int analyze_sort_data(const char * infile_name,
 
         // After acquiring all of the data for a given array, measure the 
         // sorting time
-        start = time(NULL);
+        gettimeofday(&start, NULL);
         sort_pointer(array, array_size);
-        end = time(NULL);
-        difference = difftime(end, start);
+        gettimeofday(&end, NULL);
+        difference = end.tv_usec - start.tv_usec;
 
         //print_array(array, array_size);
         // Record to the output file
-        fprintf(output_file, "%d, %lf\n", array_size, difference);
+        fprintf(output_file, "%d, %ld\n", array_size, difference);
 
         // Free the array. Rinse and repeat.
         free(array);
@@ -136,8 +137,8 @@ int analyze_search_data(const char * infile_name,
 
     // Time information
     size_t buffer_size;
-    time_t start, end;
-    double difference;
+    struct timeval start, end;
+    long int difference;
 
 
     printf("\t");
@@ -171,13 +172,13 @@ int analyze_search_data(const char * infile_name,
 
         // After acquiring all of the data for a given array, measure the 
         // sorting time
-        time(&start);
+        gettimeofday(&start, NULL);
         result = search_pointer(array, array_size, result);
-        time(&end);
-        difference = difftime(end, start);
+        gettimeofday(&end, NULL);
+        difference = end.tv_usec - start.tv_usec;
 
         // Record to the output file
-        fprintf(output_file, "%d, %d, %lf\n", array_size, result, difference);
+        fprintf(output_file, "%d, %d, %ld\n", array_size, result, difference);
 
         // Free the array. Rinse and repeat.
         free(array);

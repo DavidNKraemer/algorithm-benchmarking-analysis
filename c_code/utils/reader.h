@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
+#include <sys/time.h>
 
 int analyze_sort_data(const char * infile_name, 
                       const char * outfile_name,
