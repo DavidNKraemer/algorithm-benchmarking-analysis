@@ -8,6 +8,18 @@ void print_array(int * array, int size) {
     printf("%d]\n",array[size-1]);
 }
 
+int safe_remove(const char * filename) {
+    FILE * file;
+    if ((file = fopen(filename, "r"))) {
+        fclose(file);
+        remove(filename);
+        return 1;
+    }
+    else {
+        return 0;
+    }
+}
+
 int analyze_sort_data(const char * infile_name, 
         const char * outfile_name,
         void (*sort_pointer)(int *, int),
@@ -26,7 +38,7 @@ int analyze_sort_data(const char * infile_name,
     }
     printf(" done.\n");
 
-    printf("Writing to \"%s\"...\n", outfile_name);
+    printf("Writing to \"%s\" for %s \n", outfile_name, sort_name);
     output_file = fopen(outfile_name, "a");
 
     if (output_file == NULL) {
@@ -86,7 +98,7 @@ int analyze_sort_data(const char * infile_name,
 
         //print_array(array, array_size);
         // Record to the output file
-        fprintf(output_file, "%d, %ld, C, %s\n", array_size, difference, 
+        fprintf(output_file, "%d,%ld,C,%s\n", array_size, difference, 
                 sort_name);
 
         // Free the array. Rinse and repeat.
@@ -104,7 +116,7 @@ int analyze_sort_data(const char * infile_name,
 int analyze_search_data(const char * infile_name, 
         const char * outfile_name,
         int (*search_pointer)(int *, int, int),
-        const char * search_name);
+        const char * search_name) {
 
     // Open file ports
     FILE *input_file, *output_file;
@@ -181,7 +193,7 @@ int analyze_search_data(const char * infile_name,
         difference = end.tv_usec - start.tv_usec;
 
         // Record to the output file
-        fprintf(output_file, "%d, %d, %ld, C, %s\n", array_size, result, 
+        fprintf(output_file, "%d,%d,%ld,C,%s\n", array_size, result, 
                 difference, search_name);
 
         // Free the array. Rinse and repeat.

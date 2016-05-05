@@ -1,7 +1,7 @@
 CC=gcc -std=gnu99
 FLAGS= -Wall -Wextra
 L= -lm
-DEPENDENCIES= binary_search_recursive.c binary_search_iterative.c linear_search_recursive.c linear_search_iterative.c ../utils/processor.c
+DEPENDENCIES= binary_search_recursive.c binary_search_iterative.c linear_search_recursive.c linear_search_iterative.c ../utils/processor.h
 
 searchlib: searchlib.h binary_search_recursive.c binary_search_iterative.c linear_search_recursive.c linear_search_iterative.c
 	clear ;\
