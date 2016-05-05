@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
-#include "../utils/reader.h"
+#include "../utils/processor.h"
 
 void merge_sort_rec(int * arr, int n);
 void merge_rec(int * arr, int n, int i);

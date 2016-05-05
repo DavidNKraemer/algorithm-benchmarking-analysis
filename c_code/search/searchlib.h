@@ -1,7 +1,7 @@
 #ifndef SEARCH_LIB_H
 #define SEARCH_LIB_H
 
-#include "../utils/reader.h"
+#include "../utils/processor.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
