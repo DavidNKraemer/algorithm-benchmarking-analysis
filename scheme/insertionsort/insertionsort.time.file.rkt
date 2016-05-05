@@ -1,5 +1,4 @@
 #lang racket
-
 ;;;https://gist.github.com/miyukino/5652107
 (define (insert L M)
   (if (null? L) M
@@ -34,6 +33,7 @@
            (write (insertionsort-time nextval) target)
            (display "," target)
            (write (length nextval) target)
+           (display "," target)
            (display "insertionsort" target)
            (display "," target)
            (display "R" target)
