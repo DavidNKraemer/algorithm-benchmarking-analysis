@@ -23,7 +23,9 @@
     ;everytime scheme runs a new procedure it takes longer 
     ;because of configuration
     (let kernel ([source (open-input-file input-file)]
-                 [target (open-output-file output-file)])
+                 [target (open-output-file output-file
+                                           #:mode 'text
+                                           #:exists 'replace)])
       (let ([nextval (read source)])
         (cond 
           [(eof-object? nextval) 
@@ -41,3 +43,6 @@
            (display "Scheme" target)
            (newline target)
            (kernel source target)])))))
+
+(insertionsort-time-file "../../data/input_data/sorting_data.scm" 
+                         "../../data/output_data/scheme/scheme_insertion_sort.csv")
