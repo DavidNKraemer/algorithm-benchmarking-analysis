@@ -7,6 +7,9 @@ import sys
 sys.path.append('..')
 from util import benchmark_search, test_search
 
+alg = "linear_search"
+kind = "recursive"
+
 def linear_search(arr, x):
     return linear_search_rec(arr, 0, x)
 

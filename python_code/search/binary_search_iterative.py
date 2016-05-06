@@ -6,6 +6,7 @@ cat bs_data.csv | python3 binary_search_iterative.py > bsi.csv
 
 import sys
 sys.path.append('..')
+sys.setrecursionlimit(100000000)
 from util import benchmark_search, test_search
 
 
