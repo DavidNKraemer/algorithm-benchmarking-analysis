@@ -1,0 +1,15 @@
+time,input,algorithm,implementation,language,dummy
+0.047463,10000,merge_sort,recursive,Python,0
+0.099966,20000,merge_sort,recursive,Python,0
+0.154461,30000,merge_sort,recursive,Python,0
+0.213640,40000,merge_sort,recursive,Python,0
+0.272422,50000,merge_sort,recursive,Python,0
+0.330965,60000,merge_sort,recursive,Python,0
+0.388721,70000,merge_sort,recursive,Python,0
+0.452944,80000,merge_sort,recursive,Python,0
+0.516542,90000,merge_sort,recursive,Python,0
+0.578708,100000,merge_sort,recursive,Python,0
+0.638975,110000,merge_sort,recursive,Python,0
+0.704971,120000,merge_sort,recursive,Python,0
+0.755596,130000,merge_sort,recursive,Python,0
+0.824197,140000,merge_sort,recursive,Python,0
