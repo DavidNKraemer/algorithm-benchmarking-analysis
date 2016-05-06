@@ -53,7 +53,7 @@
     (let ([before (current-inexact-milliseconds)])
       (merge-sort List)
       (let ([after (current-inexact-milliseconds)])
-        (- after before)))))
+        (* 1000 (- after before))))))
 
 (define mergesort-time-file
   (lambda (input-file output-file)
@@ -61,7 +61,9 @@
     ;everytime scheme runs a new procedure it takes longer 
     ;because of configuration
     (let kernel ([source (open-input-file input-file)]
-                 [target (open-output-file output-file)])
+                 [target (open-output-file output-file
+                                           #:mode 'text
+                                           #:exists 'replace)])
       (let ([nextval (read source)])
         (cond 
           [(eof-object? nextval) 
@@ -79,3 +81,6 @@
            (display "Scheme" target)
            (newline target)
            (kernel source target)])))))
+
+(mergesort-time-file "../../data/input_data/sorting_data.scm" 
+                         "../../data/output_data/scheme/scheme_merge_sort.csv")

@@ -11,7 +11,7 @@
         ((equal? key (car lst)) #t)
         (else (linear-search (cdr lst) key)))
     (let ([after (current-inexact-milliseconds)])
-        (- after before))))
+        (* 1000 (- after before)))))
 
 (define linear-search-time-file
   (lambda (input-file output-file)
@@ -19,7 +19,9 @@
     ;everytime scheme runs a new procedure it takes longer 
     ;because of configuration
     (let kernel ([source (open-input-file input-file)]
-                 [target (open-output-file output-file)])
+                 [target (open-output-file output-file
+                                           #:mode 'text
+                                           #:exists 'replace )])
       (let ([key (read source)]
             [nextval (read source)])
         (cond 
@@ -38,3 +40,6 @@
            (display "Scheme" target)
            (newline target)
            (kernel source target)])))))
+
+(linear-search-time-file "../../data/input_data/search_data.scm" 
+                         "../../data/output_data/scheme/scheme_linear_search.csv")
