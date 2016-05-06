@@ -19,8 +19,8 @@ insert_rec.simple_lm <- lm(time~input, data=insert_rec)
 insert_rec.theorized_lm <- lm(sqrt(time)~input, data=insert_rec)
 
 insert_iter <- sort_data[sort_data$algorithm == "insertion_iterative",]
-plot(sqrt(time)~input, data=insert_iter)
-abline(insert_iter.theorized_lm)
+plot(time/1e+6~input, data=insert_iter)
+  abline(insert_iter.theorized_lm)
 
 insert_iter.simple_lm <- lm(time~input, data=insert_iter)
 insert_iter.theorized_lm <- lm(sqrt(time)~input, data=insert_iter)
@@ -28,7 +28,7 @@ insert_iter.theorized_lm <- lm(sqrt(time)~input, data=insert_iter)
 merge_iter <- sort_data[sort_data$algorithm == "merge_iterative",]
 merge_iter.simple_lm <- lm(time~input, data=merge_iter)
   merge_iter.theorized_lm <- lm(time~nlogn(input), data=merge_iter)
-plot(time~nlogn(input), data=merge_iter)
+plot(time~input, data=merge_iter)
 abline(merge_iter.theorized_lm)
 
 
