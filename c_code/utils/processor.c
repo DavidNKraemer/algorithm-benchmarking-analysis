@@ -61,8 +61,8 @@ int analyze_sort_data(const char * infile_name,
     size_t buffer_size;
     struct timeval start, end;
     unsigned long int difference;
-
-
+    int sec_diff;
+    int usec_diff;
 
     // Loop through the lines of the input file
     printf("\t");
@@ -94,7 +94,10 @@ int analyze_sort_data(const char * infile_name,
         gettimeofday(&start, NULL);
         sort_pointer(array, array_size);
         gettimeofday(&end, NULL);
-        difference = end.tv_usec - start.tv_usec;
+
+        sec_diff = end.tv_sec - start.tv_sec;
+        usec_diff = end.tv_usec - start.tv_usec;
+        difference = usec_diff + 1000000 * sec_diff;
 
         //print_array(array, array_size);
         // Record to the output file
@@ -154,7 +157,8 @@ int analyze_search_data(const char * infile_name,
     size_t buffer_size;
     struct timeval start, end;
     unsigned long int difference;
-
+    int sec_diff;
+    int usec_diff;
 
     printf("\t");
     // Loop through the lines of the input file
@@ -183,14 +187,15 @@ int analyze_search_data(const char * infile_name,
             inner_count++;
         }
 
-        //print_array(array, array_size);
-
         // After acquiring all of the data for a given array, measure the 
         // sorting time
         gettimeofday(&start, NULL);
         result = search_pointer(array, array_size, result);
         gettimeofday(&end, NULL);
-        difference = end.tv_usec - start.tv_usec;
+
+        sec_diff = end.tv_sec - start.tv_sec;
+        usec_diff = end.tv_usec - start.tv_usec;
+        difference = usec_diff + 1000000 * sec_diff;
 
         // Record to the output file
         fprintf(output_file, "%d,%d,%ld,C,%s\n", array_size, result, 
