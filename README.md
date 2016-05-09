@@ -3,7 +3,24 @@ This repository contains all of the implementations of a series of algorithms
 for solving a set of computer science-theoretical problems. It will also
 contain scripts used for statistical analysis of the benchmarking data.
 
-[Project site](http://kraemerd17.github.io/algorithm-benchmarking-analysis) (under construction)
+# TODOs for Analysis
+
+* [Presentation](https://www.overleaf.com/5137733pskbcz)
+
+* Fit a simple linear model on the data and compare it to the theorized model
+    * Look at model diagnostics
+    * Prediction and confidence intervals
+    * Compare linear models for the max and mean runtime (this approximates 
+      average case and Big Oh coefficients).
+* Do paired testing on:
+    * Recursion vs iteration on C
+    * Implementation differences between languages for a fixed algorithm
+
+## Research questions
+
+* Are iterative algorithms demonstrably faster than recursive algorithms?
+* Is C faster than Scheme faster than Python?
+* What is the tradeoff between complex algorithms and faster results?
 
 
 # Formal Problems
