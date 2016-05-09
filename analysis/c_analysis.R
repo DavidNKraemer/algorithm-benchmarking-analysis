@@ -1,8 +1,9 @@
-require(fastR)
+require(car)
+require(mosaic)
 
 # The actual data
-c_search <- read.csv("../data/output_data/c_search.csv")
-c_sort <- read.csv("../data/output_data/c_sort.csv")
+c_search <- read.csv("~/mat336/projects/algorithm-benchmarking-analysis/data/output_data/c/c_search.csv")
+c_sort <- read.csv("~/mat336/projects/algorithm-benchmarking-analysis/data/output_data/c/c_sort.csv")
 c_search <- c_search[c_search$time > 0,]
 c_sort <- c_sort[c_sort$time > 0,]
 # First visual inspection
