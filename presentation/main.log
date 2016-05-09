@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/dev/Debian) (preloaded format=xelatex 2015.7.30)  9 MAY 2016 00:06
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/dev/Debian) (preloaded format=xelatex 2015.7.30)  9 MAY 2016 00:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2473,1166 +2473,1158 @@ File: insert/insert-453.png Graphic file (type QTm)
  <use  "insert/insert-453.png" >
 File: insert/insert-454.png Graphic file (type QTm)
 
-<use  "insert/insert-454.png" > [4
+<use  "insert/insert-454.png" >
+LaTeX Font Info:    Try loading font information for T1+zpl1 on input line 72.
+
+(/usr/share/texlive/texmf-dist/tex/latex/newpx/t1zpl1.fd
+File: t1zpl1.fd 2013/03/25 T1/TeX Gyre PagellaX-sups
+)
+LaTeX Font Info:    Font shape `T1/zpl1/m/n' will be
+(Font)              scaled to size 10.95pt on input line 72.
+LaTeX Font Info:    Font shape `T1/zpl1/m/n' will be
+(Font)              scaled to size 9.0pt on input line 72.
+LaTeX Font Info:    Try loading font information for T1+npxtt on input line 72.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/newpx/t1npxtt.fd
+File: t1npxtt.fd 2000/12/14 v1.0
+)
+LaTeX Font Info:    Font shape `T1/npxtt/m/n' will be
+(Font)              scaled to size 9.0pt on input line 72.
+LaTeX Font Info:    Font shape `T1/zplx/m/n' will be
+(Font)              scaled to size 7.3pt on input line 72.
+LaTeX Font Info:    Font shape `T1/zplx/m/n' will be
+(Font)              scaled to size 5.5pt on input line 72.
+
+
+LaTeX Font Warning: Font shape `U/bbm/m/n' in size <5.5> not available
+(Font)              size <5> substituted on input line 72.
+
+LaTeX Font Info:    Font shape `T1/zplx/m/it' will be
+(Font)              scaled to size 9.0pt on input line 72.
+LaTeX Font Info:    Font shape `T1/zplx/m/it' will be
+(Font)              scaled to size 7.3pt on input line 72.
+LaTeX Font Info:    Font shape `T1/zplx/m/it' will be
+(Font)              scaled to size 5.5pt on input line 72.
+[4
 
 ]
 File: merge/merge-sort-0.png Graphic file (type QTm)
  <use  "merge/merge-sort-0.png" >
 File: merge/merge-sort-1.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-1.png" >
+ <use  "merge/merge-sort-1.png" >
 File: merge/merge-sort-2.png Graphic file (type QTm)
- <use  "merge/merge-sort-2.png" >
+
+<use  "merge/merge-sort-2.png" >
 File: merge/merge-sort-3.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-3.png" >
+ <use  "merge/merge-sort-3.png" >
 File: merge/merge-sort-4.png Graphic file (type QTm)
- <use  "merge/merge-sort-4.png" >
+
+<use  "merge/merge-sort-4.png" >
 File: merge/merge-sort-5.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-5.png" >
+ <use  "merge/merge-sort-5.png" >
 File: merge/merge-sort-6.png Graphic file (type QTm)
- <use  "merge/merge-sort-6.png" >
+
+<use  "merge/merge-sort-6.png" >
 File: merge/merge-sort-7.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-7.png" >
+ <use  "merge/merge-sort-7.png" >
 File: merge/merge-sort-8.png Graphic file (type QTm)
- <use  "merge/merge-sort-8.png" >
+
+<use  "merge/merge-sort-8.png" >
 File: merge/merge-sort-9.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-9.png" >
+ <use  "merge/merge-sort-9.png" >
 File: merge/merge-sort-10.png Graphic file (type QTm)
- <use  "merge/merge-sort-10.png" >
+
+<use  "merge/merge-sort-10.png" >
 File: merge/merge-sort-11.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-11.png" >
+ <use  "merge/merge-sort-11.png" >
 File: merge/merge-sort-12.png Graphic file (type QTm)
- <use  "merge/merge-sort-12.png" >
+
+<use  "merge/merge-sort-12.png" >
 File: merge/merge-sort-13.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-13.png" >
+ <use  "merge/merge-sort-13.png" >
 File: merge/merge-sort-14.png Graphic file (type QTm)
- <use  "merge/merge-sort-14.png" >
+
+<use  "merge/merge-sort-14.png" >
 File: merge/merge-sort-15.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-15.png" >
+ <use  "merge/merge-sort-15.png" >
 File: merge/merge-sort-16.png Graphic file (type QTm)
- <use  "merge/merge-sort-16.png" >
+
+<use  "merge/merge-sort-16.png" >
 File: merge/merge-sort-17.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-17.png" >
+ <use  "merge/merge-sort-17.png" >
 File: merge/merge-sort-18.png Graphic file (type QTm)
- <use  "merge/merge-sort-18.png" >
+
+<use  "merge/merge-sort-18.png" >
 File: merge/merge-sort-19.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-19.png" >
+ <use  "merge/merge-sort-19.png" >
 File: merge/merge-sort-20.png Graphic file (type QTm)
- <use  "merge/merge-sort-20.png" >
+
+<use  "merge/merge-sort-20.png" >
 File: merge/merge-sort-21.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-21.png" >
+ <use  "merge/merge-sort-21.png" >
 File: merge/merge-sort-22.png Graphic file (type QTm)
- <use  "merge/merge-sort-22.png" >
+
+<use  "merge/merge-sort-22.png" >
 File: merge/merge-sort-23.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-23.png" >
+ <use  "merge/merge-sort-23.png" >
 File: merge/merge-sort-24.png Graphic file (type QTm)
- <use  "merge/merge-sort-24.png" >
+
+<use  "merge/merge-sort-24.png" >
 File: merge/merge-sort-25.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-25.png" >
+ <use  "merge/merge-sort-25.png" >
 File: merge/merge-sort-26.png Graphic file (type QTm)
- <use  "merge/merge-sort-26.png" >
+
+<use  "merge/merge-sort-26.png" >
 File: merge/merge-sort-27.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-27.png" >
+ <use  "merge/merge-sort-27.png" >
 File: merge/merge-sort-28.png Graphic file (type QTm)
- <use  "merge/merge-sort-28.png" >
+
+<use  "merge/merge-sort-28.png" >
 File: merge/merge-sort-29.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-29.png" >
+ <use  "merge/merge-sort-29.png" >
 File: merge/merge-sort-30.png Graphic file (type QTm)
- <use  "merge/merge-sort-30.png" >
+
+<use  "merge/merge-sort-30.png" >
 File: merge/merge-sort-31.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-31.png" >
+ <use  "merge/merge-sort-31.png" >
 File: merge/merge-sort-32.png Graphic file (type QTm)
- <use  "merge/merge-sort-32.png" >
+
+<use  "merge/merge-sort-32.png" >
 File: merge/merge-sort-33.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-33.png" >
+ <use  "merge/merge-sort-33.png" >
 File: merge/merge-sort-34.png Graphic file (type QTm)
- <use  "merge/merge-sort-34.png" >
+
+<use  "merge/merge-sort-34.png" >
 File: merge/merge-sort-35.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-35.png" >
+ <use  "merge/merge-sort-35.png" >
 File: merge/merge-sort-36.png Graphic file (type QTm)
- <use  "merge/merge-sort-36.png" >
+
+<use  "merge/merge-sort-36.png" >
 File: merge/merge-sort-37.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-37.png" >
+ <use  "merge/merge-sort-37.png" >
 File: merge/merge-sort-38.png Graphic file (type QTm)
- <use  "merge/merge-sort-38.png" >
+
+<use  "merge/merge-sort-38.png" >
 File: merge/merge-sort-39.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-39.png" >
+ <use  "merge/merge-sort-39.png" >
 File: merge/merge-sort-40.png Graphic file (type QTm)
- <use  "merge/merge-sort-40.png" >
+
+<use  "merge/merge-sort-40.png" >
 File: merge/merge-sort-41.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-41.png" >
+ <use  "merge/merge-sort-41.png" >
 File: merge/merge-sort-42.png Graphic file (type QTm)
- <use  "merge/merge-sort-42.png" >
+
+<use  "merge/merge-sort-42.png" >
 File: merge/merge-sort-43.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-43.png" >
+ <use  "merge/merge-sort-43.png" >
 File: merge/merge-sort-44.png Graphic file (type QTm)
- <use  "merge/merge-sort-44.png" >
+
+<use  "merge/merge-sort-44.png" >
 File: merge/merge-sort-45.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-45.png" >
+ <use  "merge/merge-sort-45.png" >
 File: merge/merge-sort-46.png Graphic file (type QTm)
- <use  "merge/merge-sort-46.png" >
+
+<use  "merge/merge-sort-46.png" >
 File: merge/merge-sort-47.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-47.png" >
+ <use  "merge/merge-sort-47.png" >
 File: merge/merge-sort-48.png Graphic file (type QTm)
- <use  "merge/merge-sort-48.png" >
+
+<use  "merge/merge-sort-48.png" >
 File: merge/merge-sort-49.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-49.png" >
+ <use  "merge/merge-sort-49.png" >
 File: merge/merge-sort-50.png Graphic file (type QTm)
- <use  "merge/merge-sort-50.png" >
+
+<use  "merge/merge-sort-50.png" >
 File: merge/merge-sort-51.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-51.png" >
+ <use  "merge/merge-sort-51.png" >
 File: merge/merge-sort-52.png Graphic file (type QTm)
- <use  "merge/merge-sort-52.png" >
+
+<use  "merge/merge-sort-52.png" >
 File: merge/merge-sort-53.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-53.png" >
+ <use  "merge/merge-sort-53.png" >
 File: merge/merge-sort-54.png Graphic file (type QTm)
- <use  "merge/merge-sort-54.png" >
+
+<use  "merge/merge-sort-54.png" >
 File: merge/merge-sort-55.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-55.png" >
+ <use  "merge/merge-sort-55.png" >
 File: merge/merge-sort-56.png Graphic file (type QTm)
- <use  "merge/merge-sort-56.png" >
+
+<use  "merge/merge-sort-56.png" >
 File: merge/merge-sort-57.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-57.png" >
+ <use  "merge/merge-sort-57.png" >
 File: merge/merge-sort-58.png Graphic file (type QTm)
- <use  "merge/merge-sort-58.png" >
+
+<use  "merge/merge-sort-58.png" >
 File: merge/merge-sort-59.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-59.png" >
+ <use  "merge/merge-sort-59.png" >
 File: merge/merge-sort-60.png Graphic file (type QTm)
- <use  "merge/merge-sort-60.png" >
+
+<use  "merge/merge-sort-60.png" >
 File: merge/merge-sort-61.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-61.png" >
+ <use  "merge/merge-sort-61.png" >
 File: merge/merge-sort-62.png Graphic file (type QTm)
- <use  "merge/merge-sort-62.png" >
+
+<use  "merge/merge-sort-62.png" >
 File: merge/merge-sort-63.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-63.png" >
+ <use  "merge/merge-sort-63.png" >
 File: merge/merge-sort-64.png Graphic file (type QTm)
- <use  "merge/merge-sort-64.png" >
+
+<use  "merge/merge-sort-64.png" >
 File: merge/merge-sort-65.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-65.png" >
+ <use  "merge/merge-sort-65.png" >
 File: merge/merge-sort-66.png Graphic file (type QTm)
- <use  "merge/merge-sort-66.png" >
+
+<use  "merge/merge-sort-66.png" >
 File: merge/merge-sort-67.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-67.png" >
+ <use  "merge/merge-sort-67.png" >
 File: merge/merge-sort-68.png Graphic file (type QTm)
- <use  "merge/merge-sort-68.png" >
+
+<use  "merge/merge-sort-68.png" >
 File: merge/merge-sort-69.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-69.png" >
+ <use  "merge/merge-sort-69.png" >
 File: merge/merge-sort-70.png Graphic file (type QTm)
- <use  "merge/merge-sort-70.png" >
+
+<use  "merge/merge-sort-70.png" >
 File: merge/merge-sort-71.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-71.png" >
+ <use  "merge/merge-sort-71.png" >
 File: merge/merge-sort-72.png Graphic file (type QTm)
- <use  "merge/merge-sort-72.png" >
+
+<use  "merge/merge-sort-72.png" >
 File: merge/merge-sort-73.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-73.png" >
+ <use  "merge/merge-sort-73.png" >
 File: merge/merge-sort-74.png Graphic file (type QTm)
- <use  "merge/merge-sort-74.png" >
+
+<use  "merge/merge-sort-74.png" >
 File: merge/merge-sort-75.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-75.png" >
+ <use  "merge/merge-sort-75.png" >
 File: merge/merge-sort-76.png Graphic file (type QTm)
- <use  "merge/merge-sort-76.png" >
+
+<use  "merge/merge-sort-76.png" >
 File: merge/merge-sort-77.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-77.png" >
+ <use  "merge/merge-sort-77.png" >
 File: merge/merge-sort-78.png Graphic file (type QTm)
- <use  "merge/merge-sort-78.png" >
+
+<use  "merge/merge-sort-78.png" >
 File: merge/merge-sort-79.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-79.png" >
+ <use  "merge/merge-sort-79.png" >
 File: merge/merge-sort-80.png Graphic file (type QTm)
- <use  "merge/merge-sort-80.png" >
+
+<use  "merge/merge-sort-80.png" >
 File: merge/merge-sort-81.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-81.png" >
+ <use  "merge/merge-sort-81.png" >
 File: merge/merge-sort-82.png Graphic file (type QTm)
- <use  "merge/merge-sort-82.png" >
+
+<use  "merge/merge-sort-82.png" >
 File: merge/merge-sort-83.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-83.png" >
+ <use  "merge/merge-sort-83.png" >
 File: merge/merge-sort-84.png Graphic file (type QTm)
- <use  "merge/merge-sort-84.png" >
+
+<use  "merge/merge-sort-84.png" >
 File: merge/merge-sort-85.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-85.png" >
+ <use  "merge/merge-sort-85.png" >
 File: merge/merge-sort-86.png Graphic file (type QTm)
- <use  "merge/merge-sort-86.png" >
+
+<use  "merge/merge-sort-86.png" >
 File: merge/merge-sort-87.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-87.png" >
+ <use  "merge/merge-sort-87.png" >
 File: merge/merge-sort-88.png Graphic file (type QTm)
- <use  "merge/merge-sort-88.png" >
+
+<use  "merge/merge-sort-88.png" >
 File: merge/merge-sort-89.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-89.png" >
+ <use  "merge/merge-sort-89.png" >
 File: merge/merge-sort-90.png Graphic file (type QTm)
- <use  "merge/merge-sort-90.png" >
+
+<use  "merge/merge-sort-90.png" >
 File: merge/merge-sort-91.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-91.png" >
+ <use  "merge/merge-sort-91.png" >
 File: merge/merge-sort-92.png Graphic file (type QTm)
- <use  "merge/merge-sort-92.png" >
+
+<use  "merge/merge-sort-92.png" >
 File: merge/merge-sort-93.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-93.png" >
+ <use  "merge/merge-sort-93.png" >
 File: merge/merge-sort-94.png Graphic file (type QTm)
- <use  "merge/merge-sort-94.png" >
+
+<use  "merge/merge-sort-94.png" >
 File: merge/merge-sort-95.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-95.png" >
+ <use  "merge/merge-sort-95.png" >
 File: merge/merge-sort-96.png Graphic file (type QTm)
- <use  "merge/merge-sort-96.png" >
+
+<use  "merge/merge-sort-96.png" >
 File: merge/merge-sort-97.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-97.png" >
+ <use  "merge/merge-sort-97.png" >
 File: merge/merge-sort-98.png Graphic file (type QTm)
- <use  "merge/merge-sort-98.png" >
+
+<use  "merge/merge-sort-98.png" >
 File: merge/merge-sort-99.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-99.png" >
+ <use  "merge/merge-sort-99.png" >
 File: merge/merge-sort-100.png Graphic file (type QTm)
- <use  "merge/merge-sort-100.png" >
+
+<use  "merge/merge-sort-100.png" >
 File: merge/merge-sort-101.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-101.png" >
+ <use  "merge/merge-sort-101.png" >
 File: merge/merge-sort-102.png Graphic file (type QTm)
- <use  "merge/merge-sort-102.png" >
+
+<use  "merge/merge-sort-102.png" >
 File: merge/merge-sort-103.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-103.png" >
+ <use  "merge/merge-sort-103.png" >
 File: merge/merge-sort-104.png Graphic file (type QTm)
- <use  "merge/merge-sort-104.png" >
+
+<use  "merge/merge-sort-104.png" >
 File: merge/merge-sort-105.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-105.png" >
+ <use  "merge/merge-sort-105.png" >
 File: merge/merge-sort-106.png Graphic file (type QTm)
- <use  "merge/merge-sort-106.png" >
+
+<use  "merge/merge-sort-106.png" >
 File: merge/merge-sort-107.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-107.png" >
+ <use  "merge/merge-sort-107.png" >
 File: merge/merge-sort-108.png Graphic file (type QTm)
- <use  "merge/merge-sort-108.png" >
+
+<use  "merge/merge-sort-108.png" >
 File: merge/merge-sort-109.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-109.png" >
+ <use  "merge/merge-sort-109.png" >
 File: merge/merge-sort-110.png Graphic file (type QTm)
- <use  "merge/merge-sort-110.png" >
+
+<use  "merge/merge-sort-110.png" >
 File: merge/merge-sort-111.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-111.png" >
+ <use  "merge/merge-sort-111.png" >
 File: merge/merge-sort-112.png Graphic file (type QTm)
- <use  "merge/merge-sort-112.png" >
+
+<use  "merge/merge-sort-112.png" >
 File: merge/merge-sort-113.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-113.png" >
+ <use  "merge/merge-sort-113.png" >
 File: merge/merge-sort-114.png Graphic file (type QTm)
- <use  "merge/merge-sort-114.png" >
+
+<use  "merge/merge-sort-114.png" >
 File: merge/merge-sort-115.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-115.png" >
+ <use  "merge/merge-sort-115.png" >
 File: merge/merge-sort-116.png Graphic file (type QTm)
- <use  "merge/merge-sort-116.png" >
+
+<use  "merge/merge-sort-116.png" >
 File: merge/merge-sort-117.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-117.png" >
+ <use  "merge/merge-sort-117.png" >
 File: merge/merge-sort-118.png Graphic file (type QTm)
- <use  "merge/merge-sort-118.png" >
+
+<use  "merge/merge-sort-118.png" >
 File: merge/merge-sort-119.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-119.png" >
+ <use  "merge/merge-sort-119.png" >
 File: merge/merge-sort-120.png Graphic file (type QTm)
- <use  "merge/merge-sort-120.png" >
+
+<use  "merge/merge-sort-120.png" >
 File: merge/merge-sort-121.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-121.png" >
+ <use  "merge/merge-sort-121.png" >
 File: merge/merge-sort-122.png Graphic file (type QTm)
- <use  "merge/merge-sort-122.png" >
+
+<use  "merge/merge-sort-122.png" >
 File: merge/merge-sort-123.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-123.png" >
+ <use  "merge/merge-sort-123.png" >
 File: merge/merge-sort-124.png Graphic file (type QTm)
- <use  "merge/merge-sort-124.png" >
+
+<use  "merge/merge-sort-124.png" >
 File: merge/merge-sort-125.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-125.png" >
+ <use  "merge/merge-sort-125.png" >
 File: merge/merge-sort-126.png Graphic file (type QTm)
- <use  "merge/merge-sort-126.png" >
+
+<use  "merge/merge-sort-126.png" >
 File: merge/merge-sort-127.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-127.png" >
+ <use  "merge/merge-sort-127.png" >
 File: merge/merge-sort-128.png Graphic file (type QTm)
- <use  "merge/merge-sort-128.png" >
+
+<use  "merge/merge-sort-128.png" >
 File: merge/merge-sort-129.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-129.png" >
+ <use  "merge/merge-sort-129.png" >
 File: merge/merge-sort-130.png Graphic file (type QTm)
- <use  "merge/merge-sort-130.png" >
+
+<use  "merge/merge-sort-130.png" >
 File: merge/merge-sort-131.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-131.png" >
+ <use  "merge/merge-sort-131.png" >
 File: merge/merge-sort-132.png Graphic file (type QTm)
- <use  "merge/merge-sort-132.png" >
+
+<use  "merge/merge-sort-132.png" >
 File: merge/merge-sort-133.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-133.png" >
+ <use  "merge/merge-sort-133.png" >
 File: merge/merge-sort-134.png Graphic file (type QTm)
- <use  "merge/merge-sort-134.png" >
+
+<use  "merge/merge-sort-134.png" >
 File: merge/merge-sort-135.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-135.png" >
+ <use  "merge/merge-sort-135.png" >
 File: merge/merge-sort-136.png Graphic file (type QTm)
- <use  "merge/merge-sort-136.png" >
+
+<use  "merge/merge-sort-136.png" >
 File: merge/merge-sort-137.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-137.png" >
+ <use  "merge/merge-sort-137.png" >
 File: merge/merge-sort-138.png Graphic file (type QTm)
- <use  "merge/merge-sort-138.png" >
+
+<use  "merge/merge-sort-138.png" >
 File: merge/merge-sort-139.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-139.png" >
+ <use  "merge/merge-sort-139.png" >
 File: merge/merge-sort-140.png Graphic file (type QTm)
- <use  "merge/merge-sort-140.png" >
+
+<use  "merge/merge-sort-140.png" >
 File: merge/merge-sort-141.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-141.png" >
+ <use  "merge/merge-sort-141.png" >
 File: merge/merge-sort-142.png Graphic file (type QTm)
- <use  "merge/merge-sort-142.png" >
+
+<use  "merge/merge-sort-142.png" >
 File: merge/merge-sort-143.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-143.png" >
+ <use  "merge/merge-sort-143.png" >
 File: merge/merge-sort-144.png Graphic file (type QTm)
- <use  "merge/merge-sort-144.png" >
+
+<use  "merge/merge-sort-144.png" >
 File: merge/merge-sort-145.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-145.png" >
+ <use  "merge/merge-sort-145.png" >
 File: merge/merge-sort-146.png Graphic file (type QTm)
- <use  "merge/merge-sort-146.png" >
+
+<use  "merge/merge-sort-146.png" >
 File: merge/merge-sort-147.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-147.png" >
+ <use  "merge/merge-sort-147.png" >
 File: merge/merge-sort-148.png Graphic file (type QTm)
- <use  "merge/merge-sort-148.png" >
+
+<use  "merge/merge-sort-148.png" >
 File: merge/merge-sort-149.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-149.png" >
+ <use  "merge/merge-sort-149.png" >
 File: merge/merge-sort-150.png Graphic file (type QTm)
- <use  "merge/merge-sort-150.png" >
+
+<use  "merge/merge-sort-150.png" >
 File: merge/merge-sort-151.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-151.png" >
+ <use  "merge/merge-sort-151.png" >
 File: merge/merge-sort-152.png Graphic file (type QTm)
- <use  "merge/merge-sort-152.png" >
+
+<use  "merge/merge-sort-152.png" >
 File: merge/merge-sort-153.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-153.png" >
+ <use  "merge/merge-sort-153.png" >
 File: merge/merge-sort-154.png Graphic file (type QTm)
- <use  "merge/merge-sort-154.png" >
+
+<use  "merge/merge-sort-154.png" >
 File: merge/merge-sort-155.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-155.png" >
+ <use  "merge/merge-sort-155.png" >
 File: merge/merge-sort-156.png Graphic file (type QTm)
- <use  "merge/merge-sort-156.png" >
+
+<use  "merge/merge-sort-156.png" >
 File: merge/merge-sort-157.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-157.png" >
+ <use  "merge/merge-sort-157.png" >
 File: merge/merge-sort-158.png Graphic file (type QTm)
- <use  "merge/merge-sort-158.png" >
+
+<use  "merge/merge-sort-158.png" >
 File: merge/merge-sort-159.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-159.png" >
+ <use  "merge/merge-sort-159.png" >
 File: merge/merge-sort-160.png Graphic file (type QTm)
- <use  "merge/merge-sort-160.png" >
+
+<use  "merge/merge-sort-160.png" >
 File: merge/merge-sort-161.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-161.png" >
+ <use  "merge/merge-sort-161.png" >
 File: merge/merge-sort-162.png Graphic file (type QTm)
- <use  "merge/merge-sort-162.png" >
+
+<use  "merge/merge-sort-162.png" >
 File: merge/merge-sort-163.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-163.png" >
+ <use  "merge/merge-sort-163.png" >
 File: merge/merge-sort-164.png Graphic file (type QTm)
- <use  "merge/merge-sort-164.png" >
+
+<use  "merge/merge-sort-164.png" >
 File: merge/merge-sort-165.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-165.png" >
+ <use  "merge/merge-sort-165.png" >
 File: merge/merge-sort-166.png Graphic file (type QTm)
- <use  "merge/merge-sort-166.png" >
+
+<use  "merge/merge-sort-166.png" >
 File: merge/merge-sort-167.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-167.png" >
+ <use  "merge/merge-sort-167.png" >
 File: merge/merge-sort-168.png Graphic file (type QTm)
- <use  "merge/merge-sort-168.png" >
+
+<use  "merge/merge-sort-168.png" >
 File: merge/merge-sort-169.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-169.png" >
+ <use  "merge/merge-sort-169.png" >
 File: merge/merge-sort-170.png Graphic file (type QTm)
- <use  "merge/merge-sort-170.png" >
+
+<use  "merge/merge-sort-170.png" >
 File: merge/merge-sort-171.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-171.png" >
+ <use  "merge/merge-sort-171.png" >
 File: merge/merge-sort-172.png Graphic file (type QTm)
- <use  "merge/merge-sort-172.png" >
+
+<use  "merge/merge-sort-172.png" >
 File: merge/merge-sort-173.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-173.png" >
+ <use  "merge/merge-sort-173.png" >
 File: merge/merge-sort-174.png Graphic file (type QTm)
- <use  "merge/merge-sort-174.png" >
+
+<use  "merge/merge-sort-174.png" >
 File: merge/merge-sort-175.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-175.png" >
+ <use  "merge/merge-sort-175.png" >
 File: merge/merge-sort-176.png Graphic file (type QTm)
- <use  "merge/merge-sort-176.png" >
+
+<use  "merge/merge-sort-176.png" >
 File: merge/merge-sort-177.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-177.png" >
+ <use  "merge/merge-sort-177.png" >
 File: merge/merge-sort-178.png Graphic file (type QTm)
- <use  "merge/merge-sort-178.png" >
+
+<use  "merge/merge-sort-178.png" >
 File: merge/merge-sort-179.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-179.png" >
+ <use  "merge/merge-sort-179.png" >
 File: merge/merge-sort-180.png Graphic file (type QTm)
- <use  "merge/merge-sort-180.png" >
+
+<use  "merge/merge-sort-180.png" >
 File: merge/merge-sort-181.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-181.png" >
+ <use  "merge/merge-sort-181.png" >
 File: merge/merge-sort-182.png Graphic file (type QTm)
- <use  "merge/merge-sort-182.png" >
+
+<use  "merge/merge-sort-182.png" >
 File: merge/merge-sort-183.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-183.png" >
+ <use  "merge/merge-sort-183.png" >
 File: merge/merge-sort-184.png Graphic file (type QTm)
- <use  "merge/merge-sort-184.png" >
+
+<use  "merge/merge-sort-184.png" >
 File: merge/merge-sort-185.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-185.png" >
+ <use  "merge/merge-sort-185.png" >
 File: merge/merge-sort-186.png Graphic file (type QTm)
- <use  "merge/merge-sort-186.png" >
+
+<use  "merge/merge-sort-186.png" >
 File: merge/merge-sort-187.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-187.png" >
+ <use  "merge/merge-sort-187.png" >
 File: merge/merge-sort-188.png Graphic file (type QTm)
- <use  "merge/merge-sort-188.png" >
+
+<use  "merge/merge-sort-188.png" >
 File: merge/merge-sort-189.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-189.png" >
+ <use  "merge/merge-sort-189.png" >
 File: merge/merge-sort-190.png Graphic file (type QTm)
- <use  "merge/merge-sort-190.png" >
+
+<use  "merge/merge-sort-190.png" >
 File: merge/merge-sort-191.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-191.png" >
+ <use  "merge/merge-sort-191.png" >
 File: merge/merge-sort-192.png Graphic file (type QTm)
- <use  "merge/merge-sort-192.png" >
+
+<use  "merge/merge-sort-192.png" >
 File: merge/merge-sort-193.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-193.png" >
+ <use  "merge/merge-sort-193.png" >
 File: merge/merge-sort-194.png Graphic file (type QTm)
- <use  "merge/merge-sort-194.png" >
+
+<use  "merge/merge-sort-194.png" >
 File: merge/merge-sort-195.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-195.png" >
+ <use  "merge/merge-sort-195.png" >
 File: merge/merge-sort-196.png Graphic file (type QTm)
- <use  "merge/merge-sort-196.png" >
+
+<use  "merge/merge-sort-196.png" >
 File: merge/merge-sort-197.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-197.png" >
+ <use  "merge/merge-sort-197.png" >
 File: merge/merge-sort-198.png Graphic file (type QTm)
- <use  "merge/merge-sort-198.png" >
+
+<use  "merge/merge-sort-198.png" >
 File: merge/merge-sort-199.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-199.png" >
+ <use  "merge/merge-sort-199.png" >
 File: merge/merge-sort-200.png Graphic file (type QTm)
- <use  "merge/merge-sort-200.png" >
+
+<use  "merge/merge-sort-200.png" >
 File: merge/merge-sort-201.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-201.png" >
+ <use  "merge/merge-sort-201.png" >
 File: merge/merge-sort-202.png Graphic file (type QTm)
- <use  "merge/merge-sort-202.png" >
+
+<use  "merge/merge-sort-202.png" >
 File: merge/merge-sort-203.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-203.png" >
+ <use  "merge/merge-sort-203.png" >
 File: merge/merge-sort-204.png Graphic file (type QTm)
- <use  "merge/merge-sort-204.png" >
+
+<use  "merge/merge-sort-204.png" >
 File: merge/merge-sort-205.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-205.png" >
+ <use  "merge/merge-sort-205.png" >
 File: merge/merge-sort-206.png Graphic file (type QTm)
- <use  "merge/merge-sort-206.png" >
+
+<use  "merge/merge-sort-206.png" >
 File: merge/merge-sort-207.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-207.png" >
+ <use  "merge/merge-sort-207.png" >
 File: merge/merge-sort-208.png Graphic file (type QTm)
- <use  "merge/merge-sort-208.png" >
+
+<use  "merge/merge-sort-208.png" >
 File: merge/merge-sort-209.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-209.png" >
+ <use  "merge/merge-sort-209.png" >
 File: merge/merge-sort-210.png Graphic file (type QTm)
- <use  "merge/merge-sort-210.png" >
+
+<use  "merge/merge-sort-210.png" >
 File: merge/merge-sort-211.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-211.png" >
+ <use  "merge/merge-sort-211.png" >
 File: merge/merge-sort-212.png Graphic file (type QTm)
- <use  "merge/merge-sort-212.png" >
+
+<use  "merge/merge-sort-212.png" >
 File: merge/merge-sort-213.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-213.png" >
+ <use  "merge/merge-sort-213.png" >
 File: merge/merge-sort-214.png Graphic file (type QTm)
- <use  "merge/merge-sort-214.png" >
+
+<use  "merge/merge-sort-214.png" >
 File: merge/merge-sort-215.png Graphic file (type QTm)
-
-<use  "merge/merge-sort-215.png" >
+ <use  "merge/merge-sort-215.png" >
 File: merge/merge-sort-216.png Graphic file (type QTm)
- <use  "merge/merge-sort-216.png" >
+
+<use  "merge/merge-sort-216.png" >
 File: merge/merge-sort-217.png Graphic file (type QTm)
+ <use  "merge/merge-sort-217.png" > [5
 
-<use  "merge/merge-sort-217.png" > [5
-
-] [6
+]
+[6
 
 ]
 File: search/search-0.png Graphic file (type QTm)
  <use  "search/search-0.png" >
 File: search/search-1.png Graphic file (type QTm)
-
-<use  "search/search-1.png" >
+ <use  "search/search-1.png" >
 File: search/search-2.png Graphic file (type QTm)
- <use  "search/search-2.png" >
+
+<use  "search/search-2.png" >
 File: search/search-3.png Graphic file (type QTm)
-
-<use  "search/search-3.png" >
+ <use  "search/search-3.png" >
 File: search/search-4.png Graphic file (type QTm)
- <use  "search/search-4.png" >
+
+<use  "search/search-4.png" >
 File: search/search-5.png Graphic file (type QTm)
-
-<use  "search/search-5.png" >
+ <use  "search/search-5.png" >
 File: search/search-6.png Graphic file (type QTm)
- <use  "search/search-6.png" >
+
+<use  "search/search-6.png" >
 File: search/search-7.png Graphic file (type QTm)
-
-<use  "search/search-7.png" >
+ <use  "search/search-7.png" >
 File: search/search-8.png Graphic file (type QTm)
- <use  "search/search-8.png" >
+
+<use  "search/search-8.png" >
 File: search/search-9.png Graphic file (type QTm)
-
-<use  "search/search-9.png" >
+ <use  "search/search-9.png" >
 File: search/search-10.png Graphic file (type QTm)
- <use  "search/search-10.png" >
+
+<use  "search/search-10.png" >
 File: search/search-11.png Graphic file (type QTm)
-
-<use  "search/search-11.png" >
+ <use  "search/search-11.png" >
 File: search/search-12.png Graphic file (type QTm)
- <use  "search/search-12.png" >
+
+<use  "search/search-12.png" >
 File: search/search-13.png Graphic file (type QTm)
-
-<use  "search/search-13.png" >
+ <use  "search/search-13.png" >
 File: search/search-14.png Graphic file (type QTm)
- <use  "search/search-14.png" >
+
+<use  "search/search-14.png" >
 File: search/search-15.png Graphic file (type QTm)
-
-<use  "search/search-15.png" >
+ <use  "search/search-15.png" >
 File: search/search-16.png Graphic file (type QTm)
- <use  "search/search-16.png" >
+
+<use  "search/search-16.png" >
 File: search/search-17.png Graphic file (type QTm)
-
-<use  "search/search-17.png" >
+ <use  "search/search-17.png" >
 File: search/search-18.png Graphic file (type QTm)
- <use  "search/search-18.png" >
+
+<use  "search/search-18.png" >
 File: search/search-19.png Graphic file (type QTm)
-
-<use  "search/search-19.png" >
+ <use  "search/search-19.png" >
 File: search/search-20.png Graphic file (type QTm)
- <use  "search/search-20.png" >
+
+<use  "search/search-20.png" >
 File: search/search-21.png Graphic file (type QTm)
-
-<use  "search/search-21.png" >
+ <use  "search/search-21.png" >
 File: search/search-22.png Graphic file (type QTm)
- <use  "search/search-22.png" >
+
+<use  "search/search-22.png" >
 File: search/search-23.png Graphic file (type QTm)
-
-<use  "search/search-23.png" >
+ <use  "search/search-23.png" >
 File: search/search-24.png Graphic file (type QTm)
- <use  "search/search-24.png" >
+
+<use  "search/search-24.png" >
 File: search/search-25.png Graphic file (type QTm)
-
-<use  "search/search-25.png" >
+ <use  "search/search-25.png" >
 File: search/search-26.png Graphic file (type QTm)
- <use  "search/search-26.png" >
+
+<use  "search/search-26.png" >
 File: search/search-27.png Graphic file (type QTm)
-
-<use  "search/search-27.png" >
+ <use  "search/search-27.png" >
 File: search/search-28.png Graphic file (type QTm)
- <use  "search/search-28.png" >
+
+<use  "search/search-28.png" >
 File: search/search-29.png Graphic file (type QTm)
-
-<use  "search/search-29.png" >
+ <use  "search/search-29.png" >
 File: search/search-30.png Graphic file (type QTm)
- <use  "search/search-30.png" >
+
+<use  "search/search-30.png" >
 File: search/search-31.png Graphic file (type QTm)
-
-<use  "search/search-31.png" >
+ <use  "search/search-31.png" >
 File: search/search-32.png Graphic file (type QTm)
- <use  "search/search-32.png" >
+
+<use  "search/search-32.png" >
 File: search/search-33.png Graphic file (type QTm)
-
-<use  "search/search-33.png" >
+ <use  "search/search-33.png" >
 File: search/search-34.png Graphic file (type QTm)
- <use  "search/search-34.png" >
+
+<use  "search/search-34.png" >
 File: search/search-35.png Graphic file (type QTm)
-
-<use  "search/search-35.png" >
+ <use  "search/search-35.png" >
 File: search/search-36.png Graphic file (type QTm)
- <use  "search/search-36.png" >
+
+<use  "search/search-36.png" >
 File: search/search-37.png Graphic file (type QTm)
-
-<use  "search/search-37.png" >
+ <use  "search/search-37.png" >
 File: search/search-38.png Graphic file (type QTm)
- <use  "search/search-38.png" >
+
+<use  "search/search-38.png" >
 File: search/search-39.png Graphic file (type QTm)
-
-<use  "search/search-39.png" >
+ <use  "search/search-39.png" >
 File: search/search-40.png Graphic file (type QTm)
- <use  "search/search-40.png" >
+
+<use  "search/search-40.png" >
 File: search/search-41.png Graphic file (type QTm)
-
-<use  "search/search-41.png" >
+ <use  "search/search-41.png" >
 File: search/search-42.png Graphic file (type QTm)
- <use  "search/search-42.png" >
+
+<use  "search/search-42.png" >
 File: search/search-43.png Graphic file (type QTm)
-
-<use  "search/search-43.png" >
+ <use  "search/search-43.png" >
 File: search/search-44.png Graphic file (type QTm)
- <use  "search/search-44.png" >
+
+<use  "search/search-44.png" >
 File: search/search-45.png Graphic file (type QTm)
-
-<use  "search/search-45.png" >
+ <use  "search/search-45.png" >
 File: search/search-46.png Graphic file (type QTm)
- <use  "search/search-46.png" >
+
+<use  "search/search-46.png" >
 File: search/search-47.png Graphic file (type QTm)
-
-<use  "search/search-47.png" >
+ <use  "search/search-47.png" >
 File: search/search-48.png Graphic file (type QTm)
- <use  "search/search-48.png" >
+
+<use  "search/search-48.png" >
 File: search/search-49.png Graphic file (type QTm)
-
-<use  "search/search-49.png" >
+ <use  "search/search-49.png" >
 File: search/search-50.png Graphic file (type QTm)
- <use  "search/search-50.png" >
+
+<use  "search/search-50.png" >
 File: search/search-51.png Graphic file (type QTm)
-
-<use  "search/search-51.png" >
+ <use  "search/search-51.png" >
 File: search/search-52.png Graphic file (type QTm)
- <use  "search/search-52.png" >
+
+<use  "search/search-52.png" >
 File: search/search-53.png Graphic file (type QTm)
-
-<use  "search/search-53.png" >
+ <use  "search/search-53.png" >
 File: search/search-54.png Graphic file (type QTm)
- <use  "search/search-54.png" >
+
+<use  "search/search-54.png" >
 File: search/search-55.png Graphic file (type QTm)
-
-<use  "search/search-55.png" >
+ <use  "search/search-55.png" >
 File: search/search-56.png Graphic file (type QTm)
- <use  "search/search-56.png" >
+
+<use  "search/search-56.png" >
 File: search/search-57.png Graphic file (type QTm)
-
-<use  "search/search-57.png" >
+ <use  "search/search-57.png" >
 File: search/search-58.png Graphic file (type QTm)
- <use  "search/search-58.png" >
+
+<use  "search/search-58.png" >
 File: search/search-59.png Graphic file (type QTm)
-
-<use  "search/search-59.png" >
+ <use  "search/search-59.png" >
 File: search/search-60.png Graphic file (type QTm)
- <use  "search/search-60.png" >
+
+<use  "search/search-60.png" >
 File: search/search-61.png Graphic file (type QTm)
-
-<use  "search/search-61.png" >
+ <use  "search/search-61.png" >
 File: search/search-62.png Graphic file (type QTm)
- <use  "search/search-62.png" >
+
+<use  "search/search-62.png" >
 File: search/search-63.png Graphic file (type QTm)
-
-<use  "search/search-63.png" >
+ <use  "search/search-63.png" >
 File: search/search-64.png Graphic file (type QTm)
- <use  "search/search-64.png" >
+
+<use  "search/search-64.png" >
 File: search/search-65.png Graphic file (type QTm)
-
-<use  "search/search-65.png" >
+ <use  "search/search-65.png" >
 File: search/search-66.png Graphic file (type QTm)
- <use  "search/search-66.png" >
+
+<use  "search/search-66.png" >
 File: search/search-67.png Graphic file (type QTm)
-
-<use  "search/search-67.png" >
+ <use  "search/search-67.png" >
 File: search/search-68.png Graphic file (type QTm)
- <use  "search/search-68.png" >
+
+<use  "search/search-68.png" >
 File: search/search-69.png Graphic file (type QTm)
-
-<use  "search/search-69.png" >
+ <use  "search/search-69.png" >
 File: search/search-70.png Graphic file (type QTm)
- <use  "search/search-70.png" >
+
+<use  "search/search-70.png" >
 File: search/search-71.png Graphic file (type QTm)
-
-<use  "search/search-71.png" >
+ <use  "search/search-71.png" >
 File: search/search-72.png Graphic file (type QTm)
- <use  "search/search-72.png" >
+
+<use  "search/search-72.png" >
 File: search/search-73.png Graphic file (type QTm)
-
-<use  "search/search-73.png" >
+ <use  "search/search-73.png" >
 File: search/search-74.png Graphic file (type QTm)
- <use  "search/search-74.png" >
+
+<use  "search/search-74.png" >
 File: search/search-75.png Graphic file (type QTm)
-
-<use  "search/search-75.png" >
+ <use  "search/search-75.png" >
 File: search/search-76.png Graphic file (type QTm)
- <use  "search/search-76.png" >
+
+<use  "search/search-76.png" >
 File: search/search-77.png Graphic file (type QTm)
-
-<use  "search/search-77.png" >
+ <use  "search/search-77.png" >
 File: search/search-78.png Graphic file (type QTm)
- <use  "search/search-78.png" >
+
+<use  "search/search-78.png" >
 File: search/search-79.png Graphic file (type QTm)
-
-<use  "search/search-79.png" >
+ <use  "search/search-79.png" >
 File: search/search-80.png Graphic file (type QTm)
- <use  "search/search-80.png" >
+
+<use  "search/search-80.png" >
 File: search/search-81.png Graphic file (type QTm)
-
-<use  "search/search-81.png" >
+ <use  "search/search-81.png" >
 File: search/search-82.png Graphic file (type QTm)
- <use  "search/search-82.png" >
+
+<use  "search/search-82.png" >
 File: search/search-83.png Graphic file (type QTm)
-
-<use  "search/search-83.png" >
+ <use  "search/search-83.png" >
 File: search/search-84.png Graphic file (type QTm)
- <use  "search/search-84.png" >
+
+<use  "search/search-84.png" >
 File: search/search-85.png Graphic file (type QTm)
-
-<use  "search/search-85.png" >
+ <use  "search/search-85.png" >
 File: search/search-86.png Graphic file (type QTm)
- <use  "search/search-86.png" >
+
+<use  "search/search-86.png" >
 File: search/search-87.png Graphic file (type QTm)
-
-<use  "search/search-87.png" >
+ <use  "search/search-87.png" >
 File: search/search-88.png Graphic file (type QTm)
- <use  "search/search-88.png" >
+
+<use  "search/search-88.png" >
 File: search/search-89.png Graphic file (type QTm)
-
-<use  "search/search-89.png" >
+ <use  "search/search-89.png" >
 File: search/search-90.png Graphic file (type QTm)
- <use  "search/search-90.png" >
+
+<use  "search/search-90.png" >
 File: search/search-91.png Graphic file (type QTm)
-
-<use  "search/search-91.png" >
+ <use  "search/search-91.png" >
 File: search/search-92.png Graphic file (type QTm)
- <use  "search/search-92.png" >
+
+<use  "search/search-92.png" >
 File: search/search-93.png Graphic file (type QTm)
-
-<use  "search/search-93.png" >
+ <use  "search/search-93.png" >
 File: search/search-94.png Graphic file (type QTm)
- <use  "search/search-94.png" >
+
+<use  "search/search-94.png" >
 File: search/search-95.png Graphic file (type QTm)
-
-<use  "search/search-95.png" >
+ <use  "search/search-95.png" >
 File: search/search-96.png Graphic file (type QTm)
- <use  "search/search-96.png" >
+
+<use  "search/search-96.png" >
 File: search/search-97.png Graphic file (type QTm)
-
-<use  "search/search-97.png" >
+ <use  "search/search-97.png" >
 File: search/search-98.png Graphic file (type QTm)
- <use  "search/search-98.png" >
+
+<use  "search/search-98.png" >
 File: search/search-99.png Graphic file (type QTm)
-
-<use  "search/search-99.png" >
+ <use  "search/search-99.png" >
 File: search/search-100.png Graphic file (type QTm)
- <use  "search/search-100.png" >
+
+<use  "search/search-100.png" >
 File: search/search-101.png Graphic file (type QTm)
-
-<use  "search/search-101.png" >
+ <use  "search/search-101.png" >
 File: search/search-102.png Graphic file (type QTm)
- <use  "search/search-102.png" >
+
+<use  "search/search-102.png" >
 File: search/search-103.png Graphic file (type QTm)
-
-<use  "search/search-103.png" >
+ <use  "search/search-103.png" >
 File: search/search-104.png Graphic file (type QTm)
- <use  "search/search-104.png" >
+
+<use  "search/search-104.png" >
 File: search/search-105.png Graphic file (type QTm)
-
-<use  "search/search-105.png" >
+ <use  "search/search-105.png" >
 File: search/search-106.png Graphic file (type QTm)
- <use  "search/search-106.png" >
+
+<use  "search/search-106.png" >
 File: search/search-107.png Graphic file (type QTm)
-
-<use  "search/search-107.png" >
+ <use  "search/search-107.png" >
 File: search/search-108.png Graphic file (type QTm)
- <use  "search/search-108.png" >
+
+<use  "search/search-108.png" >
 File: search/search-109.png Graphic file (type QTm)
-
-<use  "search/search-109.png" >
+ <use  "search/search-109.png" >
 File: search/search-110.png Graphic file (type QTm)
- <use  "search/search-110.png" >
+
+<use  "search/search-110.png" >
 File: search/search-111.png Graphic file (type QTm)
-
-<use  "search/search-111.png" >
+ <use  "search/search-111.png" >
 File: search/search-112.png Graphic file (type QTm)
- <use  "search/search-112.png" >
+
+<use  "search/search-112.png" >
 File: search/search-113.png Graphic file (type QTm)
-
-<use  "search/search-113.png" >
+ <use  "search/search-113.png" >
 File: search/search-114.png Graphic file (type QTm)
- <use  "search/search-114.png" >
+
+<use  "search/search-114.png" >
 File: search/search-115.png Graphic file (type QTm)
-
-<use  "search/search-115.png" >
+ <use  "search/search-115.png" >
 File: search/search-116.png Graphic file (type QTm)
- <use  "search/search-116.png" >
+
+<use  "search/search-116.png" >
 File: search/search-117.png Graphic file (type QTm)
-
-<use  "search/search-117.png" >
+ <use  "search/search-117.png" >
 File: search/search-118.png Graphic file (type QTm)
- <use  "search/search-118.png" >
+
+<use  "search/search-118.png" >
 File: search/search-119.png Graphic file (type QTm)
-
-<use  "search/search-119.png" >
+ <use  "search/search-119.png" >
 File: search/search-120.png Graphic file (type QTm)
- <use  "search/search-120.png" >
+
+<use  "search/search-120.png" >
 File: search/search-121.png Graphic file (type QTm)
-
-<use  "search/search-121.png" >
+ <use  "search/search-121.png" >
 File: search/search-122.png Graphic file (type QTm)
- <use  "search/search-122.png" >
+
+<use  "search/search-122.png" >
 File: search/search-123.png Graphic file (type QTm)
-
-<use  "search/search-123.png" >
+ <use  "search/search-123.png" >
 File: search/search-124.png Graphic file (type QTm)
- <use  "search/search-124.png" >
+
+<use  "search/search-124.png" >
 File: search/search-125.png Graphic file (type QTm)
-
-<use  "search/search-125.png" >
+ <use  "search/search-125.png" >
 File: search/search-126.png Graphic file (type QTm)
- <use  "search/search-126.png" >
+
+<use  "search/search-126.png" >
 File: search/search-127.png Graphic file (type QTm)
-
-<use  "search/search-127.png" >
+ <use  "search/search-127.png" >
 File: search/search-128.png Graphic file (type QTm)
- <use  "search/search-128.png" >
+
+<use  "search/search-128.png" >
 File: search/search-129.png Graphic file (type QTm)
-
-<use  "search/search-129.png" >
+ <use  "search/search-129.png" >
 File: search/search-130.png Graphic file (type QTm)
- <use  "search/search-130.png" >
+
+<use  "search/search-130.png" >
 File: search/search-131.png Graphic file (type QTm)
-
-<use  "search/search-131.png" >
+ <use  "search/search-131.png" >
 File: search/search-132.png Graphic file (type QTm)
- <use  "search/search-132.png" >
+
+<use  "search/search-132.png" >
 File: search/search-133.png Graphic file (type QTm)
-
-<use  "search/search-133.png" >
+ <use  "search/search-133.png" >
 File: search/search-134.png Graphic file (type QTm)
- <use  "search/search-134.png" >
+
+<use  "search/search-134.png" >
 File: search/search-135.png Graphic file (type QTm)
-
-<use  "search/search-135.png" >
+ <use  "search/search-135.png" >
 File: search/search-136.png Graphic file (type QTm)
- <use  "search/search-136.png" >
+
+<use  "search/search-136.png" >
 File: search/search-137.png Graphic file (type QTm)
-
-<use  "search/search-137.png" >
+ <use  "search/search-137.png" >
 File: search/search-138.png Graphic file (type QTm)
- <use  "search/search-138.png" >
+
+<use  "search/search-138.png" >
 File: search/search-139.png Graphic file (type QTm)
-
-<use  "search/search-139.png" >
+ <use  "search/search-139.png" >
 File: search/search-140.png Graphic file (type QTm)
- <use  "search/search-140.png" >
+
+<use  "search/search-140.png" >
 File: search/search-141.png Graphic file (type QTm)
-
-<use  "search/search-141.png" >
+ <use  "search/search-141.png" >
 File: search/search-142.png Graphic file (type QTm)
- <use  "search/search-142.png" >
+
+<use  "search/search-142.png" >
 File: search/search-143.png Graphic file (type QTm)
-
-<use  "search/search-143.png" >
+ <use  "search/search-143.png" >
 File: search/search-144.png Graphic file (type QTm)
- <use  "search/search-144.png" >
+
+<use  "search/search-144.png" >
 File: search/search-145.png Graphic file (type QTm)
-
-<use  "search/search-145.png" >
+ <use  "search/search-145.png" >
 File: search/search-146.png Graphic file (type QTm)
- <use  "search/search-146.png" >
+
+<use  "search/search-146.png" >
 File: search/search-147.png Graphic file (type QTm)
-
-<use  "search/search-147.png" >
+ <use  "search/search-147.png" >
 File: search/search-148.png Graphic file (type QTm)
- <use  "search/search-148.png" >
+
+<use  "search/search-148.png" >
 File: search/search-149.png Graphic file (type QTm)
-
-<use  "search/search-149.png" >
+ <use  "search/search-149.png" >
 File: search/search-150.png Graphic file (type QTm)
- <use  "search/search-150.png" >
+
+<use  "search/search-150.png" >
 File: search/search-151.png Graphic file (type QTm)
-
-<use  "search/search-151.png" >
+ <use  "search/search-151.png" >
 File: search/search-152.png Graphic file (type QTm)
- <use  "search/search-152.png" >
+
+<use  "search/search-152.png" >
 File: search/search-153.png Graphic file (type QTm)
-
-<use  "search/search-153.png" >
+ <use  "search/search-153.png" >
 File: search/search-154.png Graphic file (type QTm)
- <use  "search/search-154.png" >
+
+<use  "search/search-154.png" >
 File: search/search-155.png Graphic file (type QTm)
-
-<use  "search/search-155.png" >
+ <use  "search/search-155.png" >
 File: search/search-156.png Graphic file (type QTm)
- <use  "search/search-156.png" >
+
+<use  "search/search-156.png" >
 File: search/search-157.png Graphic file (type QTm)
-
-<use  "search/search-157.png" >
+ <use  "search/search-157.png" >
 File: search/search-158.png Graphic file (type QTm)
- <use  "search/search-158.png" >
+
+<use  "search/search-158.png" >
 File: search/search-159.png Graphic file (type QTm)
-
-<use  "search/search-159.png" >
+ <use  "search/search-159.png" >
 File: search/search-160.png Graphic file (type QTm)
- <use  "search/search-160.png" >
+
+<use  "search/search-160.png" >
 File: search/search-161.png Graphic file (type QTm)
-
-<use  "search/search-161.png" >
+ <use  "search/search-161.png" >
 File: search/search-162.png Graphic file (type QTm)
- <use  "search/search-162.png" >
+
+<use  "search/search-162.png" >
 File: search/search-163.png Graphic file (type QTm)
-
-<use  "search/search-163.png" >
+ <use  "search/search-163.png" >
 File: search/search-164.png Graphic file (type QTm)
- <use  "search/search-164.png" >
+
+<use  "search/search-164.png" >
 File: search/search-165.png Graphic file (type QTm)
-
-<use  "search/search-165.png" >
+ <use  "search/search-165.png" >
 File: search/search-166.png Graphic file (type QTm)
- <use  "search/search-166.png" >
+
+<use  "search/search-166.png" >
 File: search/search-167.png Graphic file (type QTm)
-
-<use  "search/search-167.png" >
+ <use  "search/search-167.png" >
 File: search/search-168.png Graphic file (type QTm)
- <use  "search/search-168.png" >
+
+<use  "search/search-168.png" >
 File: search/search-169.png Graphic file (type QTm)
-
-<use  "search/search-169.png" >
+ <use  "search/search-169.png" >
 File: search/search-170.png Graphic file (type QTm)
- <use  "search/search-170.png" >
+
+<use  "search/search-170.png" >
 File: search/search-171.png Graphic file (type QTm)
-
-<use  "search/search-171.png" >
+ <use  "search/search-171.png" >
 File: search/search-172.png Graphic file (type QTm)
- <use  "search/search-172.png" >
+
+<use  "search/search-172.png" >
 File: search/search-173.png Graphic file (type QTm)
-
-<use  "search/search-173.png" >
+ <use  "search/search-173.png" >
 File: search/search-174.png Graphic file (type QTm)
- <use  "search/search-174.png" >
+
+<use  "search/search-174.png" >
 File: search/search-175.png Graphic file (type QTm)
-
-<use  "search/search-175.png" >
+ <use  "search/search-175.png" >
 File: search/search-176.png Graphic file (type QTm)
- <use  "search/search-176.png" >
+
+<use  "search/search-176.png" >
 File: search/search-177.png Graphic file (type QTm)
-
-<use  "search/search-177.png" >
+ <use  "search/search-177.png" >
 File: search/search-178.png Graphic file (type QTm)
- <use  "search/search-178.png" >
+
+<use  "search/search-178.png" >
 File: search/search-179.png Graphic file (type QTm)
-
-<use  "search/search-179.png" >
+ <use  "search/search-179.png" >
 File: search/search-180.png Graphic file (type QTm)
- <use  "search/search-180.png" >
+
+<use  "search/search-180.png" >
 File: search/search-181.png Graphic file (type QTm)
-
-<use  "search/search-181.png" >
+ <use  "search/search-181.png" >
 File: search/search-182.png Graphic file (type QTm)
- <use  "search/search-182.png" >
+
+<use  "search/search-182.png" >
 File: search/search-183.png Graphic file (type QTm)
-
-<use  "search/search-183.png" >
+ <use  "search/search-183.png" >
 File: search/search-184.png Graphic file (type QTm)
- <use  "search/search-184.png" >
+
+<use  "search/search-184.png" >
 File: search/search-185.png Graphic file (type QTm)
-
-<use  "search/search-185.png" >
+ <use  "search/search-185.png" >
 File: search/search-186.png Graphic file (type QTm)
- <use  "search/search-186.png" >
+
+<use  "search/search-186.png" >
 File: search/search-187.png Graphic file (type QTm)
-
-<use  "search/search-187.png" >
+ <use  "search/search-187.png" >
 File: search/search-188.png Graphic file (type QTm)
- <use  "search/search-188.png" >
+
+<use  "search/search-188.png" >
 File: search/search-189.png Graphic file (type QTm)
-
-<use  "search/search-189.png" >
+ <use  "search/search-189.png" >
 File: search/search-190.png Graphic file (type QTm)
- <use  "search/search-190.png" >
+
+<use  "search/search-190.png" >
 File: search/search-191.png Graphic file (type QTm)
-
-<use  "search/search-191.png" >
+ <use  "search/search-191.png" >
 File: search/search-192.png Graphic file (type QTm)
- <use  "search/search-192.png" >
+
+<use  "search/search-192.png" >
 File: search/search-193.png Graphic file (type QTm)
-
-<use  "search/search-193.png" >
+ <use  "search/search-193.png" >
 File: search/search-194.png Graphic file (type QTm)
- <use  "search/search-194.png" >
+
+<use  "search/search-194.png" >
 File: search/search-195.png Graphic file (type QTm)
-
-<use  "search/search-195.png" >
+ <use  "search/search-195.png" >
 File: search/search-196.png Graphic file (type QTm)
- <use  "search/search-196.png" >
+
+<use  "search/search-196.png" >
 File: search/search-197.png Graphic file (type QTm)
-
-<use  "search/search-197.png" >
+ <use  "search/search-197.png" >
 File: search/search-198.png Graphic file (type QTm)
- <use  "search/search-198.png" >
+
+<use  "search/search-198.png" >
 File: search/search-199.png Graphic file (type QTm)
-
-<use  "search/search-199.png" >
+ <use  "search/search-199.png" >
 File: search/search-200.png Graphic file (type QTm)
- <use  "search/search-200.png" >
+
+<use  "search/search-200.png" >
 File: search/search-201.png Graphic file (type QTm)
-
-<use  "search/search-201.png" >
+ <use  "search/search-201.png" >
 File: search/search-202.png Graphic file (type QTm)
- <use  "search/search-202.png" >
+
+<use  "search/search-202.png" >
 File: search/search-203.png Graphic file (type QTm)
-
-<use  "search/search-203.png" >
+ <use  "search/search-203.png" >
 File: search/search-204.png Graphic file (type QTm)
- <use  "search/search-204.png" >
+
+<use  "search/search-204.png" >
 File: search/search-205.png Graphic file (type QTm)
-
-<use  "search/search-205.png" >
+ <use  "search/search-205.png" >
 File: search/search-206.png Graphic file (type QTm)
- <use  "search/search-206.png" >
+
+<use  "search/search-206.png" >
 File: search/search-207.png Graphic file (type QTm)
-
-<use  "search/search-207.png" >
+ <use  "search/search-207.png" >
 File: search/search-208.png Graphic file (type QTm)
- <use  "search/search-208.png" >
+
+<use  "search/search-208.png" >
 File: search/search-209.png Graphic file (type QTm)
-
-<use  "search/search-209.png" >
+ <use  "search/search-209.png" >
 File: search/search-210.png Graphic file (type QTm)
- <use  "search/search-210.png" >
+
+<use  "search/search-210.png" >
 File: search/search-211.png Graphic file (type QTm)
-
-<use  "search/search-211.png" >
+ <use  "search/search-211.png" >
 File: search/search-212.png Graphic file (type QTm)
- <use  "search/search-212.png" >
+
+<use  "search/search-212.png" >
 File: search/search-213.png Graphic file (type QTm)
-
-<use  "search/search-213.png" >
+ <use  "search/search-213.png" >
 File: search/search-214.png Graphic file (type QTm)
- <use  "search/search-214.png" >
+
+<use  "search/search-214.png" >
 File: search/search-215.png Graphic file (type QTm)
-
-<use  "search/search-215.png" >
+ <use  "search/search-215.png" >
 File: search/search-216.png Graphic file (type QTm)
- <use  "search/search-216.png" >
+
+<use  "search/search-216.png" >
 File: search/search-217.png Graphic file (type QTm)
-
-<use  "search/search-217.png" >
+ <use  "search/search-217.png" >
 File: search/search-218.png Graphic file (type QTm)
- <use  "search/search-218.png" >
+
+<use  "search/search-218.png" >
 File: search/search-219.png Graphic file (type QTm)
-
-<use  "search/search-219.png" >
+ <use  "search/search-219.png" >
 File: search/search-220.png Graphic file (type QTm)
- <use  "search/search-220.png" >
-Overfull \hbox (294.95865pt too wide) in paragraph at lines 93--93
- [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
 
-
-Overfull \vbox (184.04285pt too high) detected at line 93
- []
-
-[7
+<use  "search/search-220.png" > [7
 
 ] [8
 
 ]
-LaTeX Font Info:    Try loading font information for T1+qhv on input line 114.
- (/usr/share/texmf/tex/latex/tex-gyre/t1qhv.fd
+LaTeX Font Info:    Try loading font information for T1+qhv on input line 117.
+
+(/usr/share/texmf/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 10.29301pt on input line 114.
+(Font)              scaled to size 10.29301pt on input line 117.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 7.52002pt on input line 114.
+(Font)              scaled to size 7.52002pt on input line 117.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 5.73401pt on input line 114.
+(Font)              scaled to size 5.73401pt on input line 117.
  [9
 
 ] [10
@@ -3641,7 +3633,7 @@ LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
 File: plots/recursive_merge_in_all_three_lgs.png Graphic file (type QTm)
 
 <use  "plots/recursive_merge_in_all_three_lgs.png" >
-Overfull \vbox (2.36513pt too high) detected at line 134
+Overfull \vbox (2.36513pt too high) detected at line 137
  []
 
 [11
@@ -3649,7 +3641,7 @@ Overfull \vbox (2.36513pt too high) detected at line 134
 ]
 File: plots/i_linear_in_c_vs_python.png Graphic file (type QTm)
  <use  "plots/i_linear_in_c_vs_python.png" >
-Overfull \vbox (8.05559pt too high) detected at line 140
+Overfull \vbox (8.05559pt too high) detected at line 143
  []
 
 [12
@@ -3657,7 +3649,7 @@ Overfull \vbox (8.05559pt too high) detected at line 140
 ]
 File: plots/i_vs_r_insertion_in_c.png Graphic file (type QTm)
  <use  "plots/i_vs_r_insertion_in_c.png" >
-Overfull \vbox (8.05559pt too high) detected at line 146
+Overfull \vbox (8.05559pt too high) detected at line 149
  []
 
 [13
@@ -3665,7 +3657,7 @@ Overfull \vbox (8.05559pt too high) detected at line 146
 ]
 File: plots/insertion_vs_merge_in_scheme.png Graphic file (type QTm)
  <use  "plots/insertion_vs_merge_in_scheme.png" >
-Overfull \vbox (8.05559pt too high) detected at line 152
+Overfull \vbox (8.05559pt too high) detected at line 155
  []
 
 [14
@@ -3681,7 +3673,7 @@ File: plots/qq-plot.png Graphic file (type QTm)
 
 ]
 LaTeX Font Info:    Font shape `T1/zplx/m/n' will be
-(Font)              scaled to size 10.0pt on input line 177.
+(Font)              scaled to size 10.0pt on input line 180.
  [17
 
 ] [18
@@ -3700,19 +3692,24 @@ Package atenddvi Info: Last page = 19.
 \tf@snm=\write8
 \openout8 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 196.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 199.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 199.
  (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 196.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 196.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 196.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 199.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 199.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.5pt have occurred.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 199.
  ) 
 Here is how much of TeX's memory you used:
- 28776 strings out of 493727
- 523512 string characters out of 6147890
- 1006299 words of memory out of 5000000
- 30687 multiletter control sequences out of 15000+600000
- 58332 words of font info for 61 fonts, out of 8000000 for 9000
+ 28880 strings out of 493727
+ 525338 string characters out of 6147890
+ 1008844 words of memory out of 5000000
+ 30780 multiletter control sequences out of 15000+600000
+ 87776 words of font info for 96 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  56i,15n,63p,972b,597s stack positions out of 5000i,500n,10000p,200000b,80000s
 
