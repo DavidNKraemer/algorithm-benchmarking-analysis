@@ -1,0 +1,16 @@
+\begin{tabular}{@{}lrrrr@{}} \toprule
+Algorithm & Naive model & $r^2$ & Theoretical model & $r^2$ \\ \midrule
+C Insertion iterative & 2e-16 & 0.9405 & 2e-16 & 0.9993  \\
+C Insertion recursive & 2e-16 & 0.9406 & 2e-16 & 0.9974 \\
+C Merge iterative     & 2e-16 & 0.9979 & 2e-16 & 0.9978 \\
+C Merge recursive     & 2e-16 & 0.9983 & 2e-16 & 0.9984 \\
+C Linear iterative    & 2e-16 & 0.4149 & 2e-16 & 0.4149 \\
+C Linear recursive    & 2e-16 & 0.4737 & 2e-16 & 0.4737  \\
+C Binary iterative    & NaN   & NaN    & NaN   & NaN \\
+C Binary recursive    & NaN   & NaN    & NaN   & NaN \\
+
+
+
+
+
+\end{tabular}

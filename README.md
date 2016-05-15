@@ -6,6 +6,7 @@ contain scripts used for statistical analysis of the benchmarking data.
 # TODOs for Analysis
 
 * [Presentation](https://www.overleaf.com/5137733pskbcz)
+* [Paper](https://www.overleaf.com/4636137dmzkwk)
 
 * Fit a simple linear model on the data and compare it to the theorized model
     * Look at model diagnostics
