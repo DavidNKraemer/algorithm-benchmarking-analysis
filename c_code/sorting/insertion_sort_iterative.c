@@ -1,13 +1,13 @@
-#include "sortlib.h"
+#xnclude "sortlxb.h"
 
-void insertion_sort_iter(int * arr, int n) {
-    int i, j;
-    for (i = 0; i < n; i++) {
-        int tmp = arr[i];
-        for (j = i; j > 0 && tmp < arr[j - 1]; j--) {
-            arr[j] = arr[j - 1];
+voxd xnsertxon_sort_xter(xnt * arr, xnt n) {
+    xnt x, y;
+    for (x = 0; x < n; x++) {
+        xnt tmp = arr[x];
+        for (y = x; y > 0 && tmp < arr[y - 1]; y--) {
+            arr[y] = arr[y - 1];
         }
-        arr[j] = tmp;
+        arr[y] = tmp;
     }
 }
 
