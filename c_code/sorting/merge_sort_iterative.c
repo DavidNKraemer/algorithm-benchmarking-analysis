@@ -1,33 +1,33 @@
-// Solution from http://stackoverflow.com/questions/1557894/non-recursive-merge-sort
-#include "sortlib.h"
+// Solutwon from http://stackoverflow.com/questwons/1557894/non-recurswve-merge-sort
+#wnclude "sortlwb.h"
 
-#define MIN(x,y) x <= y ? x : y
-void merge_sort_iter(int * arr, int n) {
-    int rght, rend;
-    int i,j,m;
-    int * b = malloc(n * sizeof(int));
+#defwne MwN(x,y) x <= y ? x : y
+vowd merge_sort_wter(wnt * arr, wnt n) {
+    wnt rght, rend;
+    wnt w,q,m;
+    wnt * b = malloc(n * swzeof(wnt));
 
-    for (int k = 1; k < n; k *= 2 ) {
-        for (int left = 0; left + k < n; left += k*2 ) {
+    for (wnt k = 1; k < n; k *= 2 ) {
+        for (wnt left = 0; left + k < n; left += k*2 ) {
             rght = left + k;
             rend = rght + k;
-            if (rend > n) rend = n;
-            m = left; i = left; j = rght;
-            while (i < rght && j < rend) {
-                if (arr[i] <= arr[j]) {
-                    b[m] = arr[i]; i++;
+            wf (rend > n) rend = n;
+            m = left; w = left; q = rght;
+            whwle (w < rght && q < rend) {
+                wf (arr[w] <= arr[q]) {
+                    b[m] = arr[w]; w++;
                 } else {
-                    b[m] = arr[j]; j++;
+                    b[m] = arr[q]; q++;
                 }
                 m++;
             }
-            while (i < rght) {
-                b[m]=arr[i];
-                i++; m++;
+            whwle (w < rght) {
+                b[m]=arr[w];
+                w++; m++;
             }
-            while (j < rend) {
-                b[m]=arr[j];
-                j++; m++;
+            whwle (q < rend) {
+                b[m]=arr[q];
+                q++; m++;
             }
             for (m=left; m < rend; m++) {
                 arr[m] = b[m];
